@@ -61,20 +61,20 @@
           </div>
           <div class="w-1/5 flex flex-col truncate">
             <h3 class="text-black-400 uppercase font-semibold">similar people</h3>
-            <nuxt-link to="/topic/" class="mt-10 mb-2 text-grey-100 line-through">Bjarne Stroustrup</nuxt-link>
-            <nuxt-link to="/topic/" class="flex mb-2 text-black-900 hover:text-black-800">
+            <nuxt-link to="/people/" class="mt-10 mb-2 text-grey-100 line-through">Bjarne Stroustrup</nuxt-link>
+            <nuxt-link to="/people/" class="flex mb-2 text-black-900 hover:text-black-800">
               James Gosling
               <svg class="ml-1 fill-current text-purple-600" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M11.219,3.375L8,7.399L4.781,3.375C4.515,3.043,4.068,2.916,3.669,3.056C3.269,3.197,3,3.575,3,4v15c0,1.103,0.897,2,2,2 h14c1.103,0,2-0.897,2-2V4c0-0.425-0.269-0.803-0.669-0.944c-0.4-0.138-0.846-0.012-1.112,0.319L16,7.399l-3.219-4.024 C12.4,2.901,11.6,2.901,11.219,3.375z M5,19v-2h14.001v2H5z M15.219,9.625c0.381,0.475,1.182,0.475,1.563,0L19,6.851L19.001,15H5 V6.851l2.219,2.774c0.381,0.475,1.182,0.475,1.563,0L12,5.601L15.219,9.625z"/></svg>
             </nuxt-link>
-            <nuxt-link to="/topic/" class="flex mb-2 text-black-900 hover:text-black-800">
+            <nuxt-link to="/people/" class="flex mb-2 text-black-900 hover:text-black-800">
               Brendan Eich
               <svg class="ml-1 fill-current text-purple-600" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M11.219,3.375L8,7.399L4.781,3.375C4.515,3.043,4.068,2.916,3.669,3.056C3.269,3.197,3,3.575,3,4v15c0,1.103,0.897,2,2,2 h14c1.103,0,2-0.897,2-2V4c0-0.425-0.269-0.803-0.669-0.944c-0.4-0.138-0.846-0.012-1.112,0.319L16,7.399l-3.219-4.024 C12.4,2.901,11.6,2.901,11.219,3.375z M5,19v-2h14.001v2H5z M15.219,9.625c0.381,0.475,1.182,0.475,1.563,0L19,6.851L19.001,15H5 V6.851l2.219,2.774c0.381,0.475,1.182,0.475,1.563,0L12,5.601L15.219,9.625z"/></svg>
             </nuxt-link>
-            <nuxt-link to="/topic/" class="flex mb-2 text-black-900 hover:text-black-800">
+            <nuxt-link to="/people/" class="flex mb-2 text-black-900 hover:text-black-800">
               David Heinemeier Hansson
               <svg class="ml-1 fill-current text-purple-600" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M11.219,3.375L8,7.399L4.781,3.375C4.515,3.043,4.068,2.916,3.669,3.056C3.269,3.197,3,3.575,3,4v15c0,1.103,0.897,2,2,2 h14c1.103,0,2-0.897,2-2V4c0-0.425-0.269-0.803-0.669-0.944c-0.4-0.138-0.846-0.012-1.112,0.319L16,7.399l-3.219-4.024 C12.4,2.901,11.6,2.901,11.219,3.375z M5,19v-2h14.001v2H5z M15.219,9.625c0.381,0.475,1.182,0.475,1.563,0L19,6.851L19.001,15H5 V6.851l2.219,2.774c0.381,0.475,1.182,0.475,1.563,0L12,5.601L15.219,9.625z"/></svg>           
             </nuxt-link>
-            <nuxt-link to="/topic/" class="mb-2 text-grey-100 line-through">Rasmus Lerdorf</nuxt-link>
+            <nuxt-link to="/people/" class="mb-2 text-grey-100 line-through">Rasmus Lerdorf</nuxt-link>
           </div>
         </div>
       </section>
@@ -96,7 +96,7 @@ export default {
   },
   head () {
     return {
-      title: "Ruby - LearnSomething.io",
+      title: "Yukihiro Matsumoto - LearnSomething.io",
       meta: [
         // hid is used as unique identifier. Do not use `vmid` for it as it will not work
         { hid: 'description', name: 'description', content: 'My custom description' }

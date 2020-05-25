@@ -19,6 +19,7 @@
   font-weight: 600;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Amaranth&display=swap');
 
 * {
   user-select: none;
@@ -85,4 +86,13 @@ body {
 .tooltip:hover .tooltiptext {
   visibility: visible;
   opacity: 1;
+}
+
+.big-quote {
+  color: #DADADA;
+  font-size: 160px;
+  font-family: "Amaranth", "sans-serif";
+  font-weight: 400;
+  height: 90px;
+  width: 50px;
 }
