@@ -103,10 +103,14 @@
                 Cryptography
                 <span class="tooltiptext">coming soon</span>
               </nuxt-link>
-              <nuxt-link to="/topic/comptia-network" class="flex items-center w-3/4 text-black-900 hover:text-black-800 mb-2">
-                CompTIA Network+
+              <nuxt-link to="/topic/computer-networking" class="flex items-center w-3/4 text-black-900 hover:text-black-800 mb-2">
+                Computer Networking
                 <svg class="ml-1 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg>
                 <div class="ml-3 bg-purple-500 text-white text-xs font-semibold rounded uppercase px-2">new</div>
+              </nuxt-link>
+              <nuxt-link to="/topic/html-css" class="flex w-1/2 text-grey-100 mb-2 tooltip">
+                HTML & CSS
+                <span class="tooltiptext">coming soon</span>
               </nuxt-link>
               <nuxt-link to="/topic/java" class="flex items-center w-1/2 text-black-900 hover:text-black-800 mb-2">
                 Java
@@ -146,6 +150,14 @@
               </nuxt-link>
               <nuxt-link to="/topic/sql" class="w-1/2 text-grey-100 mb-2 tooltip">
                 SQL
+                <span class="tooltiptext">coming soon</span>
+              </nuxt-link>
+              <nuxt-link to="/topic/command-line" class="flex w-1/2 text-grey-100 mb-2 tooltip">
+                Command Line
+                <span class="tooltiptext">coming soon</span>
+              </nuxt-link>
+              <nuxt-link to="/topic/git" class="w-1/2 text-grey-100 mb-2 tooltip">
+                Git
                 <span class="tooltiptext">coming soon</span>
               </nuxt-link>
               <nuxt-link to="/topic/text-editors" class="w-1/2 text-grey-100 mb-2 tooltip">

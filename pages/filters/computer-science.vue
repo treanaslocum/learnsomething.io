@@ -58,12 +58,12 @@
           <!-- second row of filters -->
           <div class="flex flex-col w-1/4">
             <!-- xxx -->
-            <nuxt-link to="../topic/comptia-network">
+            <nuxt-link to="../topic/computer-networking">
               <div class="flex flex-col w-64">
                   <p class="text-blue-900 text-sm">Computer Networking</p>
                   <div class="flex items-center">
                       <p class="text-lg text-blue-900 font-semibold">
-                        #CompTIA Network+
+                        #Computer-Networking
                       </p>
                   </div>
               </div>
