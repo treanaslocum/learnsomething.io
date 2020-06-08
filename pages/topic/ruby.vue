@@ -119,24 +119,27 @@
         </div>
       </section>
 
+
       <!-- Video Playlist Section -->
       <section class="mt-20">
         <h3 class="text-black-900 uppercase font-semibold">Learn Ruby - video playlists</h3>
         <div class="flex justify-between">
           <div class="">
-            <div class="mt-10 flex items-center">
+            <p class="mt-10 text-black-900 text-lg font-semibold">Introduction to Ruby</p>
+            <div class="flex items-center">
               <div class="flex items-center">
-                <p class="text-black-900 text-sm font-semibold">Introduction To Ruby</p>
-                <!-- <div class="flex items-center">
-                  <div class="ml-5 bg-blue-900 w-5 h-1"></div>
-                  <div class="ml-2 bg-grey-300 w-5 h-1"></div>
-                  <div class="ml-2 bg-grey-300 w-5 h-1"></div>
-                </div> -->
-                <!-- Maybe make the font-size the same as the introduction to Ruby -->
-                <div class="ml-5"><p class="text-xs bg-purple-600 text-white font-semibold px-2 uppercase">Beginner</p></div>
-                <div class="ml-3"><p class="text-xs bg-blue-900 text-white font-semibold px-2 uppercase">English</p></div>
-              </div>
-            </div> 
+                <div class="mt-3 flex items-center">
+                  <!-- <div class="flex items-center">
+                    <div class="ml-5 bg-blue-900 w-5 h-1"></div>
+                    <div class="ml-2 bg-grey-300 w-5 h-1"></div>
+                    <div class="ml-2 bg-grey-300 w-5 h-1"></div>
+                  </div> -->
+                  <!-- Maybe make the font-size the same as the introduction to Ruby -->
+                  <div class=""><p class="text-xs border text-black-900 px-2 uppercase">Beginner</p></div>
+                  <div class="ml-3"><p class="text-xs border text-black-900 px-2 uppercase">English</p></div>
+                </div>
+              </div> 
+            </div>  
             <div class="flex items-center">
               <div class="">
                 <div class="mt-10 flex items-center">
@@ -148,18 +151,20 @@
             </div>
           </div>
            <div class="">
-            <div class="mt-10 flex items-center">
+            <p class="mt-10 text-black-900 text-lg font-semibold">Ruby II</p>
+            <div class="flex items-center">
               <div class="flex items-center">
-                <p class="text-black-900 text-sm font-semibold">Ruby II</p>
-                <!-- <div class="flex items-center">
-                  <div class="ml-5 bg-blue-900 w-5 h-1"></div>
-                  <div class="ml-2 bg-grey-300 w-5 h-1"></div>
-                  <div class="ml-2 bg-grey-300 w-5 h-1"></div>
-                </div> -->
-                <!-- Maybe make the font-size the same as the introduction to Ruby -->
-                <div class="ml-5"><p class="text-xs bg-purple-600 text-white font-semibold px-2 uppercase">Intermediate</p></div>
-                <div class="ml-3"><p class="text-xs bg-blue-900 text-white font-semibold px-2 uppercase">English</p></div>
-              </div>
+                <div class="mt-3 flex items-center">
+                  <!-- <div class="flex items-center">
+                    <div class="ml-5 bg-blue-900 w-5 h-1"></div>
+                    <div class="ml-2 bg-grey-300 w-5 h-1"></div>
+                    <div class="ml-2 bg-grey-300 w-5 h-1"></div>
+                  </div> -->
+                  <!-- Maybe make the font-size the same as the introduction to Ruby -->
+                  <div class=""><p class="text-xs border text-black-900 px-2 uppercase">Intermediate</p></div>
+                  <div class="ml-3"><p class="text-xs border text-black-900 px-2 uppercase">English</p></div>
+                </div>
+              </div> 
             </div> 
             <div class="flex items-center">
               <div class="">
@@ -200,41 +205,47 @@
         <!-- YouTube Teachers Section -->
         <div class="flex justify-between">
           <div class="mt-3 w-1/3">
-            <h3 class="text-blue-900 font-bold"> Introduction to Ruby Teachers</h3>
+            <h3 class="text-blue-900 font-bold">Teachers</h3>
             <div class="mt-3 text-blue-900">
-              <div class="flex">
-                <p><a href="https://www.youtube.com/channel/UCvmINlrza7JHB1zkIOuXEbw" target="_blank" class="text-sm hover:text-grey-700">Mike Dane - Giraffe Academy</a></p>
+              <div class="flex items-center">
+                <img class="rounded-full" src="~assets/images/yukihiro-matsumoto.jpg" alt="Yukihiro Matsumoto" height="35px" width="35px">
+                <p><a href="https://www.youtube.com/channel/UCvmINlrza7JHB1zkIOuXEbw" target="_blank" class="ml-3 text-sm hover:text-grey-700">Mike Dane - Giraffe Academy</a></p>
               </div>
-              <div class="flex">
-                <p><a href="https://www.youtube.com/user/derekbanas" target="_blank" class="mt-1 text-sm hover:text-grey-700">Derek Banas</a></p>            
+              <div class="mt-3 flex items-center">
+                <img class="rounded-full" src="~assets/images/yukihiro-matsumoto.jpg" alt="Yukihiro Matsumoto" height="35px" width="35px">
+                <p><a href="https://www.youtube.com/user/derekbanas" target="_blank" class="ml-3 text-sm hover:text-grey-700">Derek Banas</a></p>            
               </div>
-              <div class="flex">
-                <p><a href="https://www.youtube.com/channel/UCzqORs_CagOn8ah5-QysgdQ" target="_blank" class="mt-1 text-sm hover:text-grey-700">David Battersby</a></p>            
+              <div class="mt-3 flex items-center">
+                <img class="rounded-full" src="~assets/images/yukihiro-matsumoto.jpg" alt="Yukihiro Matsumoto" height="35px" width="35px">
+                <p><a href="https://www.youtube.com/channel/UCzqORs_CagOn8ah5-QysgdQ" target="_blank" class="ml-3 text-sm hover:text-grey-700">David Battersby</a></p>            
               </div>
-              <div class="flex">
-                <p><a href="https://www.youtube.com/channel/UCRQv-3VvPT9mArF5RfrlpKQ" target="_blank" class="mt-1 text-sm hover:text-grey-700">Deanin</a></p>
+              <div class="mt-3 flex items-center">
+                <img class="rounded-full" src="~assets/images/yukihiro-matsumoto.jpg" alt="Yukihiro Matsumoto" height="35px" width="35px">
+                <p><a href="https://www.youtube.com/channel/UCRQv-3VvPT9mArF5RfrlpKQ" target="_blank" class="ml-3 text-sm hover:text-grey-700">Deanin</a></p>
               </div>
             </div>
           </div>
           <div class="mt-3 w-1/3">
-            <h3 class="text-blue-900 font-bold"> Ruby II Teachers</h3>
+            <h3 class="text-blue-900 font-bold">Teachers</h3>
             <div class="mt-3 text-blue-900">
-              <div class="flex">
-                <p><a href="https://www.youtube.com/channel/UCAeZIMpiMHVgPjn8rZd_vKw" target="_blank" class="text-sm hover:text-grey-700">Calvin Cruzada</a></p>
+              <div class="flex items-center">
+                <img class="rounded-full" src="~assets/images/yukihiro-matsumoto.jpg" alt="Yukihiro Matsumoto" height="35px" width="35px">
+                <p><a href="https://www.youtube.com/channel/UCAeZIMpiMHVgPjn8rZd_vKw" target="_blank" class="ml-3 text-sm hover:text-grey-700">Calvin Cruzada</a></p>
+              </div>
+              <!-- <div class="mt-3 flex items-center">
+                <img class="rounded-full" src="~assets/images/yukihiro-matsumoto.jpg" alt="Yukihiro Matsumoto" height="35px" width="35px">
+                <p><a href="" target="_blank" class="ml-3 text-sm hover:text-grey-700">xxx</a></p>            
+              </div>
+              <div class="mt-3 flex items-center">
+                <p><a href="" target="_blank" class="ml-3 text-sm hover:text-grey-700">xxx</a></p>            
               </div>
               <div class="flex">
-                <p><a href="" target="_blank" class="mt-1 text-sm hover:text-grey-700">xxx</a></p>            
-              </div>
-              <div class="flex">
-                <p><a href="" target="_blank" class="mt-1 text-sm hover:text-grey-700">xxx</a></p>            
-              </div>
-              <div class="flex">
-                <p><a href="" target="_blank" class="mt-1 text-sm hover:text-grey-700">xxx</a></p>
-              </div>
+                <p><a href="" target="_blank" class="ml-3 text-sm hover:text-grey-700">xxx</a></p>
+              </div> -->
             </div>
           </div>
           <!-- <div class="mt-3 w-1/3">
-            <h3 class="text-blue-900 font-bold"> Ruby III Teachers</h3>
+            <h3 class="text-blue-900 font-bold">Ruby III Teachers</h3>
             <div class="mt-3 text-blue-900">
               <div class="flex">
                 <p><a href="" target="_blank" class="text-sm hover:text-grey-700">xxx</a></p>
@@ -254,17 +265,17 @@
     
         <div class="mt-16 flex justify-between">
           <div class="">
-            <div class="mt-10 flex items-center">
-              <div class="flex items-center">
-                <p class="text-black-900 text-sm font-semibold">Introduction To Ruby</p>
+            <p class="mt-10 text-black-900 text-lg font-semibold">Introducción To Ruby</p>
+            <div class="flex items-center">
+              <div class="mt-3 flex items-center">
                 <!-- <div class="flex items-center">
                   <div class="ml-5 bg-blue-900 w-5 h-1"></div>
                   <div class="ml-2 bg-grey-300 w-5 h-1"></div>
                   <div class="ml-2 bg-grey-300 w-5 h-1"></div>
                 </div> -->
                 <!-- Maybe make the font-size the same as the introduction to Ruby -->
-                <div class="ml-5"><p class="text-xs bg-purple-600 text-white font-semibold px-2 uppercase">Beginner</p></div>
-                <div class="ml-3"><p class="text-xs bg-blue-900 text-white font-semibold px-2 uppercase">Spanish</p></div>
+                <div class=""><p class="text-xs border text-black-900 px-2 uppercase">Principiante</p></div>
+                <div class="ml-3"><p class="text-xs border text-black-900 px-2 uppercase">Español</p></div>
               </div>
             </div> 
             <div class="flex items-center">
@@ -278,17 +289,18 @@
             </div>
           </div>
            <div class="">
-            <div class="mt-10 flex items-center">
+            <p class="mt-10 text-black-900 text-lg font-semibold">Ruby II</p>
+            <div class="mt-3 flex items-center">
               <div class="flex items-center">
-                <p class="text-black-900 text-sm font-semibold">Ruby II</p>
+                <!-- <p class="text-black-900 text-lg font-semibold">Ruby II</p> -->
                 <!-- <div class="flex items-center">
                   <div class="ml-5 bg-blue-900 w-5 h-1"></div>
                   <div class="ml-2 bg-grey-300 w-5 h-1"></div>
                   <div class="ml-2 bg-grey-300 w-5 h-1"></div>
                 </div> -->
                 <!-- Maybe make the font-size the same as the introduction to Ruby -->
-                <div class="ml-5"><p class="text-xs bg-purple-600 text-white font-semibold px-2 uppercase">Intermediate</p></div>
-                <div class="ml-3"><p class="text-xs bg-blue-900 text-white font-semibold px-2 uppercase">Spanish</p></div>
+                <div class=""><p class="text-xs border text-black-900 px-2 uppercase">Intermedio</p></div>
+                <div class="ml-3"><p class="text-xs border text-black-900 px-2 uppercase">Español</p></div>
               </div>
             </div> 
             <div class="flex items-center">
@@ -329,12 +341,13 @@
         <!-- YouTube Spanish Teachers Section -->
         <div class="flex justify-between">
           <div class="mt-3 w-1/3">
-            <h3 class="text-blue-900 font-bold"> Introduction to Ruby Teachers</h3>
+            <h3 class="text-blue-900 font-bold">Profesores</h3>
             <div class="mt-3 text-blue-900">
-              <div class="flex">
-                <p><a href="https://www.youtube.com/channel/UC07xim4Gg8kOk3uZwMrGNeQ" target="_blank" class="text-sm hover:text-grey-700">Raul Palacios</a></p>
+              <div class="flex items-center">
+                <img class="rounded-full" src="~assets/images/yukihiro-matsumoto.jpg" alt="Yukihiro Matsumoto" height="35px" width="35px">
+                <p><a href="https://www.youtube.com/channel/UC07xim4Gg8kOk3uZwMrGNeQ" target="_blank" class="ml-3 text-sm hover:text-grey-700">Raul Palacios</a></p>
               </div>
-              <div class="flex">
+              <!-- <div class="flex">
                 <p><a href="xxx" target="_blank" class="mt-1 text-sm hover:text-grey-700">xxx</a></p>            
               </div>
               <div class="flex">
@@ -342,16 +355,17 @@
               </div>
               <div class="flex">
                 <p><a href="xxx" target="_blank" class="mt-1 text-sm hover:text-grey-700">xxx</a></p>
-              </div>
+              </div> -->
             </div>
           </div>
           <div class="mt-3 w-1/3">
-            <h3 class="text-blue-900 font-bold"> Ruby II Teachers</h3>
+            <h3 class="text-blue-900 font-bold">Profesores</h3>
             <div class="mt-3 text-blue-900">
-              <div class="flex">
-                <p><a href="https://www.youtube.com/channel/UCAeZIMpiMHVgPjn8rZd_vKw" target="_blank" class="text-sm hover:text-grey-700">Calvin Cruzada</a></p>
+              <div class="flex items-center">
+                <img class="rounded-full" src="~assets/images/yukihiro-matsumoto.jpg" alt="Yukihiro Matsumoto" height="35px" width="35px">
+                <p><a href="https://www.youtube.com/channel/UCAeZIMpiMHVgPjn8rZd_vKw" target="_blank" class="ml-3 text-sm hover:text-grey-700">Calvin Cruzada</a></p>
               </div>
-              <div class="flex">
+              <!-- <div class="flex">
                 <p><a href="" target="_blank" class="mt-1 text-sm hover:text-grey-700">xxx</a></p>            
               </div>
               <div class="flex">
@@ -359,7 +373,7 @@
               </div>
               <div class="flex">
                 <p><a href="" target="_blank" class="mt-1 text-sm hover:text-grey-700">xxx</a></p>
-              </div>
+              </div> -->
             </div>
           </div>
           <!-- <div class="mt-3 w-1/3">
