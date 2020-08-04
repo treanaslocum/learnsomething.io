@@ -17,7 +17,9 @@ module.exports = {
       body: ['Work Sans', 'sans-serif'],
     },
     opacity: {
+      30: '.3',
       40: '.4',
+      50: '.5'
     },
     colors: {
       white: '#ffffff',

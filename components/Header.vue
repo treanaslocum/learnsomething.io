@@ -1,6 +1,5 @@
 <template>
   <div>
-    <div class="bg-blue-900 min-w-full max-w-screen-xl h-2"></div>
     <header class="mt-10 px-20">
       <div class="flex items-center justify-between">
         <nuxt-link to="/">
@@ -11,7 +10,9 @@
           <nuxt-link to="/challenges" class="ml-8">Challenges</nuxt-link>
           <nuxt-link to="/about" class="ml-8">About</nuxt-link>
           <a href="https://twitter.com/lrnsomething_io" target="_blank" class="ml-8">Community</a>
-          <nuxt-link to="" class="ml-8 line-through text-grey-100 cursor-not-allowed">Shop</nuxt-link>
+          <!-- Connect to Teespring Shop -->
+          <nuxt-link to="" class="ml-8">Shop</nuxt-link>
+          <!-- <nuxt-link to="/about" class="ml-8 bg-grey-100 text-blue-900 rounded px-4 py-3">Signup</nuxt-link> -->
         </div>
       </div>
     </header>
