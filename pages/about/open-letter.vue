@@ -5,7 +5,7 @@
       <div class="flex items-center">
           <p class="text-sm text-blue-900 capitalize"><nuxt-link to="/about">About</nuxt-link> <span class="ml-1 font-semibold">&rsaquo;</span></p>
           <nuxt-link to="/about"><div class="ml-5"><p class="text-xs text-black-900 px-2 capitalize">Building an open knowledge society</p></div></nuxt-link>
-          <div class="ml-5"><p class="text-xs text-grey-300 font-semibold bg-grey-500 px-2 capitalize">Open letter to the world on education</p></div>
+          <div class="ml-5"><p class="text-xs text-blue-900 font-semibold px-2 capitalize">Open letter to the world on education</p></div>
           <nuxt-link to="../about/rapid-learning"><div class="ml-5"><p class="text-xs text-black-900 px-2">RAPID Learning Method</p></div></nuxt-link>
       </div>
       <div class="mt-12">
@@ -28,7 +28,7 @@
       <div class="mt-12">
         <p class="text-purple-500 uppercase font-semibold">removing the stigma</p>
         <p class="mt-2 text-blue-900 text-lg leading-relaxed w-2/3">Look, we’re not reinventing the wheel here, you're about to travel down a path that has been trekked by the greats. If they succeeded so can you. <br><br>
-        As I stated earlier, some of the most prolific and successful people of the 19th. 20th and 21st century were self-taught leaners so you’re in good company. <br><br>
+        As I stated earlier, some of the most prolific and successful people of the 19th, 20th, and 21st century were self-taught learners so you’re in good company. <br><br>
         Traditional schooling, though useful to some is not the only avenue a person can take to learn a subject or topic and gain mastery.</p>
         <p class="mt-12 text-blue-900 text-lg leading-relaxed w-2/3">- Treana Slocum</p>
       </div>

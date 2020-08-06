@@ -40,8 +40,8 @@
           </div>
           <div class="w-1/5 flex flex-col">
             <h3 class="text-black-400 uppercase font-semibold">similar topics</h3>
-            <nuxt-link to="/topic/chemistry" class="mt-10 flex mb-2 text-black-900 hover:text-black-800">Chemistry</nuxt-link>
-            <nuxt-link to="/topic/biology" class="flex mb-2 text-black-900 hover:text-black-800">Biology</nuxt-link>
+            <nuxt-link to="/topic/chemistry" class="mt-10 mb-2 text-grey-100 line-through">Chemistry</nuxt-link>
+            <nuxt-link to="/topic/biology" class="flex mb-2 text-grey-100 line-through">Biology</nuxt-link>
             <!-- <nuxt-link to="/topic/" class="flex mb-2 text-black-900 hover:text-black-800">
               xxx
               <svg class="ml-1 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg>
@@ -76,16 +76,16 @@
               <!-- <nuxt-link to="/people/erwin-schrodinger" class="ml-5 text-black-900 hover:text-black-800">Erwin Schrödinger</nuxt-link> -->
             </div>
           </div>
-          <!-- <div class="w-1/5 flex flex-col">
-            <h3 class="text-black-400 uppercase font-semibold">xxx</h3>
-            <nuxt-link to="/topic/" class="mt-10 flex mb-2 text-grey-100 line-through">
-              xxx
+          <div class="w-1/5 flex flex-col">
+            <h3 class="text-black-400 uppercase font-semibold">Sub-Topics</h3>
+            <nuxt-link to="/topic/astrophysics" class="mt-10 flex mb-2 text-grey-100 line-through">
+              Astrophysics
             </nuxt-link>
-            <nuxt-link to="/topic/" class="flex mb-2 text-black-900 hover:text-black-800">
-              xxx
-              <svg class="ml-1 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg>           
+            <nuxt-link to="/topic/quantum-physics" class="flex mb-2 text-grey-100 line-through">
+              Quantum Physics
+              <!-- <svg class="ml-1 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg>            -->
             </nuxt-link>
-          </div> -->
+          </div>
         </div>
       </section>
 

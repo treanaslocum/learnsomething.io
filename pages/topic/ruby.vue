@@ -13,10 +13,10 @@
             <p class="text-purple-500 uppercase font-semibold">Computer Science</p>
             <h2 class="text-blue-900 text-5xl">Ruby</h2>
           </div>
-          <div class="flex items-center border border-red-500 rounded-full py-1 px-3">
+          <!-- <div class="flex items-center border border-red-500 rounded-full py-1 px-3">
             <span><svg class="fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg></span>
             <p class="ml-1 text-red-500 text-sm font-semibold">Hot Topic</p>
-          </div>
+          </div> -->
         </div>
         <!-- Filter Tags -->
         <div class="mt-5 flex items-center justify-between">
@@ -135,7 +135,6 @@
           </div>
         </div>
 
-        <!-- english teachers 1st row list -->
         <div class="mt-16 flex xl:justify-around flex-wrap xl:flex-no-wrap">
 
           <!-- teacher 1 -->
@@ -162,24 +161,47 @@
             </div>
           </div>
 
-          <!-- LOCKED PROFILE -->
           <!-- teacher 3 -->
-          <div class="ml-12 flex items-center flex-shrink-0 opacity-30">
-            <img class="rounded-full" height="70px" width="70px" src="~assets/images/teachers/david_battersby.jpg" alt="">
+          <div class="ml-12 flex items-center flex-shrink-0">
+            <nuxt-link to="../teacher/david-battersby">
+              <img class="rounded-full" height="70px" width="70px" src="~assets/images/teachers/david_battersby.jpg" alt="David Battersby">
+            </nuxt-link>
             <div class="flex flex-col flex-wrap lg:flex-no-wrap xl:flex-no-wrap">
-              <p class="ml-5 font-semibold">David Battersby</p>
+              <nuxt-link to="../teacher/david-battersby">
+                <p class="ml-5 font-semibold">David Battersby</p>
+              </nuxt-link>
             </div>
           </div>
 
-          <!-- LOCKED PROFILE -->
           <!-- teacher 4 -->
-          <div class="xl:ml-12 xl:mt-0 lg:mt-12 lg:ml-0 flex items-center flex-shrink-0 opacity-30">
-            <img class="rounded-full" height="70px" width="70px" src="~assets/images/teachers/deanin.jpg" alt="">
+          <div class="xl:ml-12 xl:mt-0 lg:mt-12 lg:ml-0 flex items-center flex-shrink-0">
+            <nuxt-link to="../teacher/deanin">
+              <img class="rounded-full" height="70px" width="70px" src="~assets/images/teachers/deanin.jpg" alt="Deanin">
+            </nuxt-link>
             <div class="flex flex-col flex-wrap lg:flex-no-wrap xl:flex-no-wrap">
-              <p class="ml-5 font-semibold">Deanin</p>
+              <nuxt-link to="../teacher/deanin">
+                <p class="ml-5 font-semibold">Deanin</p>
+              </nuxt-link>
             </div>
           </div>
         </div> 
+
+        <div class="mt-16 flex xl:justify-around flex-wrap xl:flex-no-wrap">
+
+          <!-- teacher 1 -->
+           <div class="xl:ml-12 xl:mt-0 lg:mt-12 lg:ml-0 flex items-center flex-shrink-0">
+            <nuxt-link to="../teacher/boris-paskhaver">
+              <img class="rounded-full" height="70px" width="70px" src="~assets/images/teachers/boris-paskhaver.jpg" alt="Boris Paskhaver">
+            </nuxt-link>
+            <div class="flex flex-col flex-wrap lg:flex-no-wrap xl:flex-no-wrap">
+              <nuxt-link to="../teacher/boris-paskhaver">
+                <p class="ml-5 font-semibold">Boris Paskhaver</p>
+              </nuxt-link>
+            </div>
+          </div>
+
+          
+        </div>
       </section>
 
      
