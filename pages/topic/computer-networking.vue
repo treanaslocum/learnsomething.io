@@ -4,7 +4,7 @@
     <div class="mt-32 px-32">
       <div class="flex items-center">
         <p class="text-sm text-blue-900 capitalize"><nuxt-link to="/topics/#computer-science">Computer Science</nuxt-link> <span class="ml-1 font-semibold">&rsaquo;</span></p>
-        <div class="ml-5"><p class="text-xs text-grey-300 font-semibold bg-grey-500 px-2">Computer Networking</p></div>
+        <div class="ml-5"><p class="text-xs text-blue-900 font-semibold px-2">Computer Networking</p></div>
       </div>
 
       <section class="mt-12">
@@ -21,8 +21,15 @@
         <!-- Filter Tags -->
         <div class="mt-5 flex items-center justify-between">
           <div class="flex items-center">
-            <nuxt-link to="../filters/computer-science">
+            <p class="text-grey-700">Tags</p>
+            <nuxt-link to="../filters/computer-science" class="ml-3">
               <p class="bg-grey-200 rounded-full px-3 text-grey-700 uppercase font-semibold">CS</p>
+            </nuxt-link>
+            <nuxt-link to="../filters/computer-science" class="ml-3">
+              <p class="bg-grey-200 rounded-full px-3 text-grey-700 uppercase font-semibold">networking</p>
+            </nuxt-link>
+            <nuxt-link to="../filters/computer-science" class="ml-3">
+              <p class="bg-grey-200 rounded-full px-3 text-grey-700 uppercase font-semibold">internet</p>
             </nuxt-link>
           </div>
           <div>
@@ -119,163 +126,28 @@
         </div>
       </section>
 
-      <!-- Video Playlist Section -->
-      <section class="mt-20">
-        <h3 class="text-black-900 uppercase font-semibold">Learn Computer Networking - video playlists</h3>
-        <div class="flex justify-between">
-          <div class="">
-            <div class="mt-10 flex items-center">
-              <div class="flex items-center">
-                <p class="text-black-900 text-sm font-semibold">Introduction To Computer Networking</p>
-                <!-- <div class="flex items-center">
-                  <div class="ml-5 bg-blue-900 w-5 h-1"></div>
-                  <div class="ml-2 bg-grey-300 w-5 h-1"></div>
-                  <div class="ml-2 bg-grey-300 w-5 h-1"></div>
-                </div> -->
-                <!-- Maybe make the font-size the same as the introduction to Computer Networking -->
-                <div class="ml-5"><p class="text-xs bg-purple-600 text-white font-semibold px-2 uppercase">Beginner</p></div>
-                <div class="ml-3"><p class="text-xs bg-blue-900 text-white font-semibold px-2 uppercase">English</p></div>
-              </div>
-            </div> 
-            <div class="flex items-center">
-              <div class="">
-                <div class="mt-10 flex items-center">
-                  <div class="mr-6">
-                    <iframe height="250" width="350" src="https://www.youtube.com/embed/videoseries?list=PLGBxzB_3WYAAjVGw1xqWTkc0h2Ig52KAV" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-           <div class="">
-            <div class="mt-10 flex items-center">
-              <div class="flex items-center">
-                <p class="text-black-900 text-sm font-semibold">Ruby II</p>
-                <!-- <div class="flex items-center">
-                  <div class="ml-5 bg-blue-900 w-5 h-1"></div>
-                  <div class="ml-2 bg-grey-300 w-5 h-1"></div>
-                  <div class="ml-2 bg-grey-300 w-5 h-1"></div>
-                </div> -->
-                <!-- Maybe make the font-size the same as the introduction to Ruby -->
-                <div class="ml-5"><p class="text-xs bg-purple-600 text-white font-semibold px-2 uppercase">Intermediate</p></div>
-                <div class="ml-3"><p class="text-xs bg-blue-900 text-white font-semibold px-2 uppercase">English</p></div>
-              </div>
-            </div> 
-            <div class="flex items-center">
-              <div class="">
-                <div class="mt-10 flex items-center">
-                  <div class="mr-6">
-                    <iframe src="https://www.youtube.com/embed/videoseries?list=PL8OivKAXXqReXHFoufg54Xq4s_VaeWo01" height="250" width="350" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-           <div class="">
-            <div class="mt-10 flex items-center">
-              <div class="flex items-center">
-                <p class="text-black-900 text-sm font-semibold">Ruby III</p>
-                <!-- <div class="flex items-center">
-                  <div class="ml-5 bg-blue-900 w-5 h-1"></div>
-                  <div class="ml-2 bg-grey-300 w-5 h-1"></div>
-                  <div class="ml-2 bg-grey-300 w-5 h-1"></div>
-                </div> -->
-                <!-- Maybe make the font-size the same as the introduction to Ruby -->
-                <div class="ml-5"><p class="text-xs bg-purple-600 text-white font-semibold px-2 uppercase">Advanced</p></div>
-                <div class="ml-3"><p class="text-xs bg-blue-900 text-white font-semibold px-2 uppercase">English</p></div>
-              </div>
-            </div> 
-            <div class="flex items-center">
-              <div class="">
-                <div class="mt-10 flex items-center">
-                  <div class="mr-6">
-                    <iframe src="https://www.youtube.com/embed/videoseries?list=PL8OivKAXXqReXHFoufg54Xq4s_VaeWo01" height="250" width="350" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="mt-16 flex justify-between">
-          <div class="">
-            <div class="mt-10 flex items-center">
-              <div class="flex items-center">
-                <p class="text-black-900 text-sm font-semibold">Introduction To Ruby</p>
-                <!-- <div class="flex items-center">
-                  <div class="ml-5 bg-blue-900 w-5 h-1"></div>
-                  <div class="ml-2 bg-grey-300 w-5 h-1"></div>
-                  <div class="ml-2 bg-grey-300 w-5 h-1"></div>
-                </div> -->
-                <!-- Maybe make the font-size the same as the introduction to Ruby -->
-                <div class="ml-5"><p class="text-xs bg-purple-600 text-white font-semibold px-2 uppercase">Beginner</p></div>
-                <div class="ml-3"><p class="text-xs bg-blue-900 text-white font-semibold px-2 uppercase">Spanish</p></div>
-              </div>
-            </div> 
-            <div class="flex items-center">
-              <div class="">
-                <div class="mt-10 flex items-center">
-                  <div class="mr-6">
-                    <iframe src="https://www.youtube.com/embed/videoseries?list=PL8OivKAXXqReXHFoufg54Xq4s_VaeWo01" height="250" width="350" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-           <div class="">
-            <div class="mt-10 flex items-center">
-              <div class="flex items-center">
-                <p class="text-black-900 text-sm font-semibold">Ruby II</p>
-                <!-- <div class="flex items-center">
-                  <div class="ml-5 bg-blue-900 w-5 h-1"></div>
-                  <div class="ml-2 bg-grey-300 w-5 h-1"></div>
-                  <div class="ml-2 bg-grey-300 w-5 h-1"></div>
-                </div> -->
-                <!-- Maybe make the font-size the same as the introduction to Ruby -->
-                <div class="ml-5"><p class="text-xs bg-purple-600 text-white font-semibold px-2 uppercase">Intermediate</p></div>
-                <div class="ml-3"><p class="text-xs bg-blue-900 text-white font-semibold px-2 uppercase">Spanish</p></div>
-              </div>
-            </div> 
-            <div class="flex items-center">
-              <div class="">
-                <div class="mt-10 flex items-center">
-                  <div class="mr-6">
-                    <iframe src="https://www.youtube.com/embed/videoseries?list=PL8OivKAXXqReXHFoufg54Xq4s_VaeWo01" height="250" width="350" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-           <div class="">
-            <div class="mt-10 flex items-center">
-              <div class="flex items-center">
-                <p class="text-black-900 text-sm font-semibold">Ruby III</p>
-                <!-- <div class="flex items-center">
-                  <div class="ml-5 bg-blue-900 w-5 h-1"></div>
-                  <div class="ml-2 bg-grey-300 w-5 h-1"></div>
-                  <div class="ml-2 bg-grey-300 w-5 h-1"></div>
-                </div> -->
-                <!-- Maybe make the font-size the same as the introduction to Ruby -->
-                <div class="ml-5"><p class="text-xs bg-purple-600 text-white font-semibold px-2 uppercase">Advanced</p></div>
-                <div class="ml-3"><p class="text-xs bg-blue-900 text-white font-semibold px-2 uppercase">Spanish</p></div>
-              </div>
-            </div> 
-            <div class="flex items-center">
-              <div class="">
-                <div class="mt-10 flex items-center">
-                  <div class="mr-6">
-                    <iframe src="https://www.youtube.com/embed/videoseries?list=PL8OivKAXXqReXHFoufg54Xq4s_VaeWo01" height="250" width="350" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+    
         
-      </section>
 
     </div>
     <Footer/>
+    <!-- Default Statcounter code for Learnsomething.io
+    http://www.learnsomething.io -->
+    <script type="text/javascript">
+    var sc_project=12370753; 
+    var sc_invisible=1; 
+    var sc_security="429f25a4"; 
+    var sc_https=1; 
+    </script>
+    <script type="text/javascript"
+    src="https://www.statcounter.com/counter/counter.js"
+    async></script>
+    <noscript><div class="statcounter"><a title="Web Analytics"
+    href="https://statcounter.com/" target="_blank"><img
+    class="statcounter"
+    src="https://c.statcounter.com/12370753/0/429f25a4/1/"
+    alt="Web Analytics"></a></div></noscript>
+    <!-- End of Statcounter Code -->
   </div>
 </template>
 
@@ -290,7 +162,7 @@ export default {
   },
   head () {
     return {
-      title: "compTIA Network+ - LearnSomething.io",
+      title: "Computer Networking - LearnSomething.io",
       meta: [
         // hid is used as unique identifier. Do not use `vmid` for it as it will not work
         { hid: 'description', name: 'description', content: 'My custom description' }

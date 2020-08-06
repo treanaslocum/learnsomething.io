@@ -4,7 +4,7 @@
     <div class="mt-32 px-32">
       <div class="flex items-center">
         <p class="text-sm text-blue-900 capitalize"><nuxt-link to="/topics/#computer-science">Computer Science</nuxt-link> <span class="ml-1 font-semibold">&rsaquo;</span></p>
-        <div class="ml-5"><p class="text-xs text-grey-300 font-semibold bg-grey-500 px-2">Ruby</p></div>
+        <div class="ml-5"><p class="text-xs text-blue-900 font-semibold px-2">Ruby</p></div>
       </div>
 
       <section class="mt-12">
@@ -21,7 +21,8 @@
         <!-- Filter Tags -->
         <div class="mt-5 flex items-center justify-between">
           <div class="flex items-center">
-            <nuxt-link to="../filters/computer-science">
+            <p class="text-grey-700">Tags</p>
+            <nuxt-link to="../filters/computer-science" class="ml-3">
               <p class="bg-grey-200 rounded-full px-3 text-grey-700 uppercase font-semibold hover:text-grey-300">CS</p>
             </nuxt-link>
           </div>
@@ -43,11 +44,11 @@
             <nuxt-link to="/topic/" class="mb-2 text-grey-100 line-through">PHP</nuxt-link>
             <nuxt-link to="/topic/java" class="flex mb-2 text-black-900 hover:text-black-800">
               Java
-              <svg class="ml-1 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg>
+              <!-- <svg class="ml-1 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg> -->
             </nuxt-link>
             <nuxt-link to="/topic/javascript" class="flex mb-2 text-black-900 hover:text-black-800">
               JavaScript
-              <svg class="ml-1 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg>           
+              <!-- <svg class="ml-1 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg>            -->
             </nuxt-link>
             <nuxt-link to="/topic/" class="mb-2 text-grey-100 line-through">C++</nuxt-link>
           </div>
@@ -59,10 +60,10 @@
           <div class="w-4/5">
             <h3 class="text-black-900 uppercase font-semibold">creator</h3>
             <div class="mt-10 flex items-center">
-              <nuxt-link to="/people/yukihiro-matsumoto">
-                <img class="rounded-full" src="~assets/images/yukihiro-matsumoto.jpg" alt="Yukihiro Matsumoto" height="70px" width="70px">
-              </nuxt-link>
-              <nuxt-link to="/people/yukihiro-matsumoto" class="ml-5 text-black-900 hover:text-black-800">Yukihiro Matsumoto</nuxt-link>
+              <a href="https://en.wikipedia.org/wiki/Yukihiro_Matsumoto" target="_blank">
+                <img class="rounded-full" src="~assets/images/yukihiro-matsumoto.jpg" alt="Yukihiro Matsumoto" height="50px" width="50px">
+              </a>
+              <a href="https://en.wikipedia.org/wiki/Yukihiro_Matsumoto" target="_blank" class="ml-5 text-black-900 hover:text-black-800">Yukihiro Matsumoto</a>
             </div> 
           </div>
           <div class="w-1/5 flex flex-col">
@@ -72,7 +73,7 @@
             </nuxt-link>
             <nuxt-link to="/topic/ruby-on-rails" class="flex mb-2 text-black-900 hover:text-black-800">
               Ruby on Rails
-              <svg class="ml-1 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg>           
+              <!-- <svg class="ml-1 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg>            -->
             </nuxt-link>
           </div>
         </div>
@@ -85,16 +86,16 @@
           <div class="w-4/5">
             <h3 class="text-black-900 uppercase font-semibold">books to buy</h3>
             <div class="mt-10 flex items-center">
-              <nuxt-link to="/books/the-well-grounded-rubyist">
-                <img class="" src="~assets/images/the-well-grounded-rubyist.png" alt="The Well Grounded Rubyist" height="70px" width="70px">
-              </nuxt-link>
-              <nuxt-link to="/books/the-well-grounded-rubyist" class="ml-5 text-black-900 hover:text-black-800">The Well-Grounded Rubyist</nuxt-link>
+              <a href="https://www.amazon.com/Well-Grounded-Rubyist-David-Black/dp/1617291692" target="_blank">
+                <img class="" src="~assets/images/the-well-grounded-rubyist.png" alt="The Well Grounded Rubyist" height="50px" width="50px">
+              </a>
+              <a href="https://www.amazon.com/Well-Grounded-Rubyist-David-Black/dp/1617291692" target="_blank" class="ml-5 text-black-900 hover:text-black-800">The Well-Grounded Rubyist</a>
             </div> 
             <div class="mt-10 flex items-center">
-              <nuxt-link to="/books/eloquent-ruby">
-                <img class="" src="~assets/images/eloquent-ruby.png" alt="Eloquent Rubyist" height="70px" width="70px">
-              </nuxt-link>
-              <nuxt-link to="/books/eloquent-ruby" class="ml-5 text-black-900 hover:text-black-800">Eloquent Ruby</nuxt-link>
+              <a href="https://www.amazon.com/Eloquent-Ruby-Addison-Wesley-Professional/dp/0321584104/ref=sr_1_1?dchild=1&keywords=Eloquent+Ruby&qid=1596588849&s=books&sr=1-1" target="_blank">
+                <img class="" src="~assets/images/eloquent-ruby.png" alt="Eloquent Rubyist" height="50px" width="50px">
+              </a>
+              <a href="https://www.amazon.com/Eloquent-Ruby-Addison-Wesley-Professional/dp/0321584104/ref=sr_1_1?dchild=1&keywords=Eloquent+Ruby&qid=1596588849&s=books&sr=1-1" target="_blank" class="ml-5 text-black-900 hover:text-black-800">Eloquent Ruby</a>
             </div>
           </div>
           <div class="w-1/5 flex flex-col">
@@ -123,681 +124,89 @@
         </div>
       </section>
 
-      <!-- Teacher list Section -->
+        <!-- Teacher list Section -->
       <section class="mt-20">
-        <h3 class="text-black-900 uppercase font-semibold">Do this first</h3>
-        <!-- <p>Watch this first >> <a href="" target=_blank>https://www.youtube.com/watch?v=x2JUzzFQm7E</a></p> -->
-        <p class="mt-5 leading-relaxed w-3/5 text-black-900">It's important to find the best teacher for you. Before diving in, skim through the playlist of each teacher. This allows you to immediately identity what teaching style suits you best. Things to consider when picking a teacher:</p>
-        <p class="mt-2 text-black-900 font-semibold">voice, personality, length of videos, video style, and pace of teaching</p>
-        
         <!-- Introduction to Ruby Teacher section -->
 
         <!-- section header -->
         <div class="mt-12 flex">
           <div class="flex items-center">
-            <p class="mt-10 text-black-900 text-lg font-semibold" id="intro-teachers">Introduction to Ruby</p>
-            <span class="mt-10 ml-3 text-sm text-black-800 font-semibold">[8] teachers</span>
-          </div>
-        </div>
-
-        <!-- english teachers section -->
-
-        <!-- section header -->
-        <div class="mt-4 flex">
-          <div class="">
-            <p class="mt-10 text-black-900 text-sm font-semibold uppercase">English</p>
+            <p id="ruby-teachers" class="mt-10 text-black-900 font-semibold uppercase">Ruby Teachers</p>
           </div>
         </div>
 
         <!-- english teachers 1st row list -->
-        <div class="mt-12 flex xl:justify-around flex-wrap xl:flex-no-wrap">
+        <div class="mt-16 flex xl:justify-around flex-wrap xl:flex-no-wrap">
 
           <!-- teacher 1 -->
           <div class="flex items-center flex-shrink-0">
             <nuxt-link to="../teacher/mike-dane">
-              <img class="rounded-full" height="70px" width="70px" src="~assets/images/ruby_teachers/mike_dane.jpg" alt="Mike Dane">
+              <img class="rounded-full" height="70px" width="70px" src="~assets/images/teachers/mike_dane.jpg" alt="Mike Dane">
             </nuxt-link>
             <div class="flex flex-col flex-wrap lg:flex-no-wrap xl:flex-no-wrap">
               <nuxt-link to="../teacher/mike-dane">
                 <p class="ml-5 font-semibold">Mike Dane</p>
               </nuxt-link>
-              <p class="ml-5 text-sm">15 lessons | 1 hour</p>
-              <div class="ml-5 mt-2 flex items-center">
-                <div class=""><p class="text-xs text-black-900 uppercase">Beginner</p></div>
-                <div class="flex items-baseline">
-                  <div class="ml-3 w-4 h-1 bg-purple-500"></div>
-                  <div class="ml-1 w-4 h-1 border border-purple-500"></div>
-                  <div class="ml-1 w-4 h-1 border border-purple-500"></div>
-                </div>
-              </div>
             </div>
           </div>
 
           <!-- teacher 2 -->
           <div class="ml-12 flex items-center flex-shrink-0">
             <nuxt-link to="../teacher/derek-banas">
-              <img class="rounded-full" height="70px" width="70px" src="~assets/images/ruby_teachers/derek_banas.jpg" alt="Derek Banas">
+              <img class="rounded-full" height="70px" width="70px" src="~assets/images/teachers/derek_banas.jpg" alt="Derek Banas">
             </nuxt-link>
             <div class="flex flex-col flex-wrap lg:flex-no-wrap xl:flex-no-wrap">
               <nuxt-link to="../teacher/derek-banas">
                 <p class="ml-5 font-semibold">Derek Banas</p>
               </nuxt-link>
-              <p class="ml-5 text-sm">15 lessons | 1 hour</p>
-              <div class="ml-5 mt-2 flex items-center">
-                <div class=""><p class="text-xs text-black-900 uppercase">Beginner</p></div>
-                <div class="flex items-baseline">
-                  <div class="ml-3 w-4 h-1 bg-purple-500"></div>
-                  <div class="ml-1 w-4 h-1 border border-purple-500"></div>
-                  <div class="ml-1 w-4 h-1 border border-purple-500"></div>
-                </div>
-              </div>
             </div>
           </div>
 
           <!-- LOCKED PROFILE -->
           <!-- teacher 3 -->
           <div class="ml-12 flex items-center flex-shrink-0 opacity-30">
-            <img class="rounded-full" height="70px" width="70px" src="~assets/images/ruby_teachers/david_battersby.jpg" alt="">
+            <img class="rounded-full" height="70px" width="70px" src="~assets/images/teachers/david_battersby.jpg" alt="">
             <div class="flex flex-col flex-wrap lg:flex-no-wrap xl:flex-no-wrap">
               <p class="ml-5 font-semibold">David Battersby</p>
-              <p class="ml-5 text-sm">15 lessons | 1 hour</p>
-              <div class="ml-5 mt-2 flex items-center">
-                <div class=""><p class="text-xs text-black-900 uppercase">Beginner</p></div>
-                <div class="flex items-baseline">
-                  <div class="ml-3 w-4 h-1 bg-purple-500"></div>
-                  <div class="ml-1 w-4 h-1 border border-purple-500"></div>
-                  <div class="ml-1 w-4 h-1 border border-purple-500"></div>
-                </div>
-              </div>
             </div>
           </div>
 
           <!-- LOCKED PROFILE -->
           <!-- teacher 4 -->
           <div class="xl:ml-12 xl:mt-0 lg:mt-12 lg:ml-0 flex items-center flex-shrink-0 opacity-30">
-            <img class="rounded-full" height="70px" width="70px" src="~assets/images/ruby_teachers/deanin.jpg" alt="">
+            <img class="rounded-full" height="70px" width="70px" src="~assets/images/teachers/deanin.jpg" alt="">
             <div class="flex flex-col flex-wrap lg:flex-no-wrap xl:flex-no-wrap">
               <p class="ml-5 font-semibold">Deanin</p>
-              <p class="ml-5 text-sm">15 lessons | 1 hour</p>
-              <div class="ml-5 mt-2 flex items-center">
-                <div class=""><p class="text-xs text-black-900 uppercase">Beginner</p></div>
-                <div class="flex items-baseline">
-                  <div class="ml-3 w-4 h-1 bg-purple-500"></div>
-                  <div class="ml-1 w-4 h-1 border border-purple-500"></div>
-                  <div class="ml-1 w-4 h-1 border border-purple-500"></div>
-                </div>
-              </div>
             </div>
           </div>
         </div> 
-
-        <!-- spanish teachers 1st row list-->
-
-        <!-- section header -->
-        <div class="mt-16 flex">
-          <div class="">
-            <p class="mt-10 text-black-900 text-sm font-semibold uppercase">Español</p>
-          </div>
-        </div>
-
-        <!-- teacher 1 -->
-        <div class="mt-12 flex  justify-around">
-          <div class="">
-            <div class="flex items-center">
-              <nuxt-link to="../teacher/raul-palacios">
-                <img class="rounded-full" height="70px" width="70px" src="~assets/images/ruby_teachers/raul_palacios.jpg" alt="Raul Palacios">
-              </nuxt-link>
-              <div class="flex flex-col">
-                <nuxt-link to="../teacher/raul-palacios">
-                  <p class="ml-5 font-semibold">Raul Palacios</p>
-                </nuxt-link>
-                <p class="ml-5 text-sm">15 lessons | 1 hour</p>
-                <div class="ml-5 mt-2 flex items-center">
-                  <div class=""><p class="text-xs text-black-900 uppercase">Beginner</p></div>
-                  <div class="flex items-baseline">
-                    <div class="ml-3 w-4 h-1 bg-purple-500"></div>
-                    <div class="ml-1 w-4 h-1 border border-purple-500"></div>
-                    <div class="ml-1 w-4 h-1 border border-purple-500"></div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="ml-12">
-            <div class="flex items-center opacity-30">
-              <img class="rounded-full" height="70px" width="70px" src="~assets/images/ruby_teachers/derek_banas.jpg" alt="Derek Banas">
-              <div class="flex flex-col">
-                <p class="ml-5 font-semibold">Derek Banas</p>
-                <p class="ml-5 text-sm">15 lessons | 1 hour</p>
-                <div class="ml-5 mt-2 flex items-center">
-                  <div class=""><p class="text-xs text-black-900 uppercase">Beginner</p></div>
-                  <div class="flex items-baseline">
-                    <div class="ml-3 w-4 h-1 border bg-black-900"></div>
-                    <div class="ml-1 w-4 h-1 border"></div>
-                    <div class="ml-1 w-4 h-1 border"></div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="ml-12">
-            <div class="flex items-center opacity-30">
-              <img class="rounded-full" height="70px" width="70px" src="~assets/images/ruby_teachers/david_battersby.jpg" alt="">
-              <div class="flex flex-col">
-                <p class="ml-5 font-semibold">David Battersby</p>
-                <p class="ml-5 text-sm">15 lessons | 1 hour</p>
-                <div class="ml-5 mt-2 flex items-center">
-                  <div class=""><p class="text-xs text-black-900 uppercase">Beginner</p></div>
-                  <div class="flex items-baseline">
-                    <div class="ml-3 w-4 h-1 border bg-black-900"></div>
-                    <div class="ml-1 w-4 h-1 border"></div>
-                    <div class="ml-1 w-4 h-1 border"></div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="ml-12">
-            <div class="flex items-center opacity-30">
-              <img class="rounded-full" height="70px" width="70px" src="~assets/images/ruby_teachers/deanin.jpg" alt="">
-              <div class="flex flex-col">
-                <p class="ml-5 font-semibold">Deanin</p>
-                <p class="ml-5 text-sm">15 lessons | 1 hour</p>
-                <div class="ml-5 mt-2 flex items-center">
-                  <div class=""><p class="text-xs text-black-900 uppercase">Beginner</p></div>
-                  <div class="flex items-baseline">
-                    <div class="ml-3 w-4 h-1 border bg-black-900"></div>
-                    <div class="ml-1 w-4 h-1 border"></div>
-                    <div class="ml-1 w-4 h-1 border"></div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div> 
-
-        <div class="mt-12 flex justify-between">
-          <div class="">
-            <p class="mt-10 text-black-900 text-lg font-semibold">Ruby II</p>
-          </div>
-        </div>
-        <div class="mt-4 flex justify-between">
-          <div class="">
-            <p class="mt-10 text-black-900 text-sm font-semibold uppercase">English</p>
-          </div>
-        </div>
-        <div class="mt-12 flex">
-          <div class="">
-            <div class="flex items-center">
-              <nuxt-link to="teacher/mike-dane">
-                <img class="rounded-full" height="70px" width="70px" src="~assets/images/ruby_teachers/mike_dane.jpg" alt="Mike Dane">
-              </nuxt-link>
-              <div class="flex flex-col">
-                <nuxt-link to="../teacher/mike-dane">
-                  <p class="ml-5 font-semibold">Mike Dane</p>
-                </nuxt-link>
-                <p class="ml-5 text-sm">15 lessons | 1 hour</p>
-                <div class="ml-5 mt-2 flex items-center">
-                  <div class=""><p class="text-xs text-black-900 uppercase">Intermediate</p></div>
-                  <div class="flex items-baseline">
-                    <div class="ml-3 w-4 h-1 border bg-black-900"></div>
-                    <div class="ml-1 w-4 h-1 border bg-black-900"></div>
-                    <div class="ml-1 w-4 h-1 border"></div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="ml-12">
-            <div class="flex items-center">
-              <img class="rounded-full" height="70px" width="70px" src="~assets/images/ruby_teachers/derek_banas.jpg" alt="Derek Banas">
-              <div class="flex flex-col">
-                <p class="ml-5 font-semibold">Derek Banas</p>
-                <p class="ml-5 text-sm">15 lessons | 1 hour</p>
-                <div class="ml-5 mt-2 flex items-center">
-                  <div class=""><p class="text-xs text-black-900 uppercase">Intermediate</p></div>
-                  <div class="flex items-baseline">
-                    <div class="ml-3 w-4 h-1 border bg-black-900"></div>
-                    <div class="ml-1 w-4 h-1 border bg-black-900"></div>
-                    <div class="ml-1 w-4 h-1 border"></div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="ml-12">
-            <div class="flex items-center">
-              <img class="rounded-full" height="70px" width="70px" src="~assets/images/ruby_teachers/david_battersby.jpg" alt="">
-              <div class="flex flex-col">
-                <p class="ml-5 font-semibold">David Battersby</p>
-                <p class="ml-5 text-sm">15 lessons | 1 hour</p>
-                <div class="ml-5 mt-2 flex items-center">
-                  <div class=""><p class="text-xs text-black-900 uppercase">Intermediate</p></div>
-                  <div class="flex items-baseline">
-                    <div class="ml-3 w-4 h-1 border bg-black-900"></div>
-                    <div class="ml-1 w-4 h-1 border bg-black-900"></div>
-                    <div class="ml-1 w-4 h-1 border"></div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="ml-12">
-            <div class="flex items-center">
-              <img class="rounded-full" height="70px" width="70px" src="~assets/images/ruby_teachers/deanin.jpg" alt="">
-              <div class="flex flex-col">
-                <p class="ml-5 font-semibold">Deanin</p>
-                <p class="ml-5 text-sm">15 lessons | 1 hour</p>
-                <div class="ml-5 mt-2 flex items-center">
-                  <div class=""><p class="text-xs text-black-900 uppercase">Beginner</p></div>
-                  <div class="flex items-baseline">
-                    <div class="ml-3 w-4 h-1 border bg-black-900"></div>
-                    <div class="ml-1 w-4 h-1 border"></div>
-                    <div class="ml-1 w-4 h-1 border"></div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- spanish teachers for Ruby II-->
-        <div class="mt-16 flex justify-between">
-          <div class="">
-            <p class="mt-10 text-black-900 text-sm font-semibold uppercase">Español</p>
-          </div>
-        </div>
-        <div class="mt-12 flex">
-          <div class="">
-            <div class="flex items-center">
-              <nuxt-link to="teacher/calvin-cruzada">
-                <img class="rounded-full" height="70px" width="70px" src="~assets/images/ruby_teachers/raul_palacios.jpg" alt="Raul Palacios">
-              </nuxt-link>
-              <div class="flex flex-col">
-                <nuxt-link to="../teacher/calvin-cruzada">
-                  <p class="ml-5 font-semibold">Calvin Cruzada</p>
-                </nuxt-link>
-                <p class="ml-5 text-sm">15 lessons | 1 hour</p>
-                <div class="ml-5 mt-2 flex items-center">
-                  <div class=""><p class="text-xs text-black-900 uppercase">Intermediate</p></div>
-                  <div class="flex items-baseline">
-                    <div class="ml-3 w-4 h-1 border bg-black-900"></div>
-                    <div class="ml-1 w-4 h-1 border bg-black-900"></div>
-                    <div class="ml-1 w-4 h-1 border"></div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="ml-12">
-            <div class="flex items-center">
-              <img class="rounded-full" height="70px" width="70px" src="~assets/images/ruby_teachers/derek_banas.jpg" alt="Derek Banas">
-              <div class="flex flex-col">
-                <p class="ml-5 font-semibold">Derek Banas</p>
-                <p class="ml-5 text-sm">15 lessons | 1 hour</p>
-                <div class="ml-5 mt-2 flex items-center">
-                  <div class=""><p class="text-xs text-black-900 uppercase">Intermediate</p></div>
-                  <div class="flex items-baseline">
-                    <div class="ml-3 w-4 h-1 border bg-black-900"></div>
-                    <div class="ml-1 w-4 h-1 border bg-black-900"></div>
-                    <div class="ml-1 w-4 h-1 border"></div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="ml-12">
-            <div class="flex items-center">
-              <img class="rounded-full" height="70px" width="70px" src="~assets/images/ruby_teachers/david_battersby.jpg" alt="">
-              <div class="flex flex-col">
-                <p class="ml-5 font-semibold">David Battersby</p>
-                <p class="ml-5 text-sm">15 lessons | 1 hour</p>
-                <div class="ml-5 mt-2 flex items-center">
-                  <div class=""><p class="text-xs text-black-900 uppercase">Beginner</p></div>
-                  <div class="flex items-baseline">
-                    <div class="ml-3 w-4 h-1 border bg-black-900"></div>
-                    <div class="ml-1 w-4 h-1 border"></div>
-                    <div class="ml-1 w-4 h-1 border"></div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="ml-12">
-            <div class="flex items-center">
-              <img class="rounded-full" height="70px" width="70px" src="~assets/images/ruby_teachers/deanin.jpg" alt="">
-              <div class="flex flex-col">
-                <p class="ml-5 font-semibold">Deanin</p>
-                <p class="ml-5 text-sm">15 lessons | 1 hour</p>
-                <div class="ml-5 mt-2 flex items-center">
-                  <div class=""><p class="text-xs text-black-900 uppercase">Beginner</p></div>
-                  <div class="flex items-baseline">
-                    <div class="ml-3 w-4 h-1 border bg-black-900"></div>
-                    <div class="ml-1 w-4 h-1 border"></div>
-                    <div class="ml-1 w-4 h-1 border"></div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- introduction to ruby - SPANISH -->
-        <!-- <div class="mt-20 flex">
-          <div class="">
-            <div class="flex items-center">
-              <img class="rounded-full" height="70px" width="70px" src="~assets/images/ruby_teachers/raul_palacios.jpg" alt="Raul Palacios">
-              <div class="flex flex-col">
-                <p class="ml-5 font-semibold">Raul Palacios</p>
-                <div class="ml-5 mt-2 flex items-center">
-                  <div class=""><p class="text-xs text-black-900 uppercase">Principiante</p></div>
-                  <div class="ml-3"><p class="text-xs text-black-900 uppercase">Español</p></div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="ml-12">
-            <div class="flex items-center">
-              <img class="rounded-full" height="70px" width="70px" src="~assets/images/ruby_teachers/derek_banas.jpg" alt="Derek Banas">
-              <div class="flex flex-col">
-                <p class="ml-5 font-semibold">Raul Palacios</p>
-                <div class="ml-5 mt-2 flex items-center">
-                  <div class=""><p class="text-xs text-black-900 uppercase">Principiante</p></div>
-                  <div class="ml-3"><p class="text-xs text-black-900 uppercase">Español</p></div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="ml-12">
-            <div class="flex items-center">
-              <img class="rounded-full" height="70px" width="70px" src="~assets/images/ruby_teachers/david_battersby.jpg" alt="">
-              <div class="flex flex-col">
-                <p class="ml-5 font-semibold">Raul Palacios</p>
-                <div class="ml-5 mt-2 flex items-center">
-                  <div class=""><p class="text-xs text-black-900 uppercase">Principiante</p></div>
-                  <div class="ml-3"><p class="text-xs text-black-900 uppercase">Español</p></div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>  -->
-
-
-        <div class="mt-12 flex justify-between">
-          <div class="">
-            <p class="mt-10 text-black-900 text-lg font-semibold">Introduction to Ruby</p>
-            <div class="flex items-center">
-              <div class="flex items-center">
-                <div class="mt-3 flex items-center">
-                  <!-- <div class="flex items-center">
-                    <div class="ml-5 bg-blue-900 w-5 h-1"></div>
-                    <div class="ml-2 bg-grey-300 w-5 h-1"></div>
-                    <div class="ml-2 bg-grey-300 w-5 h-1"></div>
-                  </div> -->
-                  <!-- Maybe make the font-size the same as the introduction to Ruby -->
-                  <div class=""><p class="text-xs border text-black-900 px-2 uppercase">Beginner</p></div>
-                  <div class="ml-3"><p class="text-xs border text-black-900 px-2 uppercase">English</p></div>
-                </div>
-              </div> 
-            </div>  
-            <div class="flex items-center">
-              <div class="">
-                <div class="mt-10 flex items-center">
-                  <div class="mr-6">
-                    <iframe height="250" width="350" src="https://www.youtube.com/embed/videoseries?list=PLGBxzB_3WYABIlqgqOJoW_O7qOTEuoaaw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-           <div class="">
-            <p class="mt-10 text-black-900 text-lg font-semibold">Ruby II</p>
-            <div class="flex items-center">
-              <div class="flex items-center">
-                <div class="mt-3 flex items-center">
-                  <!-- <div class="flex items-center">
-                    <div class="ml-5 bg-blue-900 w-5 h-1"></div>
-                    <div class="ml-2 bg-grey-300 w-5 h-1"></div>
-                    <div class="ml-2 bg-grey-300 w-5 h-1"></div>
-                  </div> -->
-                  <!-- Maybe make the font-size the same as the introduction to Ruby -->
-                  <div class=""><p class="text-xs border text-black-900 px-2 uppercase">Intermediate</p></div>
-                  <div class="ml-3"><p class="text-xs border text-black-900 px-2 uppercase">English</p></div>
-                </div>
-              </div> 
-            </div> 
-            <div class="flex items-center">
-              <div class="">
-                <div class="mt-10 flex items-center">
-                  <div class="mr-6">
-                    <iframe height="250" width="350" src="https://www.youtube.com/embed/videoseries?list=PLGBxzB_3WYABQaNK7n1SwXzCphjPJ76rF" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- Advanced Ruby videos -->
-           <!-- <div class="">
-            <div class="mt-10 flex items-center">
-              <div class="flex items-center">
-                <p class="text-black-900 text-sm font-semibold">Ruby III</p> -->
-                <!-- <div class="flex items-center">
-                  <div class="ml-5 bg-blue-900 w-5 h-1"></div>
-                  <div class="ml-2 bg-grey-300 w-5 h-1"></div>
-                  <div class="ml-2 bg-grey-300 w-5 h-1"></div>
-                </div> -->
-                <!-- Maybe make the font-size the same as the introduction to Ruby -->
-                <!-- <div class="ml-5"><p class="text-xs bg-purple-600 text-white font-semibold px-2 uppercase">Advanced</p></div>
-                <div class="ml-3"><p class="text-xs bg-blue-900 text-white font-semibold px-2 uppercase">English</p></div>
-              </div>
-            </div> 
-            <div class="flex items-center">
-              <div class="">
-                <div class="mt-10 flex items-center">
-                  <div class="mr-6">
-                    <iframe src="https://www.youtube.com/embed/videoseries?list=PL8OivKAXXqReXHFoufg54Xq4s_VaeWo01" height="250" width="350" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div> -->
-        </div>
-        <!-- YouTube Teachers Section -->
-        <div class="flex justify-between">
-          <div class="mt-3 w-1/3">
-            <h3 class="text-blue-900 font-bold">Teachers</h3>
-            <div class="mt-3 text-blue-900">
-              <div class="flex items-center">
-                <img class="rounded-full" src="~assets/images/yukihiro-matsumoto.jpg" alt="Yukihiro Matsumoto" height="35px" width="35px">
-                <p><a href="https://www.youtube.com/channel/UCvmINlrza7JHB1zkIOuXEbw" target="_blank" class="ml-3 text-sm hover:text-grey-700">Mike Dane - Giraffe Academy</a></p>
-              </div>
-              <div class="mt-3 flex items-center">
-                <img class="rounded-full" src="~assets/images/yukihiro-matsumoto.jpg" alt="Yukihiro Matsumoto" height="35px" width="35px">
-                <p><a href="https://www.youtube.com/user/derekbanas" target="_blank" class="ml-3 text-sm hover:text-grey-700">Derek Banas</a></p>            
-              </div>
-              <div class="mt-3 flex items-center">
-                <img class="rounded-full" src="~assets/images/yukihiro-matsumoto.jpg" alt="Yukihiro Matsumoto" height="35px" width="35px">
-                <p><a href="https://www.youtube.com/channel/UCzqORs_CagOn8ah5-QysgdQ" target="_blank" class="ml-3 text-sm hover:text-grey-700">David Battersby</a></p>            
-              </div>
-              <div class="mt-3 flex items-center">
-                <img class="rounded-full" src="~assets/images/yukihiro-matsumoto.jpg" alt="Yukihiro Matsumoto" height="35px" width="35px">
-                <p><a href="https://www.youtube.com/channel/UCRQv-3VvPT9mArF5RfrlpKQ" target="_blank" class="ml-3 text-sm hover:text-grey-700">Deanin</a></p>
-              </div>
-            </div>
-          </div>
-          <div class="mt-3 w-1/3">
-            <h3 class="text-blue-900 font-bold">Teachers</h3>
-            <div class="mt-3 text-blue-900">
-              <div class="flex items-center">
-                <img class="rounded-full" src="~assets/images/yukihiro-matsumoto.jpg" alt="Yukihiro Matsumoto" height="35px" width="35px">
-                <p><a href="https://www.youtube.com/channel/UCAeZIMpiMHVgPjn8rZd_vKw" target="_blank" class="ml-3 text-sm hover:text-grey-700">Calvin Cruzada</a></p>
-              </div>
-              <!-- <div class="mt-3 flex items-center">
-                <img class="rounded-full" src="~assets/images/yukihiro-matsumoto.jpg" alt="Yukihiro Matsumoto" height="35px" width="35px">
-                <p><a href="" target="_blank" class="ml-3 text-sm hover:text-grey-700">xxx</a></p>            
-              </div>
-              <div class="mt-3 flex items-center">
-                <p><a href="" target="_blank" class="ml-3 text-sm hover:text-grey-700">xxx</a></p>            
-              </div>
-              <div class="flex">
-                <p><a href="" target="_blank" class="ml-3 text-sm hover:text-grey-700">xxx</a></p>
-              </div> -->
-            </div>
-          </div>
-          <!-- <div class="mt-3 w-1/3">
-            <h3 class="text-blue-900 font-bold">Ruby III Teachers</h3>
-            <div class="mt-3 text-blue-900">
-              <div class="flex">
-                <p><a href="" target="_blank" class="text-sm hover:text-grey-700">xxx</a></p>
-              </div>
-              <div class="flex">
-                <p><a href="" target="_blank" class="mt-1 text-sm hover:text-grey-700">xxx</a></p>            
-              </div>
-              <div class="flex">
-                <p><a href="" target="_blank" class="mt-1 text-sm hover:text-grey-700">xxx</a></p>            
-              </div>
-              <div class="flex">
-                <p><a href="" target="_blank" class="mt-1 text-sm hover:text-grey-700">xxx</a></p>
-              </div>
-            </div>
-          </div> -->
-        </div>
-    
-        <div class="mt-16 flex justify-between">
-          <div class="">
-            <p class="mt-10 text-black-900 text-lg font-semibold">Introducción To Ruby</p>
-            <div class="flex items-center">
-              <div class="mt-3 flex items-center">
-                <!-- <div class="flex items-center">
-                  <div class="ml-5 bg-blue-900 w-5 h-1"></div>
-                  <div class="ml-2 bg-grey-300 w-5 h-1"></div>
-                  <div class="ml-2 bg-grey-300 w-5 h-1"></div>
-                </div> -->
-                <!-- Maybe make the font-size the same as the introduction to Ruby -->
-                <div class=""><p class="text-xs border text-black-900 px-2 uppercase">Principiante</p></div>
-                <div class="ml-3"><p class="text-xs border text-black-900 px-2 uppercase">Español</p></div>
-              </div>
-            </div> 
-            <div class="flex items-center">
-              <div class="">
-                <div class="mt-10 flex items-center">
-                  <div class="mr-6">
-                    <iframe height="250" width="350" src="https://www.youtube.com/embed/videoseries?list=PLGBxzB_3WYAD0IZDu5S2_iYT8WJWrGfPg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-           <div class="">
-            <p class="mt-10 text-black-900 text-lg font-semibold">Ruby II</p>
-            <div class="mt-3 flex items-center">
-              <div class="flex items-center">
-                <!-- <p class="text-black-900 text-lg font-semibold">Ruby II</p> -->
-                <!-- <div class="flex items-center">
-                  <div class="ml-5 bg-blue-900 w-5 h-1"></div>
-                  <div class="ml-2 bg-grey-300 w-5 h-1"></div>
-                  <div class="ml-2 bg-grey-300 w-5 h-1"></div>
-                </div> -->
-                <!-- Maybe make the font-size the same as the introduction to Ruby -->
-                <div class=""><p class="text-xs border text-black-900 px-2 uppercase">Intermedio</p></div>
-                <div class="ml-3"><p class="text-xs border text-black-900 px-2 uppercase">Español</p></div>
-              </div>
-            </div> 
-            <div class="flex items-center">
-              <div class="">
-                <div class="mt-10 flex items-center">
-                  <div class="mr-6">
-                    <iframe src="https://www.youtube.com/embed/videoseries?list=PL8OivKAXXqReXHFoufg54Xq4s_VaeWo01" height="250" width="350" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-           <!-- <div class="">
-            <div class="mt-10 flex items-center"> -->
-              <!-- <div class="flex items-center">
-                <p class="text-black-900 text-sm font-semibold">Ruby III</p> -->
-                <!-- <div class="flex items-center">
-                  <div class="ml-5 bg-blue-900 w-5 h-1"></div>
-                  <div class="ml-2 bg-grey-300 w-5 h-1"></div>
-                  <div class="ml-2 bg-grey-300 w-5 h-1"></div>
-                </div> -->
-                <!-- Maybe make the font-size the same as the introduction to Ruby -->
-                <!-- <div class="ml-5"><p class="text-xs bg-purple-600 text-white font-semibold px-2 uppercase">Advanced</p></div>
-                <div class="ml-3"><p class="text-xs bg-blue-900 text-white font-semibold px-2 uppercase">Spanish</p></div>
-              </div> -->
-            <!-- </div> 
-            <div class="flex items-center">
-              <div class="">
-                <div class="mt-10 flex items-center">
-                  <div class="mr-6">
-                    <iframe src="https://www.youtube.com/embed/videoseries?list=PL8OivKAXXqReXHFoufg54Xq4s_VaeWo01" height="250" width="350" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div> -->
-        </div>
-        <!-- YouTube Spanish Teachers Section -->
-        <div class="flex justify-between">
-          <div class="mt-3 w-1/3">
-            <h3 class="text-blue-900 font-bold">Profesores</h3>
-            <div class="mt-3 text-blue-900">
-              <div class="flex items-center">
-                <img class="rounded-full" src="~assets/images/yukihiro-matsumoto.jpg" alt="Yukihiro Matsumoto" height="35px" width="35px">
-                <p><a href="https://www.youtube.com/channel/UC07xim4Gg8kOk3uZwMrGNeQ" target="_blank" class="ml-3 text-sm hover:text-grey-700">Raul Palacios</a></p>
-              </div>
-              <!-- <div class="flex">
-                <p><a href="xxx" target="_blank" class="mt-1 text-sm hover:text-grey-700">xxx</a></p>            
-              </div>
-              <div class="flex">
-                <p><a href="xxx" target="_blank" class="mt-1 text-sm hover:text-grey-700">xxx</a></p>            
-              </div>
-              <div class="flex">
-                <p><a href="xxx" target="_blank" class="mt-1 text-sm hover:text-grey-700">xxx</a></p>
-              </div> -->
-            </div>
-          </div>
-          <div class="mt-3 w-1/3">
-            <h3 class="text-blue-900 font-bold">Profesores</h3>
-            <div class="mt-3 text-blue-900">
-              <div class="flex items-center">
-                <img class="rounded-full" src="~assets/images/yukihiro-matsumoto.jpg" alt="Yukihiro Matsumoto" height="35px" width="35px">
-                <p><a href="https://www.youtube.com/channel/UCAeZIMpiMHVgPjn8rZd_vKw" target="_blank" class="ml-3 text-sm hover:text-grey-700">Calvin Cruzada</a></p>
-              </div>
-              <!-- <div class="flex">
-                <p><a href="" target="_blank" class="mt-1 text-sm hover:text-grey-700">xxx</a></p>            
-              </div>
-              <div class="flex">
-                <p><a href="" target="_blank" class="mt-1 text-sm hover:text-grey-700">xxx</a></p>            
-              </div>
-              <div class="flex">
-                <p><a href="" target="_blank" class="mt-1 text-sm hover:text-grey-700">xxx</a></p>
-              </div> -->
-            </div>
-          </div>
-          <!-- <div class="mt-3 w-1/3">
-            <h3 class="text-blue-900 font-bold"> Ruby III Teachers</h3>
-            <div class="mt-3 text-blue-900">
-              <div class="flex">
-                <p><a href="" target="_blank" class="text-sm hover:text-grey-700">xxx</a></p>
-              </div>
-              <div class="flex">
-                <p><a href="" target="_blank" class="mt-1 text-sm hover:text-grey-700">xxx</a></p>            
-              </div>
-              <div class="flex">
-                <p><a href="" target="_blank" class="mt-1 text-sm hover:text-grey-700">xxx</a></p>            
-              </div>
-              <div class="flex">
-                <p><a href="" target="_blank" class="mt-1 text-sm hover:text-grey-700">xxx</a></p>
-              </div>
-            </div>
-          </div> -->
-        </div>
-        
       </section>
 
+     
+
+
+        
+        
+  
+
     </div>
+    <!-- Default Statcounter code for Learnsomething.io
+    http://www.learnsomething.io -->
+    <script type="text/javascript">
+    var sc_project=12370753; 
+    var sc_invisible=1; 
+    var sc_security="429f25a4"; 
+    var sc_https=1; 
+    </script>
+    <script type="text/javascript"
+    src="https://www.statcounter.com/counter/counter.js"
+    async></script>
+    <noscript><div class="statcounter"><a title="Web Analytics"
+    href="https://statcounter.com/" target="_blank"><img
+    class="statcounter"
+    src="https://c.statcounter.com/12370753/0/429f25a4/1/"
+    alt="Web Analytics"></a></div></noscript>
+    <!-- End of Statcounter Code -->
     <Footer/>
   </div>
 </template>

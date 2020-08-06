@@ -164,7 +164,7 @@
         <!-- teacher 1 -->
         <div class="w-64 flex items-center">
           <nuxt-link to="teacher/mike-dane">
-            <img class="rounded-full border-2 border-purple-500" height="70px" width="70px" src="~assets/images/ruby_teachers/mike_dane.jpg" alt="Mike Dane">
+            <img class="rounded-full border-2 border-purple-500" height="70px" width="70px" src="~assets/images/teachers/mike_dane.jpg" alt="Mike Dane">
           </nuxt-link>
           <div class="flex flex-col">
             <nuxt-link to="../teacher/mike-dane">
@@ -186,7 +186,7 @@
         <div class="ml-12">
           <div class="flex items-center">
             <nuxt-link to="../teacher/derek-banas">
-              <img class="rounded-full" height="70px" width="70px" src="~assets/images/ruby_teachers/derek_banas.jpg" alt="Derek Banas">
+              <img class="rounded-full" height="70px" width="70px" src="~assets/images/teachers/derek_banas.jpg" alt="Derek Banas">
             </nuxt-link>
             <div class="flex flex-col">
               <nuxt-link to="../teacher/derek-banas">
@@ -200,7 +200,7 @@
         <!-- teacher 3 -->
         <div class="ml-12 flex items-center">
             <div class="flex items-center opacity-30">
-              <img class="rounded-full" height="70px" width="70px" src="~assets/images/ruby_teachers/david_battersby.jpg" alt="">
+              <img class="rounded-full" height="70px" width="70px" src="~assets/images/teachers/david_battersby.jpg" alt="">
               <div class="flex flex-col">
                 <p class="ml-5 font-semibold">David Battersby</p>
                 <p class="ml-5 text-sm">15 lessons | 1 hour</p>
@@ -223,6 +223,23 @@
     </section>
 
     <Footer/>
+    <!-- Default Statcounter code for Learnsomething.io
+    http://www.learnsomething.io -->
+    <script type="text/javascript">
+    var sc_project=12370753; 
+    var sc_invisible=1; 
+    var sc_security="429f25a4"; 
+    var sc_https=1; 
+    </script>
+    <script type="text/javascript"
+    src="https://www.statcounter.com/counter/counter.js"
+    async></script>
+    <noscript><div class="statcounter"><a title="Web Analytics"
+    href="https://statcounter.com/" target="_blank"><img
+    class="statcounter"
+    src="https://c.statcounter.com/12370753/0/429f25a4/1/"
+    alt="Web Analytics"></a></div></noscript>
+    <!-- End of Statcounter Code -->
   </div>
 </template>
 
