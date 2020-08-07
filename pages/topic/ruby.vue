@@ -40,7 +40,7 @@
           </div>
           <div class="w-1/5 flex flex-col">
             <h3 class="text-black-400 uppercase font-semibold">similar topics</h3>
-            <nuxt-link to="/topic/" class="mt-10 mb-2 text-grey-100 line-through">Python</nuxt-link>
+            <nuxt-link to="/topic/" class="mt-10 mb-2 text-black-900 hover:text-black-800">Python</nuxt-link>
             <nuxt-link to="/topic/" class="mb-2 text-grey-100 line-through">PHP</nuxt-link>
             <nuxt-link to="/topic/java" class="flex mb-2 text-black-900 hover:text-black-800">
               Java
@@ -100,23 +100,23 @@
           </div>
           <div class="w-1/5 flex flex-col">
             <h3 class="text-black-400 uppercase font-semibold">supplemental sites</h3>
-            <a href="https://www.codecademy.com/" class="mt-10 flex items-center mb-2 text-black-900 hover:text-black-800">
+            <a href="https://www.codecademy.com/learn/learn-ruby" target="_blank" class="mt-10 flex items-center mb-2 text-black-900 hover:text-black-800">
               Codecademy
               <div class="ml-3 bg-grey-300 text-white text-xs font-semibold rounded uppercase px-2">free</div>
             </a>
-            <a href="https://teamtreehouse.com/" class="flex mb-2 items-center text-black-900 hover:text-black-800">
+            <a href="https://teamtreehouse.com/tracks/learn-ruby" target="_blank" class="flex mb-2 items-center text-black-900 hover:text-black-800">
               Treehouse
               <div class="ml-3 bg-grey-600 text-white text-xs font-semibold rounded uppercase px-2">paid</div>
             </a>
-            <a href="https://www.rubyguides.com/" class="flex mb-2 items-center text-black-900 hover:text-black-800">
+            <a href="https://www.rubyguides.com/" target="_blank" class="flex mb-2 items-center text-black-900 hover:text-black-800">
               Ruby Guides
               <div class="ml-3 bg-grey-300 text-white text-xs font-semibold rounded uppercase px-2">free</div>
             </a>
-            <a href="https://www.learnenough.com/" class="flex mb-2 items-center text-black-900 hover:text-black-800">
+            <a href="https://www.learnenough.com/ruby" target="_blank" class="flex mb-2 items-center text-black-900 hover:text-black-800">
               Learn Enough
               <div class="ml-3 flex items-center bg-grey-600 text-white text-xs font-semibold rounded uppercase px-2">free / paid</div>
             </a>
-            <a href="https://www.tutorialspoint.com/ruby/index.htm" class="flex mb-2 items-center text-black-900 hover:text-black-800">
+            <a href="https://www.tutorialspoint.com/ruby/index.htm" target="_blank" class="flex mb-2 items-center text-black-900 hover:text-black-800">
               Tutorials Point
               <div class="ml-3 bg-grey-300 text-white text-xs font-semibold rounded uppercase px-2">free</div>
             </a>

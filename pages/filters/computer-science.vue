@@ -69,23 +69,23 @@
               </div>
             </nuxt-link>
             <!-- xxx -->
-            <nuxt-link to="../topic/xxx" class="mt-8">
-              <div class="hidden flex flex-col w-64">
-                  <p class="text-blue-900 text-sm">Framework</p>
+            <nuxt-link to="../topic/python" class="mt-8">
+              <div class="flex flex-col w-64">
+                  <p class="text-blue-900 text-sm">Programming Language</p>
                   <div class="flex items-center">
                       <p class="text-lg text-blue-900 font-semibold">
-                        #xxx
+                        #python
                       </p>
                   </div>
               </div>
             </nuxt-link>
             <!-- xxx -->
-            <nuxt-link to="../topic/xxx" class="mt-8">
-              <div class="hidden flex flex-col w-64">
+            <nuxt-link to="../topic/html-css" class="mt-8">
+              <div class="flex flex-col w-64">
                   <p class="text-blue-900 text-sm">Programming Language</p>
                   <div class="flex items-center">
                       <p class="text-lg text-blue-900 font-semibold">
-                        #xxx
+                        #HTML & CSS
                       </p>
                   </div>
               </div>

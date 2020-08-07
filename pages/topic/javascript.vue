@@ -40,7 +40,7 @@
           </div>
           <div class="w-1/5 flex flex-col">
             <h3 class="text-black-400 uppercase font-semibold">similar topics</h3>
-            <nuxt-link to="/topic/python" class="mt-10 mb-2 text-grey-100 line-through">Python</nuxt-link>
+            <nuxt-link to="/topic/python" class="mt-10 flex mb-2 text-black-900 hover:text-black-800">Python</nuxt-link>
             <nuxt-link to="/topic/php" class="mb-2 text-grey-100 line-through">PHP</nuxt-link>
             <nuxt-link to="/topic/ruby" class="flex mb-2 text-black-900 hover:text-black-800">
               Ruby
@@ -100,15 +100,15 @@
           </div>
           <div class="w-1/5 flex flex-col">
             <h3 class="text-black-400 uppercase font-semibold">supplemental sites</h3>
-            <a href="https://www.codecademy.com/" class="mt-10 flex items-center mb-2 text-black-900 hover:text-black-800">
+            <a href="https://www.codecademy.com/learn/introduction-to-javascript" target="_blank" class="mt-10 flex items-center mb-2 text-black-900 hover:text-black-800">
               Codecademy
               <div class="ml-3 bg-grey-300 text-white text-xs font-semibold rounded uppercase px-2">free</div>
             </a>
-            <a href="https://teamtreehouse.com/" class="flex mb-2 items-center text-black-900 hover:text-black-800">
+            <a href="https://teamtreehouse.com/tracks/beginning-javascript" target="_blank" class="flex mb-2 items-center text-black-900 hover:text-black-800">
               Treehouse
               <div class="ml-3 bg-grey-600 text-white text-xs font-semibold rounded uppercase px-2">paid</div>
             </a>
-            <a href="https://www.learnenough.com/" class="flex mb-2 items-center text-black-900 hover:text-black-800">
+            <a href="https://www.learnenough.com/javascript" target="_blank" class="flex mb-2 items-center text-black-900 hover:text-black-800">
               Learn Enough
               <div class="ml-3 flex items-center bg-grey-600 text-white text-xs font-semibold rounded uppercase px-2">free / paid</div>
             </a>
