@@ -68,7 +68,7 @@
             <p class="mt-4">It's okay to take things slow. Math can be challenging but you can do it.</p>
              <p class="mt-4 text-sm">Suggested Maths: </p>
               <div class="flex items-center">
-                <p><nuxt-link to="topic/algebra-one" class="underline"> Algebra 1</nuxt-link></p>   
+                <p><nuxt-link to="topic/pre-algebra" class="underline">Pre-algebra</nuxt-link> <span>or </span><nuxt-link to="topic/algebra-one" class="underline">Algebra 1</nuxt-link></p>    
               </div>
             
             

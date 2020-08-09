@@ -208,24 +208,6 @@
               </nuxt-link>
             </div>
           </div>
-
-          <!-- LOCKED PROFILE -->
-          <!-- teacher 3 -->
-          <div class="ml-12 flex items-center flex-shrink-0 opacity-30">
-            <img class="rounded-full" height="70px" width="70px" src="~assets/images/teachers/david_battersby.jpg" alt="">
-            <div class="flex flex-col flex-wrap lg:flex-no-wrap xl:flex-no-wrap">
-              <p class="ml-5 font-semibold">David Battersby</p>
-            </div>
-          </div>
-
-          <!-- LOCKED PROFILE -->
-          <!-- teacher 4 -->
-          <div class="xl:ml-12 xl:mt-0 lg:mt-12 lg:ml-0 flex items-center flex-shrink-0 opacity-30">
-            <img class="rounded-full" height="70px" width="70px" src="~assets/images/teachers/deanin.jpg" alt="">
-            <div class="flex flex-col flex-wrap lg:flex-no-wrap xl:flex-no-wrap">
-              <p class="ml-5 font-semibold">Deanin</p>
-            </div>
-          </div>
         </div> 
       </section>
 
