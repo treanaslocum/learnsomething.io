@@ -54,32 +54,51 @@
 
       <section class="mt-20">
         <div class="flex justify-between">
-          <div class="w-4/5">
-            <h3 class="text-black-900 uppercase font-semibold">creators</h3>
+         <div class="w-4/5">
+            <h3 class="text-black-900 uppercase font-semibold">pioneers</h3>
             <div class="mt-10 flex items-center">
-              <a href="" target="_blank">
-                <img class="rounded-full" src="~assets/images/yukihiro-matsumoto.jpg" alt="Yukihiro Matsumoto" height="50px" width="50px">
+              <a href="https://en.wikipedia.org/wiki/Paul_Baran" target="_blank">
+                <img class="rounded-full" src="~assets/images/paul-baran.jpg" alt="Paul Baran" height="50px" width="50px">
               </a>
-              <a href="/people/yukihiro-matsumoto" target="_blank" class="ml-5 text-black-900 hover:text-black-800">#</a>
+              <a href="https://en.wikipedia.org/wiki/Paul_Baran" target="_blank" class="ml-5 text-black-900 hover:text-black-800">Paul Baran</a>
+            
+              <a href="https://en.wikipedia.org/wiki/Leonard_Kleinrock" target="_blank">
+                <img class="ml-10 rounded-full" src="~assets/images/leonard-kleinrock.jpg" alt="Leonard Kleinrock" height="50px" width="50px">
+              </a>
+              
+              <a href="https://en.wikipedia.org/wiki/Leonard_Kleinrock" target="_blank" class="ml-5 text-black-900 hover:text-black-800">Leonard Kleinrock</a>
+            
             </div> 
+            <div class="mt-10 flex items-center">
+              <a href="https://en.wikipedia.org/wiki/Robert_Taylor_(computer_scientist)" target="_blank">
+                <img class="rounded-full" src="~assets/images/bob-taylor.jpg" alt="Robert Taylor" height="50px" width="50px">
+              </a>
+              
+              <a href="https://en.wikipedia.org/wiki/Robert_Taylor_(computer_scientist)" target="_blank" class="ml-5 text-black-900 hover:text-black-800">Robert Taylor</a>
+              
+              <a href="https://en.wikipedia.org/wiki/Vint_Cerf" target="_blank">
+                <img class="ml-10 rounded-full" src="~assets/images/vint-cerf.jpg" alt="Vint Cerf" height="50px" width="50px">
+              </a>
+              <a href="https://en.wikipedia.org/wiki/Vint_Cerf" target="_blank" class="ml-5 text-black-900 hover:text-black-800">Vint Cerf</a>
+            
+            </div>
+            <div class="mt-10 flex items-center">
+              <a href="https://en.wikipedia.org/wiki/Lawrence_Roberts_(scientist)" target="_blank">
+                <img class="rounded-full" src="~assets/images/larry-roberts.jpg" alt="Larry Roberts" height="50px" width="50px">
+              </a>
+              
+              <a href="https://en.wikipedia.org/wiki/Lawrence_Roberts_(scientist)" target="_blank" class="ml-5 text-black-900 hover:text-black-800">Larry Roberts</a>
+              
+              <a href="https://en.wikipedia.org/wiki/Bob_Kahn" target="_blank">
+                <img class="ml-10 rounded-full" src="~assets/images/robert-kahn.jpg" alt="Bob Kahn" height="50px" width="50px">
+              </a>
+              <a href="https://en.wikipedia.org/wiki/Bob_Kahn" target="_blank" class="ml-5 text-black-900 hover:text-black-800">Bob Kahn</a>
+            
+            </div>
           </div>
 
-          Claude Shannon. Known as “the father of modern information theory,” Claude Shannon published an influential paper in 1948, “A Mathematical Theory of Communication,” which formalized the study of communication channels. ...
-          Paul Baran. ...
-          Bob Taylor. ...
-          Douglas Englebart. ...
-          Larry Roberts. ...
-          Vint Cerf. ...
-          <!-- <div class="w-1/5 flex flex-col">
-            <h3 class="text-black-400 uppercase font-semibold"># frameworks</h3>
-            <nuxt-link to="/topic/" class="mt-10 flex mb-2 text-grey-100 line-through">
-              xxx
-            </nuxt-link>
-            <nuxt-link to="/topic/" class="flex mb-2 text-black-900 hover:text-black-800">
-              xxx
-              <svg class="ml-1 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg>           
-            </nuxt-link>
-          </div> -->
+  
+
         </div>
       </section>
 
@@ -88,17 +107,11 @@
           <div class="w-4/5">
             <h3 class="text-black-900 uppercase font-semibold">books</h3>
             <div class="mt-10 flex items-center">
-              <nuxt-link to="/books/xxx">
-                <img class="" src="~assets/images/the-well-grounded-rubyist.png" alt="xxx" height="50px" width="50px">
-              </nuxt-link>
-              <nuxt-link to="/books/xxx" class="ml-5 text-black-900 hover:text-black-800">xxx</nuxt-link>
+              <a href="https://book.systemsapproach.org/#" target="_blank">
+                <img class="" src="~assets/images/computer-networks-a-systems-approach.jpg" alt="Computer Networks: A Systems Approach" height="50px" width="50px">
+              </a>
+              <a href="https://book.systemsapproach.org/#" target="_blank" class="ml-5 text-black-900 hover:text-black-800">Computer Networks: A Systems Approach</a>
             </div> 
-            <div class="mt-10 flex items-center">
-              <nuxt-link to="/books/xxx">
-                <img class="" src="~assets/images/eloquent-ruby.png" alt="xxx" height="50px" width="50px">
-              </nuxt-link>
-              <nuxt-link to="/books/xxx" class="ml-5 text-black-900 hover:text-black-800">xxx</nuxt-link>
-            </div>
           </div>
           <div class="w-1/5 flex flex-col">
             <h3 class="text-black-400 uppercase font-semibold">supplemental sites</h3>
@@ -106,12 +119,12 @@
               Cybrary
               <div class="ml-3 flex items-center bg-grey-600 text-white text-xs font-semibold rounded uppercase px-2">free / paid</div>
             </a>
-            <a href="xxx" target="_blank" class="flex mb-2 items-center text-black-900 hover:text-black-800">
-              xxx
-              <div class="ml-3 bg-grey-600 text-white text-xs font-semibold rounded uppercase px-2">paid</div>
+            <a href="https://www.coursera.org/learn/computer-networking#enroll" target="_blank" class="flex mb-2 items-center text-black-900 hover:text-black-800">
+              Coursera.org
+              <div class="ml-3 bg-grey-300 text-white text-xs font-semibold rounded uppercase px-2">free</div>
             </a>
-            <a href="xxx" target="_blank" class="flex mb-2 items-center text-black-900 hover:text-black-800">
-              xxx
+            <a href="https://www.udacity.com/course/computer-networking--ud436" target="_blank" class="flex mb-2 items-center text-black-900 hover:text-black-800">
+              Udacity
               <div class="ml-3 bg-grey-300 text-white text-xs font-semibold rounded uppercase px-2">free</div>
             </a>
           </div>

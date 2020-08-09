@@ -3,20 +3,20 @@
     <Header/>
     <div class="mt-32 px-32">
       <div class="flex items-center">
-        <p class="text-sm text-blue-900 capitalize"><nuxt-link to="/topic/ruby">Ruby</nuxt-link> <span class="ml-1 font-semibold">&rsaquo;</span></p>
-        <p class="ml-3 text-sm text-blue-900 capitalize"><nuxt-link to="/topic/ruby">Teachers</nuxt-link> <span class="ml-1 font-semibold">&rsaquo;</span></p>
-        <div class="ml-5"><p class="text-xs text-blue-900 font-semibold px-2">Mike Dane</p></div>
+        <p class="text-sm text-blue-900 capitalize"><nuxt-link to="/topic/ruby-on-rails">Ruby on Rails</nuxt-link> <span class="ml-1 font-semibold">&rsaquo;</span></p>
+        <p class="ml-3 text-sm text-blue-900 capitalize"><nuxt-link to="/topic/ruby-on-rails">Teachers</nuxt-link> <span class="ml-1 font-semibold">&rsaquo;</span></p>
+        <div class="ml-5"><p class="text-xs text-blue-900 font-semibold px-2">Raul Palacios</p></div>
       </div>
       <section class="mt-12">
         <div class="flex items-center justify-between">
           <div>
             <p class="text-purple-500 uppercase font-semibold">Teacher</p>
-            <h2 class="text-blue-900 text-5xl">Mike Dane</h2>
+            <h2 class="text-blue-900 text-5xl">Raul Palacios</h2>
           </div>
         </div>
         <div class="mt-5 flex items-center justify-between">
           <div class="flex items-center">
-              <a href="https://twitter.com/mike_dane?lang=en" target="_blank" class="flex items-center text-grey-700 uppercase font-semibold">
+              <a href="https://twitter.com/ZRaulPalacios" target="_blank" class="flex items-center text-grey-700 uppercase font-semibold">
                 <svg class="fill-current text-black-900" xmlns="http://www.w3.org/2000/svg" width="19.652" height="15.962" viewBox="0 0 19.652 15.962"><defs></defs><path class="a" d="M19.633,8c.013.175.013.349.013.523A11.382,11.382,0,0,1,8.186,19.981,11.381,11.381,0,0,1,2,18.172a8.417,8.417,0,0,0,.973.05,8.069,8.069,0,0,0,5-1.721,4.036,4.036,0,0,1-3.767-2.793,5.129,5.129,0,0,0,.761.062,4.286,4.286,0,0,0,1.061-.137A4.027,4.027,0,0,1,2.8,9.68V9.63a4.065,4.065,0,0,0,1.82.511A4.034,4.034,0,0,1,3.371,4.755,11.457,11.457,0,0,0,11.677,8.97a4.577,4.577,0,0,1-.1-.923,4.032,4.032,0,0,1,6.971-2.756A7.957,7.957,0,0,0,21.1,4.318a4.02,4.02,0,0,1-1.771,2.22,8.073,8.073,0,0,0,2.319-.624A8.645,8.645,0,0,1,19.633,8Z" transform="translate(-2 -4.019)"/></svg>
                 <p class="ml-2">Twitter</p>
               </a>
@@ -26,9 +26,9 @@
               </a> -->
           </div>
           <!-- Outside website link block -->
-          <div>
-            <a class="mt-5 text-black-900 hover:text-black-800" href="https://www.mikedane.com/" target="_blank">https://www.mikedane.com/</a>
-          </div>
+          <!-- <div>
+            <a class="mt-5 text-black-900 hover:text-black-800" href="https://web-crunch.com/" target="_blank">https://web-crunch.com/</a>
+          </div> -->
         </div>
       </section>
 
@@ -36,25 +36,29 @@
         <div class="flex justify-between">
           <div class="w-4/5">
             <h3 class="text-black-900 uppercase font-semibold">about</h3>
-            <p class="mt-10 leading-relaxed w-3/5">Hey! My name’s Mike Dane, and I’ve got one simple goal, to create the highest quality and entertaining educational content on the internet.<a href="https://www.youtube.com/channel/UCvmINlrza7JHB1zkIOuXEbw" target="_blank" class="ml-1 text-lg text-purple-500 font-semibold">&rsaquo;&rsaquo;</a></p>
+            <p class="mt-10 leading-relaxed w-3/5">Hola que tal, Este canal esta enfocado al desarrollo de software donde seguramente podrás encontrar el curso que buscas, si no lo encuentras tal vez este trabajando en el :D<a href="https://www.youtube.com/c/Webcrunch/featured" target="_blank" class="ml-1 text-lg text-purple-500 font-semibold">&rsaquo;&rsaquo;</a></p>
           </div>
           <div class="w-1/5 flex flex-col truncate">
             <h3 class="text-black-400 uppercase font-semibold">topics I teach</h3>
-            <nuxt-link to="/topic/ruby" class="mt-10 flex mb-2 text-black-900 hover:text-black-800">
-              Ruby
+            
+            <nuxt-link to="/topic/ruby-on-rails" class="mt-10 flex mb-2 text-black-900 hover:text-black-800">
+              Ruby on Rails
               <!-- <svg class="ml-1 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg> -->
             </nuxt-link>
-            <nuxt-link to="/topic/java" class="flex mb-2 text-black-900 hover:text-black-800">
-              Java
-              <!-- <svg class="ml-1 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg> -->
+            <nuxt-link to="/topic/ruby" class="flex mb-2 text-black-900 hover:text-black-800">
+              Ruby
             </nuxt-link>
             <nuxt-link to="/topic/javascript" class="flex mb-2 text-black-900 hover:text-black-800">
               JavaScript
-              <!-- <svg class="ml-1 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg> -->
+              <!-- <svg class="ml-1 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg>            -->
             </nuxt-link>
-            <nuxt-link to="/topic/python" class="flex text-black-900 hover:text-black-800">
-              Python
+            <nuxt-link to="/topic/react-js" class="flex mb-2 text-grey-100 line-through">
+              React
             </nuxt-link>
+            <nuxt-link to="/topic/lavarel" class="flex mb-2 text-grey-100 line-through">
+              Laravel
+            </nuxt-link>
+
           </div>
         </div>
       </section>
@@ -68,54 +72,60 @@
 
       <!-- Video Playlist Section -->
       <section class="mt-20">
-        <h3 class="text-black-900 uppercase font-semibold">Learning Playlists</h3>
+        <h3 class="text-black-900 uppercase font-semibold">Learning Playlists - en Español</h3>
         <div class="mt-12 flex items-center">
+
           <div class="max-w-sm rounded overflow-hidden">
-            <iframe width="400" height="200" src="https://www.youtube.com/embed/videoseries?list=PLLAZ4kZ9dFpO90iMas70Tt4_wYjhLGkya" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <div class="px-6 py-4">
+              <iframe width="400" height="200" src="https://www.youtube.com/embed/videoseries?list=PLIddmSRJEJ0vqXQG03e-WtOGsW63fI8ld" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>         <div class="px-6 py-4">
               <span class="inline-block bg-grey-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">#beginner</span>
               <span class="inline-block bg-grey-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">#ruby</span>
             </div>
           </div>
-          <div class="ml-10 max-w-sm rounded overflow-hidden">
-            <iframe width="400" height="200" src="https://www.youtube.com/embed/videoseries?list=PLLAZ4kZ9dFpPQbcrA-SzALJeFm23tPrAI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <div class="px-6 py-4">
+
+
+           <div class="ml-10 max-w-sm rounded overflow-hidden">
+              <iframe width="400" height="200" src="https://www.youtube.com/embed/videoseries?list=PLIddmSRJEJ0vhe6oZC2z-0eleV7K_t-vp" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>        <div class="px-6 py-4">
               <span class="inline-block bg-grey-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">#beginner</span>
-              <span class="inline-block bg-grey-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">#javascript</span>
+              <span class="inline-block bg-grey-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">#ruby</span>
             </div>
           </div>
+
           <div class="ml-10 max-w-sm rounded overflow-hidden">
-            <iframe width="400" height="200" src="https://www.youtube.com/embed/videoseries?list=PLLAZ4kZ9dFpMMs5lskzBApYXn0bl7emsW" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <div class="px-6 py-4">
+              <iframe width="400" height="200" src="https://www.youtube.com/embed/videoseries?list=PLIddmSRJEJ0uaT5imV49pJqP8CGSqN-7E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>        <div class="px-6 py-4">
               <span class="inline-block bg-grey-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">#beginner</span>
-              <span class="inline-block bg-grey-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">#python</span>
+              <span class="inline-block bg-grey-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">#rubyonrails</span>
             </div>
           </div>
+
         </div> 
 
-         <div class="mt-12 flex items-center">
-            <div class="ml-10 max-w-sm rounded overflow-hidden">
-            <iframe width="400" height="200" src="https://www.youtube.com/embed/videoseries?list=PLLAZ4kZ9dFpPpdR_9IQBUDLjYalvdrGGb" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <div class="px-6 py-4">
-              <span class="inline-block bg-grey-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">#beginner</span>
-              <span class="inline-block bg-grey-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">#java</span>
-            </div>
-          </div>
-          <!-- <div class="ml-10 max-w-sm rounded overflow-hidden">
-            <iframe width="400" height="200" src="https://www.youtube.com/embed/videoseries?list=PLLAZ4kZ9dFpPQbcrA-SzALJeFm23tPrAI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <div class="px-6 py-4">
+        <div class="mt-12 flex items-center">
+
+          <div class="max-w-sm rounded overflow-hidden">
+              <iframe width="400" height="200" src="https://www.youtube.com/embed/videoseries?list=PLIddmSRJEJ0tYYrHQAAeTAmXzj36jxXoF" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>        <div class="px-6 py-4">
               <span class="inline-block bg-grey-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">#beginner</span>
               <span class="inline-block bg-grey-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">#javascript</span>
             </div>
           </div>
-          <div class="ml-10 max-w-sm rounded overflow-hidden">
-            <iframe width="400" height="200" src="https://www.youtube.com/embed/videoseries?list=PLLAZ4kZ9dFpPpdR_9IQBUDLjYalvdrGGb" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <div class="px-6 py-4">
+
+<!-- 
+           <div class="ml-10 max-w-sm rounded overflow-hidden">
+              <iframe width="400" height="200" src="https://www.youtube.com/embed/videoseries?list=PLIddmSRJEJ0sxS-RmqdRMlkyWOQWvEGEt" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>        <div class="px-6 py-4">
               <span class="inline-block bg-grey-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">#beginner</span>
-              <span class="inline-block bg-grey-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">#java</span>
+              <span class="inline-block bg-grey-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">#lavarel</span>
+            </div>
+          </div>
+
+          <div class="ml-10 max-w-sm rounded overflow-hidden">
+              <iframe width="400" height="200" src="https://www.youtube.com/embed/videoseries?list=PLIddmSRJEJ0uaT5imV49pJqP8CGSqN-7E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>        <div class="px-6 py-4">
+              <span class="inline-block bg-grey-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">#xxx</span>
+              <span class="inline-block bg-grey-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">#xxx</span>
             </div>
           </div> -->
-        </div>       
+
+        </div> 
+
+     
       </section>
 
     </div>
@@ -151,7 +161,7 @@ export default {
   },
   head () {
     return {
-      title: "Mike Dane - LearnSomething.io",
+      title: "Raul Palacios - LearnSomething.io",
       meta: [
         // hid is used as unique identifier. Do not use `vmid` for it as it will not work
         { hid: 'description', name: 'description', content: 'My custom description' }

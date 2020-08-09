@@ -145,7 +145,7 @@
           </div>
         </div>
 
-        <!-- english teachers 1st row list -->
+        <!-- 1st row list -->
         <div class="mt-16 flex xl:justify-around flex-wrap xl:flex-no-wrap">
 
           <!-- teacher 1 -->
@@ -198,6 +198,22 @@
             </div>
           </div>
         </div> 
+
+        <div class="mt-16 flex xl:justify-around flex-wrap xl:flex-no-wrap">
+
+          <!-- teacher 1 -->
+          <div class="flex items-center flex-shrink-0">
+            <nuxt-link to="../teacher/raul-palacios">
+              <img class="rounded-full" height="70px" width="70px" src="~assets/images/teachers/raul-palacios.jpg" alt="Mike Dane">
+            </nuxt-link>
+            <div class="flex flex-col flex-wrap lg:flex-no-wrap xl:flex-no-wrap">
+              <nuxt-link to="../teacher/raul-palacios">
+                <p class="ml-5 font-semibold">Raul Palacios</p>
+              </nuxt-link>
+            </div>
+          </div>
+        </div> 
+
       </section>
 
       

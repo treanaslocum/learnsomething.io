@@ -60,18 +60,31 @@
           <div class="w-4/5">
             <h3 class="text-black-900 uppercase font-semibold">pioneers</h3>
             <div class="mt-10 flex items-center">
-              <img class="rounded-full" src="~assets/images/isaac-newton.jpg" alt="Isaac Newton" height="50px" width="50px">
+              <a href="https://en.wikipedia.org/wiki/Isaac_Newton" target="_blank">
+                <img class="rounded-full" src="~assets/images/isaac-newton.jpg" alt="Isaac Newton" height="50px" width="50px">
+              </a>
+              
               <a href="https://en.wikipedia.org/wiki/Isaac_Newton" target="_blank" class="ml-5 text-black-900 hover:text-black-800">Isaac Newton</a>
-              <!-- <nuxt-link to="/people/isaac-newton" class="ml-5 text-black-900 hover:text-black-800">Isaac Newton</nuxt-link> -->
-              <img class="ml-10 rounded-full" src="~assets/images/ernest-rutherford.jpg" alt="Ernest Rutherford" height="50px" width="50px">
+             
+              <a href="https://en.wikipedia.org/wiki/Ernest_Rutherford" target="_blank">
+                <img class="ml-10 rounded-full" src="~assets/images/ernest-rutherford.jpg" alt="Ernest Rutherford" height="50px" width="50px">
+              </a>
+              
               <a href="https://en.wikipedia.org/wiki/Ernest_Rutherford" target="_blank" class="ml-5 text-black-900 hover:text-black-800">Ernest Rutherford</a>
-              <!-- <nuxt-link to="/people/ernest-rutherford" class="ml-5 text-black-900 hover:text-black-800">Ernest Rutherford</nuxt-link> -->
+            
             </div> 
             <div class="mt-10 flex items-center">
-              <img class="rounded-full" src="~assets/images/albert-einstein.jpg" alt="Albert Einstein" height="50px" width="50px">
+              <a href="https://en.wikipedia.org/wiki/Albert_Einstein" target="_blank">
+                <img class="rounded-full" src="~assets/images/albert-einstein.jpg" alt="Albert Einstein" height="50px" width="50px">
+              </a>
+              
               <a href="https://en.wikipedia.org/wiki/Albert_Einstein" target="_blank" class="ml-5 text-black-900 hover:text-black-800">Albert Einstein</a>
-              <!-- <nuxt-link to="/people/albert-einstein" class="ml-5 text-black-900 hover:text-black-800">Albert Einstein</nuxt-link> -->
-              <img class="ml-10 rounded-full" src="~assets/images/erwin-schrodinger.jpg" alt="Erwin Schrödinger" height="50px" width="50px">
+              
+
+              <a href="https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger" target="_blank">
+                <img class="ml-10 rounded-full" src="~assets/images/erwin-schrodinger.jpg" alt="Erwin Schrödinger" height="50px" width="50px">
+              </a>
+              
               <a href="https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger" target="_blank" class="ml-5 text-black-900 hover:text-black-800">Erwin Schrödinger</a>
               <!-- <nuxt-link to="/people/erwin-schrodinger" class="ml-5 text-black-900 hover:text-black-800">Erwin Schrödinger</nuxt-link> -->
             </div>
@@ -174,24 +187,24 @@
 
           <!-- teacher 1 -->
           <div class="flex items-center flex-shrink-0">
-            <nuxt-link to="../teacher/mike-dane">
-              <img class="rounded-full" height="70px" width="70px" src="~assets/images/teachers/mike_dane.jpg" alt="Mike Dane">
+            <nuxt-link to="../teacher/math-and-science">
+              <img class="rounded-full" height="70px" width="70px" src="~assets/images/teachers/math-and-science.jpg" alt="Math and Science">
             </nuxt-link>
             <div class="flex flex-col flex-wrap lg:flex-no-wrap xl:flex-no-wrap">
-              <nuxt-link to="../teacher/mike-dane">
-                <p class="ml-5 font-semibold">Mike Dane</p>
+              <nuxt-link to="../teacher/math-and-science">
+                <p class="ml-5 font-semibold">Math and Science</p>
               </nuxt-link>
             </div>
           </div>
 
           <!-- teacher 2 -->
           <div class="ml-12 flex items-center flex-shrink-0">
-            <nuxt-link to="../teacher/derek-banas">
-              <img class="rounded-full" height="70px" width="70px" src="~assets/images/teachers/derek_banas.jpg" alt="Derek Banas">
+            <nuxt-link to="../teacher/the-organic-chemistry-tutor">
+              <img class="rounded-full" height="70px" width="70px" src="~assets/images/teachers/the-organic-chemistry-tutor.jpg" alt="The Organic Chemistry Tutor">
             </nuxt-link>
             <div class="flex flex-col flex-wrap lg:flex-no-wrap xl:flex-no-wrap">
-              <nuxt-link to="../teacher/derek-banas">
-                <p class="ml-5 font-semibold">Derek Banas</p>
+              <nuxt-link to="../teacher/the-organic-chemistry-tutor">
+                <p class="ml-5 font-semibold">The Organic Chemistry Tutor</p>
               </nuxt-link>
             </div>
           </div>

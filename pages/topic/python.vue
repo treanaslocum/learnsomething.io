@@ -182,6 +182,17 @@
               </nuxt-link>
             </div>
           </div>
+
+          <div class="xl:ml-12 xl:mt-0 lg:mt-12 lg:ml-0 flex items-center flex-shrink-0">
+            <nuxt-link to="../teacher/mike-dane">
+              <img class="rounded-full" height="70px" width="70px" src="~assets/images/teachers/mike_dane.jpg" alt="Tech With Tim">
+            </nuxt-link>
+            <div class="flex flex-col flex-wrap lg:flex-no-wrap xl:flex-no-wrap">
+              <nuxt-link to="../teacher/mike-dane">
+                <p class="ml-5 font-semibold">Mike Dane</p>
+              </nuxt-link>
+            </div>
+          </div>
         </div> 
       </section>
 

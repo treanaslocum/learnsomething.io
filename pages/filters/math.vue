@@ -21,16 +21,16 @@
               </div>
             </nuxt-link>
             <!-- xxx -->
-            <!-- <nuxt-link to="../topic/chemistry" class="mt-8">
+            <nuxt-link to="../topic/pre-algebra" class="mt-8">
               <div class="flex flex-col w-64">
                   <p class="text-blue-900 text-sm">Discipline</p>
                   <div class="flex items-center">
                       <p class="text-lg text-blue-900 font-semibold">
-                        #Chemistry
+                        #Pre-Algebra
                       </p>
                   </div>
               </div>
-            </nuxt-link> -->
+            </nuxt-link>
             <!-- xxx -->
             <!-- <nuxt-link to="../topic/biology" class="mt-8">
               <div class="flex flex-col w-64">

@@ -70,7 +70,7 @@ export default {
   },
   head () {
     return {
-      title: "Home - LearnSomething.io",
+      title: "Challenge: Code Level One - LearnSomething.io",
       meta: [
         // hid is used as unique identifier. Do not use `vmid` for it as it will not work
         { hid: 'description', name: 'description', content: 'My custom description' }

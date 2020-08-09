@@ -27,7 +27,7 @@
             </nuxt-link>
           </div>
           <div>
-            <a class="mt-5 text-black-900 hover:text-black-800" href="https://www.java.com/en/" target="_blank">https://www.java.com/en/</a>
+            <a class="mt-5 text-black-900 hover:text-black-800" href="https://rubyonrails.org/" target="_blank">https://rubyonrails.org/</a>
           </div>
         </div>
       </section>
@@ -36,7 +36,7 @@
         <div class="flex justify-between">
           <div class="w-4/5">
             <h3 class="text-black-900 uppercase font-semibold">about</h3>
-            <p class="mt-10 leading-relaxed w-3/5">Java is a general-purpose programming language that is class-based, object-oriented, and designed to have as few implementation dependencies as possible.<a href="https://en.wikipedia.org/wiki/Java_(programming_language)" target="_blank" class="ml-1 text-lg text-purple-500 font-semibold">&rsaquo;&rsaquo;</a></p>
+            <p class="mt-10 leading-relaxed w-3/5">Ruby on Rails, or Rails, is a server-side web application framework written in Ruby under the MIT License. Rails is a model–view–controller framework, providing default structures for a database, a web service, and web pages.<a href="https://en.wikipedia.org/wiki/Ruby_on_Rails" target="_blank" class="ml-1 text-lg text-purple-500 font-semibold">&rsaquo;&rsaquo;</a></p>
           </div>
           <div class="w-1/5 flex flex-col">
             <h3 class="text-black-400 uppercase font-semibold">similar topics</h3>
@@ -59,18 +59,20 @@
           <div class="w-4/5">
             <h3 class="text-black-900 uppercase font-semibold">creator</h3>
             <div class="mt-10 flex items-center">
-              <a href="https://en.wikipedia.org/wiki/James_Gosling" target="_blank">
-                <img class="rounded-full" src="~assets/images/james-gosling.jpg" alt="James Gosling" height="50px" width="50px">
+              <a href="https://en.wikipedia.org/wiki/David_Heinemeier_Hansson" target="_blank">
+                <img class="rounded-full" src="~assets/images/david-heinemeier-hansson.jpg" alt="David Heinemeier Hansson
+" height="50px" width="50px">
               </a>
-              <a href="https://en.wikipedia.org/wiki/James_Gosling" target="_blank" class="ml-5 text-black-900 hover:text-black-800">James Gosling</a>
+              <a href="https://en.wikipedia.org/wiki/David_Heinemeier_Hansson" target="_blank" class="ml-5 text-black-900 hover:text-black-800">David Heinemeier Hansson
+</a>
             </div> 
           </div>
-          <div class="w-1/5 flex flex-col">
+          <!-- <div class="w-1/5 flex flex-col">
             <h3 class="text-black-400 uppercase font-semibold">Java frameworks</h3>
             <nuxt-link to="/topic/" class="mt-10 flex mb-2 text-grey-100 line-through">
               Spring
             </nuxt-link>
-          </div>
+          </div> -->
         </div>
       </section>
 
@@ -79,42 +81,28 @@
           <div class="w-4/5">
             <h3 class="text-black-900 uppercase font-semibold">books</h3>
             <div class="mt-10 flex items-center">
-              <a href="https://www.amazon.com/dp/0134685997?tag=hackr-20" target="_blank">
-                <img class="" src="~assets/images/effective-java.jpg" alt="Effective Java" height="50px" width="50px">
+              <a href="https://www.learnenough.com/ruby-on-rails-6th-edition-tutorial/beginning" target="_blank">
+                <img class="" src="~assets/images/rails-tutorial.png" alt="Ruby on Rails Tutorial
+" height="50px" width="50px">
               </a>
-              <a href="https://www.amazon.com/dp/0134685997?tag=hackr-20" target="_blank" class="ml-5 text-black-900 hover:text-black-800">Effective Java</a>
+              <a href="https://www.learnenough.com/ruby-on-rails-6th-edition-tutorial/beginning" target="_blank" class="ml-5 text-black-900 hover:text-black-800">Ruby on Rails Tutorial
+</a>
             </div> 
-            <div class="mt-10 flex items-center">
-              <a href="https://www.amazon.com/dp/0135166306?tag=hackr-20" target="_blank">
-                <img class="" src="~assets/images/core-java.jpg" alt="Core Java" height="50px" width="50px">
-              </a>
-              <a href="https://www.amazon.com/dp/0135166306?tag=hackr-20" target="_blank" class="ml-5 text-black-900 hover:text-black-800">Core Java Volume I--Fundamentals</a>
-            </div>
-            <div class="mt-10 flex items-center">
-              <a href="https://www.amazon.com/Head-First-Java-Kathy-Sierra/dp/0596009208/ref=sr_1_1?dchild=1&keywords=Head+First+Java%2C&qid=1596730992&s=books&sr=1-1" target="_blank">
-                <img class="" src="~assets/images/head-first-java.jpg" alt="Head First Java" height="50px" width="50px">
-              </a>
-              <a href="https://www.amazon.com/Head-First-Java-Kathy-Sierra/dp/0596009208/ref=sr_1_1?dchild=1&keywords=Head+First+Java%2C&qid=1596730992&s=books&sr=1-1" target="_blank" class="ml-5 text-black-900 hover:text-black-800">Head First Java</a>
-            </div>
 
           </div>
           <div class="w-1/5 flex flex-col">
             <h3 class="text-black-400 uppercase font-semibold">supplemental sites</h3>
-            <a href="https://www.codecademy.com/learn/learn-java" target="_blank" class="mt-10 flex items-center mb-2 text-black-900 hover:text-black-800">
+            <a href="https://www.codecademy.com/learn/learn-rails" target="_blank" class="flex mt-10 mb-2 items-center text-black-900 hover:text-black-800">
               Codecademy
-              <div class="ml-3 bg-grey-300 text-white text-xs font-semibold rounded uppercase px-2">free</div>
-            </a>
-            <a href="https://teamtreehouse.com/tracks/learn-java" target="_blank" class="flex mb-2 items-center text-black-900 hover:text-black-800">
-              Treehouse
               <div class="ml-3 bg-grey-600 text-white text-xs font-semibold rounded uppercase px-2">paid</div>
             </a>
-            <a href="https://www.geeksforgeeks.org/java-how-to-start-learning-java/" target="_blank" class="flex mb-2 items-center text-black-900 hover:text-black-800">
-              GeeksforGeeks
+            <a href="https://www.theodinproject.com/courses/ruby-on-rails" target="_blank" class="flex mb-2 items-center text-black-900 hover:text-black-800">
+              The Odin Project
               <div class="ml-3 bg-grey-300 text-white text-xs font-semibold rounded uppercase px-2">free</div>
             </a>
-            <a href="https://www.udacity.com/course/java-programming-basics--ud282?irclickid=TVIXtNVlCxyOUACwUx0Mo36DUkiTR1WlUQIKwg0&irgwc=1&utm_source=affiliate&utm_medium=ads_n&aff=259799" target="_blank" class="flex mb-2 items-center text-black-900 hover:text-black-800">
-              Udacity
-              <div class="ml-3 bg-grey-300 text-white text-xs font-semibold rounded uppercase px-2">free</div>
+            <a href="https://www.learnenough.com/ruby-on-rails-6th-edition-tutorial/beginning" target="_blank" class="flex mb-2 items-center text-black-900 hover:text-black-800">
+              Learn Enough
+              <div class="ml-3 flex items-center bg-grey-600 text-white text-xs font-semibold rounded uppercase px-2">free / paid</div>
             </a>
             
           </div>
@@ -155,34 +143,34 @@
 
           <!-- teacher 1 -->
           <div class="flex items-center flex-shrink-0">
-            <nuxt-link to="../teacher/caleb-curry">
-              <img class="rounded-full" height="70px" width="70px" src="~assets/images/teachers/caleb-curry.jpg" alt="Caleb Curry">
+            <nuxt-link to="../teacher/web-crunch">
+              <img class="rounded-full" height="70px" width="70px" src="~assets/images/teachers/web-crunch.jpg" alt="Web-Crunch">
             </nuxt-link>
             <div class="flex flex-col flex-wrap lg:flex-no-wrap xl:flex-no-wrap">
-              <nuxt-link to="../teacher/caleb-curry">
-                <p class="ml-5 font-semibold">Caleb Curry</p>
+              <nuxt-link to="../teacher/web-crunch">
+                <p class="ml-5 font-semibold">Web-Crunch</p>
               </nuxt-link>
             </div>
           </div>
 
           <div class="ml-12 flex items-center flex-shrink-0">
-            <nuxt-link to="../teacher/mosh">
-              <img class="rounded-full" height="70px" width="70px" src="~assets/images/teachers/mosh.jpg" alt="Mosh">
+            <nuxt-link to="../teacher/david-battersby">
+              <img class="rounded-full" height="70px" width="70px" src="~assets/images/teachers/david_battersby.jpg" alt="David Battersby">
             </nuxt-link>            
             <div class="flex flex-col flex-wrap lg:flex-no-wrap xl:flex-no-wrap">
-              <nuxt-link to="../teacher/mosh">
-                <p class="ml-5 font-semibold">Mosh</p>
+              <nuxt-link to="../teacher/david-battersby">
+                <p class="ml-5 font-semibold">David Battersby</p>
               </nuxt-link>
             </div>
           </div>
 
           <div class="xl:ml-12 xl:mt-0 lg:mt-12 lg:ml-0 flex items-center flex-shrink-0">
-            <nuxt-link to="../teacher/freeCodeCamp">
-              <img class="rounded-full" height="70px" width="70px" src="~assets/images/teachers/freeCodeCamp.jpg" alt="freeCodeCamp">
+            <nuxt-link to="../teacher/raul-palacios">
+              <img class="rounded-full" height="70px" width="70px" src="~assets/images/teachers/raul-palacios.jpg" alt="Raul Palacios">
             </nuxt-link>
             <div class="flex flex-col flex-wrap lg:flex-no-wrap xl:flex-no-wrap">
-              <nuxt-link to="../teacher/freeCodeCamp">
-                <p class="ml-5 font-semibold">freeCodeCamp</p>
+              <nuxt-link to="../teacher/raul-palacios">
+                <p class="ml-5 font-semibold">Raul Palacios</p>
               </nuxt-link>
             </div>
           </div>
