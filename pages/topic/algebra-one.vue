@@ -3,7 +3,8 @@
     <Header/>
     <div class="mt-32 px-32">
       <div class="flex items-center">
-        <p class="text-sm text-blue-900 capitalize"><nuxt-link to="/topics/#math">Math</nuxt-link> <span class="ml-1 font-semibold">&rsaquo;</span></p>
+        <p class="text-sm text-blue-900 capitalize"><nuxt-link to="/topics">Home</nuxt-link> <span class="ml-1 font-semibold">&rsaquo;</span></p>
+        <p class="ml-5 text-sm text-blue-900 capitalize"><nuxt-link to="/topics/#math">Math</nuxt-link> <span class="ml-1 font-semibold">&rsaquo;</span></p>
         <div class="ml-5"><p class="text-xs text-blue-900 font-semibold px-2">Algebra 1</p></div>
       </div>
 

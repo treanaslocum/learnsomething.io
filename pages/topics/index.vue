@@ -18,9 +18,9 @@
                 <svg class="ml-1 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg>
                 <div class="ml-3 bg-purple-500 text-white text-xs font-semibold rounded uppercase px-2">new</div>
               </nuxt-link> -->
-              <nuxt-link to="/topic/basic-arithmetic" class="w-1/2 text-grey-100 mb-2 tooltip">
+              <nuxt-link to="/topic/basic-arithmetic" class="pointer-events-none w-1/2 text-grey-100 mb-2">
                 Basic Arithmetic
-                <span class="tooltiptext">coming soon</span>
+                
                 <!-- <svg class="ml-1 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg> -->
               </nuxt-link>
               <!-- <nuxt-link to="/topic/pre-algebra" class="flex items-center w-1/2 text-black-900 hover:text-black-800 mb-2">
@@ -43,38 +43,38 @@
                 <svg class="ml-1 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg>
                 <div class="ml-3 bg-purple-500 text-white text-xs font-semibold rounded uppercase px-2">new</div>
               </nuxt-link> -->
-              <nuxt-link to="/topic/geometry" class="w-1/2 text-grey-100 mb-2 tooltip">
+              <nuxt-link to="/topic/geometry" class="pointer-events-none w-1/2 text-grey-100 mb-2">
                 Geometry
-                <span class="tooltiptext">coming soon</span>
+                
                 <!-- <svg class="ml-1 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg> -->
               </nuxt-link>
-              <nuxt-link to="/topic/algebra-two" class="w-1/2 text-grey-100 mb-2 tooltip">
+              <nuxt-link to="/topic/algebra-two" class="pointer-events-none w-1/2 text-grey-100 mb-2">
                 Algebra 2
-                <span class="tooltiptext">coming soon</span>
+                
               </nuxt-link>
-              <nuxt-link to="/topic/trigonometry" class="w-1/2 text-grey-100 mb-2 tooltip">
+              <nuxt-link to="/topic/trigonometry" class="pointer-events-none w-1/2 text-grey-100 mb-2">
                 Trigonometry
-                <span class="tooltiptext">coming soon</span>
+                
               </nuxt-link>
-              <nuxt-link to="/topic/precalculus" class="w-1/2 text-grey-100 mb-2 tooltip">
+              <nuxt-link to="/topic/precalculus" class="pointer-events-none w-1/2 text-grey-100 mb-2">
                 Precalculus
-                <span class="tooltiptext">coming soon</span>
+                
               </nuxt-link>
-              <nuxt-link to="/topic/calculus" class="w-1/2 text-grey-100 mb-2 tooltip">
+              <nuxt-link to="/topic/calculus" class="pointer-events-none w-1/2 text-grey-100 mb-2">
                 Calculus
-                <span class="tooltiptext">coming soon</span>
+                
               </nuxt-link>
-              <nuxt-link to="/topic/statistics-probability" class="w-1/2 text-grey-100 mb-2 tooltip">
+              <nuxt-link to="/topic/statistics-probability" class="pointer-events-none w-1/2 text-grey-100 mb-2">
                 Statistics & Probability
-                <span class="tooltiptext">coming soon</span>
+                
               </nuxt-link>
-              <nuxt-link to="/topic/multivariable-calculus" class="w-1/2 text-grey-100 mb-2 tooltip">
+              <nuxt-link to="/topic/multivariable-calculus" class="pointer-events-none w-1/2 text-grey-100 mb-2">
                 Multivariable Calculus
-                <span class="tooltiptext">coming soon</span>
+                
               </nuxt-link>
-              <nuxt-link to="/topic/linear-algebra" class="w-1/2 text-grey-100 mb-2 tooltip">
+              <nuxt-link to="/topic/linear-algebra" class="pointer-events-none w-1/2 text-grey-100 mb-2">
                 Linear Algebra
-                <span class="tooltiptext">coming soon</span>
+                
               </nuxt-link>
             </div>           
           </div>
@@ -92,9 +92,9 @@
                 <svg class="ml-1 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg>
                 <div class="ml-3 bg-purple-500 text-white text-xs font-semibold rounded uppercase px-2">new</div>
               </nuxt-link> -->
-              <nuxt-link to="/topic/chemistry" class="w-1/2 text-grey-100 mb-2 tooltip">
+              <nuxt-link to="/topic/chemistry" class="pointer-events-none w-1/2 text-grey-100 mb-2">
                 Chemistry
-                <span class="tooltiptext">coming soon</span>
+                
                 <!-- <svg class="ml-1 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg> -->
               </nuxt-link>
               <!-- <nuxt-link to="/topic/biology" class="flex items-center w-3/5 text-black-900 hover:text-black-800 mb-2">
@@ -102,31 +102,31 @@
                 <svg class="ml-1 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg>
                 <div class="ml-3 bg-purple-500 text-white text-xs font-semibold rounded uppercase px-2">new</div>
               </nuxt-link> -->
-              <nuxt-link to="/topic/biology" class="w-1/2 text-grey-100 mb-2 tooltip">
+              <nuxt-link to="/topic/biology" class="pointer-events-none w-1/2 text-grey-100 mb-2">
                 Biology
-                <span class="tooltiptext">coming soon</span>
+                
                 <!-- <svg class="ml-1 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg> -->
               </nuxt-link>
-              <nuxt-link to="/topic/organic-chemistry" class="w-1/2 text-grey-100 mb-2 tooltip">
+              <nuxt-link to="/topic/organic-chemistry" class="pointer-events-none w-1/2 text-grey-100 mb-2">
                 Organic Chemistry
-                <span class="tooltiptext">coming soon</span>
+                
               </nuxt-link>
-              <nuxt-link to="/topic/cosmology-astronomy" class="w-1/2 text-grey-100 mb-2 tooltip">
+              <nuxt-link to="/topic/cosmology-astronomy" class="pointer-events-none w-1/2 text-grey-100 mb-2">
                 Cosmology & Astronomy
-                <span class="tooltiptext">coming soon</span>
+                
               </nuxt-link>
             </div> 
           </div>
           <div class="h-full w-1/3">
             <nuxt-link to="../filters/computer-science" id="computer-science" class="text-black-900 uppercase font-semibold">computer science</nuxt-link>
             <div class="mt-5 flex flex-col">
-              <nuxt-link to="/topic/cybersecurity" class="flex w-1/2 text-grey-100 mb-2 tooltip">
+              <nuxt-link to="/topic/cybersecurity" class="pointer-events-none flex w-1/2 text-grey-100 mb-2">
                 Cybersecurity
-                <span class="tooltiptext">coming soon</span>
+                
               </nuxt-link>
-              <nuxt-link to="/topic/cryptography" class="flex w-1/2 text-grey-100 mb-2 tooltip">
+              <nuxt-link to="/topic/cryptography" class="pointer-events-none flex w-1/2 text-grey-100 mb-2">
                 Cryptography
-                <span class="tooltiptext">coming soon</span>
+                
               </nuxt-link>
               <nuxt-link to="/topic/computer-networking" class="flex items-center w-3/4 text-black-900 hover:text-black-800 mb-2">
                 Computer Networking
@@ -156,36 +156,37 @@
                 <!-- <svg class="ml-1 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg> -->
                 <div class="ml-3 bg-purple-500 text-white text-xs font-semibold rounded uppercase px-2">new</div>
               </nuxt-link>
-              <nuxt-link to="/topic/php" class="w-1/2 text-grey-100 mb-2 tooltip">
+              <nuxt-link to="/topic/php" class="pointer-events-none w-1/2 text-grey-100 mb-2">
                 PHP
-                <span class="tooltiptext">coming soon</span>
+                
               </nuxt-link>
               <nuxt-link to="/topic/python" class="flex items-center w-1/2 text-black-900 hover:text-black-800 mb-2">
                 Python
-                <div class="ml-3 bg-purple-500 text-white text-xs font-semibold rounded uppercase px-2">new</div>              </nuxt-link>
-              <nuxt-link to="/topic/laravel" class="w-1/2 text-grey-100 mb-2 tooltip">
+                <div class="ml-3 bg-purple-500 text-white text-xs font-semibold rounded uppercase px-2">new</div>              
+              </nuxt-link>
+              <nuxt-link to="/topic/laravel" class="pointer-events-none w-1/2 text-grey-100 mb-2">
                 Laravel
-                <span class="tooltiptext">coming soon</span>
+                
               </nuxt-link>
-              <nuxt-link to="/topic/c++" class="w-1/2 text-grey-100 mb-2 tooltip">
+              <nuxt-link to="/topic/c++" class="pointer-events-none w-1/2 text-grey-100 mb-2">
                 C++
-                <span class="tooltiptext">coming soon</span>
+                
               </nuxt-link>
-              <nuxt-link to="/topic/sql" class="w-1/2 text-grey-100 mb-2 tooltip">
+              <nuxt-link to="/topic/sql" class="pointer-events-none w-1/2 text-grey-100 mb-2">
                 SQL
-                <span class="tooltiptext">coming soon</span>
+                
               </nuxt-link>
-              <nuxt-link to="/topic/command-line" class="flex w-1/2 text-grey-100 mb-2 tooltip">
+              <nuxt-link to="/topic/command-line" class="pointer-events-none flex w-1/2 text-grey-100 mb-2">
                 Command Line
-                <span class="tooltiptext">coming soon</span>
+                
               </nuxt-link>
-              <nuxt-link to="/topic/git" class="w-1/2 text-grey-100 mb-2 tooltip">
+              <nuxt-link to="/topic/git" class="pointer-events-none w-1/2 text-grey-100 mb-2">
                 Git
-                <span class="tooltiptext">coming soon</span>
+                
               </nuxt-link>
-              <nuxt-link to="/topic/text-editors" class="w-1/2 text-grey-100 mb-2 tooltip">
+              <nuxt-link to="/topic/text-editors" class="pointer-events-none w-1/2 text-grey-100 mb-2">
                 Text Editors
-                <span class="tooltiptext">coming soon</span>
+                
               </nuxt-link>
             </div> 
           </div>
@@ -197,44 +198,43 @@
         <div class="mt-10 flex">
           <!-- cooking section -->
           <div class="h-full w-1/3">
-            <p id="cooking" class="text-black-900 uppercase font-semibold">Cooking</p>
+            <nuxt-link to="../filters/cooking" id="cooking" class="text-black-900 uppercase font-semibold">Cooking</nuxt-link>
             <div class="mt-5 flex flex-col">
-              <nuxt-link to="/topic/korean" class="flex w-1/2 text-grey-100 mb-2 tooltip">
-                Korean
-                <span class="tooltiptext">coming soon</span>
-                <!-- <svg class="ml-1 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg>
-                <div class="ml-3 bg-purple-500 text-white text-xs font-semibold rounded uppercase px-2">new</div> -->
+              <nuxt-link to="/topic/korean-cuisine" class="flex items-center w-1/2 text-black-900 hover:text-black-800 mb-2">
+                Korean Cuisine
+                <!-- <svg class="ml-1 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg> -->
+                <div class="ml-3 bg-purple-500 text-white text-xs font-semibold rounded uppercase px-2">new</div>
               </nuxt-link>
-              <nuxt-link to="/topic/italian" class="flex w-1/2 text-grey-100 mb-2 tooltip">
-                Italian
-                <span class="tooltiptext">coming soon</span>
+              <nuxt-link to="/topic/italian-cuisine" class="pointer-events-none flex w-1/2 text-grey-100 mb-2">
+                Italian Cuisine
+                
                 <!-- <div class="ml-3 bg-purple-500 text-white text-xs font-semibold rounded uppercase px-2">new</div> -->
               </nuxt-link>
-              <nuxt-link to="/topic/indian" class="flex w-1/2 text-grey-100 mb-2 tooltip">
-                Indian
-                <span class="tooltiptext">coming soon</span>
+              <nuxt-link to="/topic/indian-cuisine" class="pointer-events-none flex w-1/2 text-grey-100 mb-2">
+                Indian Cuisine
+                
                 <!-- <svg class="ml-1 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg> -->
               </nuxt-link>
-              <!-- <nuxt-link to="/topic/" class="flex w-1/2 text-grey-100 mb-2 tooltip">
+              <!-- <nuxt-link to="/topic/" class="flex w-1/2 text-grey-100 mb-2">
                 American
-                <span class="tooltiptext">coming soon</span>
+                
                 <svg class="ml-1 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg>
               </nuxt-link>
-              <nuxt-link to="/topic/" class="w-1/2 text-grey-100 mb-2 tooltip">
+              <nuxt-link to="/topic/" class="w-1/2 text-grey-100 mb-2">
                 Thai
-                <span class="tooltiptext">coming soon</span>
+                
               </nuxt-link>
-              <nuxt-link to="/topic/" class="w-1/2 text-grey-100 mb-2 tooltip">
+              <nuxt-link to="/topic/" class="w-1/2 text-grey-100 mb-2">
                 Chinese
-                <span class="tooltiptext">coming soon</span>
+                
               </nuxt-link>
-              <nuxt-link to="/topic/" class="w-1/2 text-grey-100 mb-2 tooltip">
+              <nuxt-link to="/topic/" class="w-1/2 text-grey-100 mb-2">
                 Japanese
-                <span class="tooltiptext">coming soon</span>
+                
               </nuxt-link>
-              <nuxt-link to="/topic/" class="w-1/2 text-grey-100 mb-2 tooltip">
+              <nuxt-link to="/topic/" class="w-1/2 text-grey-100 mb-2">
                 Mexican
-                <span class="tooltiptext">coming soon</span>
+                
               </nuxt-link> -->
             </div>           
           </div>
@@ -242,15 +242,15 @@
           <div class="h-full w-1/3">
             <p id="cleaning" class="text-black-900 uppercase font-semibold">Cleaning</p>
             <div class="mt-5 flex flex-col">
-              <nuxt-link to="/topic/bathroom" class="flex w-1/2 text-grey-100 mb-2 tooltip">
+              <nuxt-link to="/topic/bathroom" class="pointer-events-none flex w-1/2 text-grey-100 mb-2">
                 Bathroom
-                <span class="tooltiptext">coming soon</span>
+                
                 <!-- <svg class="ml-1 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg>
                 <div class="ml-3 bg-purple-500 text-white text-xs font-semibold rounded uppercase px-2">new</div> -->
               </nuxt-link>
-              <nuxt-link to="/topic/kitchen" class="flex w-1/2 text-grey-100 mb-2 tooltip">
+              <nuxt-link to="/topic/kitchen" class="pointer-events-none flex w-1/2 text-grey-100 mb-2">
                 Kitchen
-                <span class="tooltiptext">coming soon</span>
+                
                 <!-- <div class="ml-3 bg-purple-500 text-white text-xs font-semibold rounded uppercase px-2">new</div> -->
               </nuxt-link>
               <!-- <nuxt-link to="/topic/" class="flex w-1/2 text-black-900 hover:text-black-800 mb-2">
@@ -261,21 +261,21 @@
                 xxx
                 <svg class="ml-1 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg>
               </nuxt-link>
-              <nuxt-link to="/topic/" class="w-1/2 text-grey-100 mb-2 tooltip">
+              <nuxt-link to="/topic/" class="w-1/2 text-grey-100 mb-2">
                 xxx
-                <span class="tooltiptext">coming soon</span>
+                
               </nuxt-link>
-              <nuxt-link to="/topic/" class="w-1/2 text-grey-100 mb-2 tooltip">
+              <nuxt-link to="/topic/" class="w-1/2 text-grey-100 mb-2">
                 xxx
-                <span class="tooltiptext">coming soon</span>
+                
               </nuxt-link>
-              <nuxt-link to="/topic/" class="w-1/2 text-grey-100 mb-2 tooltip">
+              <nuxt-link to="/topic/" class="w-1/2 text-grey-100 mb-2">
                 xxx
-                <span class="tooltiptext">coming soon</span>
+                
               </nuxt-link>
-              <nuxt-link to="/topic/" class="w-1/2 text-grey-100 mb-2 tooltip">
+              <nuxt-link to="/topic/" class="w-1/2 text-grey-100 mb-2">
                 xxx
-                <span class="tooltiptext">coming soon</span>
+                
               </nuxt-link> -->
             </div>           
           </div>
@@ -283,9 +283,9 @@
           <div class="h-full w-1/3">
             <p id="survival" class="text-black-900 uppercase font-semibold">Survival</p>
             <div class="mt-5 flex flex-col">
-              <nuxt-link to="/topic/hunting" class="w-1/2 text-grey-100 mb-2 tooltip">
+              <nuxt-link to="/topic/hunting" class="pointer-events-none w-1/2 text-grey-100 mb-2">
                 Hunting
-                <span class="tooltiptext">coming soon</span>
+                
                 <!-- <svg class="ml-1 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg>
                 <div class="ml-3 bg-purple-500 text-white text-xs font-semibold rounded uppercase px-2">new</div> -->
               </nuxt-link>
@@ -301,21 +301,21 @@
                 xxx
                 <svg class="ml-1 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg>
               </nuxt-link>
-              <nuxt-link to="/topic/" class="w-1/2 text-grey-100 mb-2 tooltip">
+              <nuxt-link to="/topic/" class="w-1/2 text-grey-100 mb-2">
                 xxx
-                <span class="tooltiptext">coming soon</span>
+                
               </nuxt-link>
-              <nuxt-link to="/topic/" class="w-1/2 text-grey-100 mb-2 tooltip">
+              <nuxt-link to="/topic/" class="w-1/2 text-grey-100 mb-2">
                 xxx
-                <span class="tooltiptext">coming soon</span>
+                
               </nuxt-link>
-              <nuxt-link to="/topic/" class="w-1/2 text-grey-100 mb-2 tooltip">
+              <nuxt-link to="/topic/" class="w-1/2 text-grey-100 mb-2">
                 xxx
-                <span class="tooltiptext">coming soon</span>
+                
               </nuxt-link>
-              <nuxt-link to="/topic/" class="w-1/2 text-grey-100 mb-2 tooltip">
+              <nuxt-link to="/topic/" class="w-1/2 text-grey-100 mb-2">
                 xxx
-                <span class="tooltiptext">coming soon</span>
+                
               </nuxt-link> -->
             </div>           
           </div>
@@ -327,29 +327,29 @@
           <div class="h-full w-1/3">
             <p id="self-defense" class="text-black-900 uppercase font-semibold">Self Defense</p>
             <div class="mt-5 flex flex-col">
-              <nuxt-link to="/topic/krav-maga" class="flex w-1/2 text-grey-100 mb-2 tooltip">
+              <nuxt-link to="/topic/krav-maga" class="pointer-events-none flex w-1/2 text-grey-100 mb-2">
                 Krav Maga
-                <span class="tooltiptext">coming soon</span>
+                
                 <!-- <svg class="ml-1 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg>
                 <div class="ml-3 bg-purple-500 text-white text-xs font-semibold rounded uppercase px-2">new</div> -->
               </nuxt-link>
-              <nuxt-link to="/topic/boxing" class="flex w-1/2 text-grey-100 mb-2 tooltip">
+              <nuxt-link to="/topic/boxing" class="pointer-events-none flex w-1/2 text-grey-100 mb-2">
                 Boxing
-                <span class="tooltiptext">coming soon</span>
+                
                 <!-- <div class="ml-3 bg-purple-500 text-white text-xs font-semibold rounded uppercase px-2">new</div> -->
               </nuxt-link>
-              <nuxt-link to="/topic/brazilian-jiu-jitsu" class="flex w-1/2 text-grey-100 mb-2 tooltip">
+              <nuxt-link to="/topic/brazilian-jiu-jitsu" class="pointer-events-none flex w-1/2 text-grey-100 mb-2">
                 Brazilian Jiu Jitsu
-                <span class="tooltiptext">coming soon</span>
+                
                 <!-- <svg class="ml-1 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg> -->
               </nuxt-link>
               <!-- <nuxt-link to="/topic/" class="flex w-1/2 text-black-900 hover:text-black-800 mb-2">
                 xxx
                 <svg class="ml-1 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg>
               </nuxt-link>
-              <nuxt-link to="/topic/" class="w-1/2 text-grey-100 mb-2 tooltip">
+              <nuxt-link to="/topic/" class="w-1/2 text-grey-100 mb-2">
                 xxx
-                <span class="tooltiptext">coming soon</span>
+                
               </nuxt-link> -->
             </div>           
           </div>
@@ -374,21 +374,21 @@
                 xxx
                 <svg class="ml-1 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg>
               </nuxt-link>
-              <nuxt-link to="/topic/" class="w-1/2 text-grey-100 mb-2 tooltip">
+              <nuxt-link to="/topic/" class="w-1/2 text-grey-100 mb-2">
                 xxx
-                <span class="tooltiptext">coming soon</span>
+                
               </nuxt-link>
-              <nuxt-link to="/topic/" class="w-1/2 text-grey-100 mb-2 tooltip">
+              <nuxt-link to="/topic/" class="w-1/2 text-grey-100 mb-2">
                 xxx
-                <span class="tooltiptext">coming soon</span>
+                
               </nuxt-link>
-              <nuxt-link to="/topic/" class="w-1/2 text-grey-100 mb-2 tooltip">
+              <nuxt-link to="/topic/" class="w-1/2 text-grey-100 mb-2">
                 xxx
-                <span class="tooltiptext">coming soon</span>
+                
               </nuxt-link>
-              <nuxt-link to="/topic/" class="w-1/2 text-grey-100 mb-2 tooltip">
+              <nuxt-link to="/topic/" class="w-1/2 text-grey-100 mb-2">
                 xxx
-                <span class="tooltiptext">coming soon</span>
+                
               </nuxt-link> -->
             <!-- </div>           
           </div> -->
@@ -413,21 +413,21 @@
                 xxx
                 <svg class="ml-1 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg>
               </nuxt-link>
-              <nuxt-link to="/topic/" class="w-1/2 text-grey-100 mb-2 tooltip">
+              <nuxt-link to="/topic/" class="w-1/2 text-grey-100 mb-2">
                 xxx
-                <span class="tooltiptext">coming soon</span>
+                
               </nuxt-link>
-              <nuxt-link to="/topic/" class="w-1/2 text-grey-100 mb-2 tooltip">
+              <nuxt-link to="/topic/" class="w-1/2 text-grey-100 mb-2">
                xxx
-                <span class="tooltiptext">coming soon</span>
+                
               </nuxt-link>
-              <nuxt-link to="/topic/" class="w-1/2 text-grey-100 mb-2 tooltip">
+              <nuxt-link to="/topic/" class="w-1/2 text-grey-100 mb-2">
                 xxx
-                <span class="tooltiptext">coming soon</span>
+                
               </nuxt-link>
-              <nuxt-link to="/topic/" class="w-1/2 text-grey-100 mb-2 tooltip">
+              <nuxt-link to="/topic/" class="w-1/2 text-grey-100 mb-2">
                 xxx
-                <span class="tooltiptext">coming soon</span>
+                
               </nuxt-link>
             </div>           
           </div> -->
@@ -440,14 +440,14 @@
           <div class="h-full w-1/3">
             <p id="skin-care" class="text-black-900 uppercase font-semibold">Skin Care</p>
             <div class="mt-5 flex flex-col">
-              <nuxt-link to="/topic/acne-treatment" class="w-1/2 text-grey-100 mb-2 tooltip">
+              <nuxt-link to="/topic/acne-treatment" class="pointer-events-none w-1/2 text-grey-100 mb-2">
                 Acne Treatment
-                <span class="tooltiptext">coming soon</span>
+                
                 <!-- <svg class="ml-1 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg> -->
               </nuxt-link>
-              <nuxt-link to="/topic/skin-cleansing" class="w-1/2 text-grey-100 mb-2 tooltip">
+              <nuxt-link to="/topic/skin-cleansing" class="pointer-events-none w-1/2 text-grey-100 mb-2">
                 Cleansing
-                <span class="tooltiptext">coming soon</span>
+                
                 <!-- <svg class="ml-1 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg> -->
               </nuxt-link>
               <!-- <nuxt-link to="/topic/" class="flex items-center w-3/5 text-black-900 hover:text-black-800 mb-2">
@@ -467,9 +467,9 @@
                 xxx
                 <svg class="ml-1 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg>
               </nuxt-link>
-              <nuxt-link to="/topic/" class="w-1/2 text-grey-100 mb-2 tooltip">
+              <nuxt-link to="/topic/" class="w-1/2 text-grey-100 mb-2">
                 xxx
-                <span class="tooltiptext">coming soon</span>
+                
               </nuxt-link> -->
             </div>           
           </div>
@@ -477,25 +477,25 @@
           <div class="h-full w-1/3">
             <p id="fitness" class="text-black-900 uppercase font-semibold">Fitness</p>
             <div class="mt-5 flex flex-col">
-              <nuxt-link to="/topic/calisthenics" class="w-1/2 text-grey-100 mb-2 tooltip">
+              <nuxt-link to="/topic/calisthenics" class="pointer-events-none w-1/2 text-grey-100 mb-2">
                 Calisthenics
-                <span class="tooltiptext">coming soon</span>
+                
                 <!-- <svg class="ml-1 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg> -->
               </nuxt-link>
-              <nuxt-link to="/topic/weight-lifting" class="w-1/2 text-grey-100 mb-2 tooltip">
+              <nuxt-link to="/topic/weight-lifting" class="pointer-events-none w-1/2 text-grey-100 mb-2">
                 Weight Lifting
-                <span class="tooltiptext">coming soon</span>
+                
                 <!-- <svg class="ml-1 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg> -->
               </nuxt-link>
-              <nuxt-link to="/topic/running" class="w-1/2 text-grey-100 mb-2 tooltip">
+              <nuxt-link to="/topic/running" class="pointer-events-none w-1/2 text-grey-100 mb-2">
                 Running
-                <span class="tooltiptext">coming soon</span>
+                
                 <!-- <svg class="ml-1 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg>
                 <div class="ml-3 bg-purple-500 text-white text-xs font-semibold rounded uppercase px-2">new</div> -->
               </nuxt-link>
-              <nuxt-link to="/topic/walking" class="w-1/2 text-grey-100 mb-2 tooltip">
+              <nuxt-link to="/topic/walking" class="pointer-events-none w-1/2 text-grey-100 mb-2">
                 Walking
-                <span class="tooltiptext">coming soon</span>
+                
               </nuxt-link>
             </div> 
           </div>
@@ -503,22 +503,22 @@
           <div class="h-full w-1/3">
             <p id="nutrition" class="text-black-900 uppercase font-semibold">Nutrition</p>
             <div class="mt-5 flex flex-col">
-              <nuxt-link to="/topic/vegan" class="w-1/2 text-grey-100 mb-2 tooltip">
+              <nuxt-link to="/topic/vegan" class="pointer-events-none w-1/2 text-grey-100 mb-2">
                 Vegan
-                <span class="tooltiptext">coming soon</span>
+                
               </nuxt-link>
-              <nuxt-link to="/topic/vegetarian" class="w-1/2 text-grey-100 mb-2 tooltip">
+              <nuxt-link to="/topic/vegetarian" class="pointer-events-none w-1/2 text-grey-100 mb-2">
                 Vegetarian
-                <span class="tooltiptext">coming soon</span>
+                
               </nuxt-link>
-              <nuxt-link to="/topic/keto" class="w-1/2 text-grey-100 mb-2 tooltip">
+              <nuxt-link to="/topic/keto" class="pointer-events-none w-1/2 text-grey-100 mb-2">
                 Keto
-                <span class="tooltiptext">coming soon</span>
+                
                 <!-- <svg class="ml-1 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg> -->
               </nuxt-link>
-              <nuxt-link to="/topic/paleo" class="w-1/2 text-grey-100 mb-2 tooltip">
+              <nuxt-link to="/topic/paleo" class="pointer-events-none w-1/2 text-grey-100 mb-2">
                 Paleo
-                <span class="tooltiptext">coming soon</span>
+                
                 <!-- <svg class="ml-1 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg> -->
               </nuxt-link>
             </div> 
@@ -529,9 +529,9 @@
           <div class="h-full w-1/3">
             <p id="meditation" class="text-black-900 uppercase font-semibold">Meditation</p>
             <div class="mt-5 flex flex-col">
-              <nuxt-link to="/topic/mindfulness" class="w-1/2 text-grey-100 mb-2 tooltip">
+              <nuxt-link to="/topic/mindfulness" class="pointer-events-none w-1/2 text-grey-100 mb-2">
                 Mindfulness
-                <span class="tooltiptext">coming soon</span>
+                
               </nuxt-link>
               <!-- <nuxt-link to="/topic/" class="flex items-center w-3/5 text-black-900 hover:text-black-800 mb-2">
                 Mindfulness
@@ -552,9 +552,9 @@
           <div class="h-full w-1/3">
             <p id="hair" class="text-black-900 uppercase font-semibold">Hair</p>
             <div class="mt-5 flex flex-col">
-              <nuxt-link to="/topic/black-hair" class="w-1/2 text-grey-100 mb-2 tooltip">
+              <nuxt-link to="/topic/black-hair" class="pointer-events-none w-1/2 text-grey-100 mb-2">
                 Black Hair
-                <span class="tooltiptext">coming soon</span>
+                
                 <!-- <svg class="ml-1 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg> -->
               </nuxt-link>
               <!-- <nuxt-link to="/topic/" class="flex w-1/2 text-black-900 hover:text-black-800 mb-2">
@@ -566,13 +566,13 @@
                 <svg class="ml-1 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg>
                 <div class="ml-3 bg-purple-500 text-white text-xs font-semibold rounded uppercase px-2">new</div>
               </nuxt-link>
-              <nuxt-link to="/topic/" class="w-1/2 text-grey-100 mb-2 tooltip">
+              <nuxt-link to="/topic/" class="w-1/2 text-grey-100 mb-2">
                 xxx
-                <span class="tooltiptext">coming soon</span>
+                
               </nuxt-link>
-              <nuxt-link to="/topic/" class="w-1/2 text-grey-100 mb-2 tooltip">
+              <nuxt-link to="/topic/" class="w-1/2 text-grey-100 mb-2">
                 xxx
-                <span class="tooltiptext">coming soon</span>
+                
               </nuxt-link> -->
             </div> 
           </div>
@@ -580,13 +580,13 @@
           <div class="h-full w-1/3">
             <p id="hygiene" class="text-black-900 uppercase font-semibold">Hygiene</p>
             <div class="mt-5 flex flex-col">
-              <nuxt-link to="/topic/feminine-hygiene" class="w-1/2 text-grey-100 mb-2 tooltip">
+              <nuxt-link to="/topic/feminine-hygiene" class="pointer-events-none w-1/2 text-grey-100 mb-2">
                 Feminine Hygiene
-                <span class="tooltiptext">coming soon</span>
+                
               </nuxt-link>
-              <!-- <nuxt-link to="/topic/" class="w-1/2 text-grey-100 mb-2 tooltip">
+              <!-- <nuxt-link to="/topic/" class="w-1/2 text-grey-100 mb-2">
                 xxx
-                <span class="tooltiptext">coming soon</span>
+                
               </nuxt-link>
               <nuxt-link to="/topic/" class="flex w-1/2 text-black-900 hover:text-black-800 mb-2">
                 xxx
@@ -634,13 +634,13 @@
                 xxx
                 <svg class="ml-1 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg>
               </nuxt-link>
-              <nuxt-link to="/topic/" class="w-1/2 text-grey-100 mb-2 tooltip">
+              <nuxt-link to="/topic/" class="w-1/2 text-grey-100 mb-2">
                 xxx
-                <span class="tooltiptext">coming soon</span>
+                
               </nuxt-link>
-              <nuxt-link to="/topic/" class="w-1/2 text-grey-100 mb-2 tooltip">
+              <nuxt-link to="/topic/" class="w-1/2 text-grey-100 mb-2">
                 xxx
-                <span class="tooltiptext">coming soon</span>
+                
               </nuxt-link> -->
             </div>           
           </div>
@@ -661,58 +661,66 @@
                 <svg class="ml-1 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg>
                 <div class="ml-3 bg-purple-500 text-white text-xs font-semibold rounded uppercase px-2">new</div>
               </nuxt-link>
-              <nuxt-link to="/topic/" class="w-1/2 text-grey-100 mb-2 tooltip">
+              <nuxt-link to="/topic/" class="w-1/2 text-grey-100 mb-2">
                 xxx
-                <span class="tooltiptext">coming soon</span>
+                
               </nuxt-link>
-              <nuxt-link to="/topic/" class="w-1/2 text-grey-100 mb-2 tooltip">
+              <nuxt-link to="/topic/" class="w-1/2 text-grey-100 mb-2">
                 xxx
-                <span class="tooltiptext">coming soon</span>
+                
               </nuxt-link> -->
             </div> 
           </div>
-          <!-- paying taxes section -->
-          <div class="h-full w-1/3">
-            <p id="paying-taxes" class="text-black-900 uppercase font-semibold">Paying Taxes</p>
-            <div class="mt-5 flex flex-col">
-              <!-- <nuxt-link to="/topic/" class="w-1/2 text-grey-100 mb-2 tooltip">
-                xxx
-                <span class="tooltiptext">coming soon</span>
-              </nuxt-link>
-              <nuxt-link to="/topic/" class="w-1/2 text-grey-100 mb-2 tooltip">
-                xxx
-                <span class="tooltiptext">coming soon</span>
-              </nuxt-link>
-              <nuxt-link to="/topic/" class="flex w-1/2 text-black-900 hover:text-black-800 mb-2">
-                xxx
-                <svg class="ml-1 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg>
-              </nuxt-link>
-              <nuxt-link to="/topic/" class="flex w-1/2 text-black-900 hover:text-black-800 mb-2">
-                xxx
-                <svg class="ml-1 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg>
-              </nuxt-link> -->
-            </div> 
-          </div>
+          
           <!-- trading section -->
           <div class="h-full w-1/3">
             <p id="trading" class="text-black-900 uppercase font-semibold">Trading</p>
             <div class="mt-5 flex flex-col">
-              <!-- <nuxt-link to="/topic/" class="w-1/2 text-grey-100 mb-2 tooltip">
+              <nuxt-link to="/topic/stocks" class="pointer-events-none w-1/2 text-grey-100 mb-2">
+                Stocks
+                
+              </nuxt-link>
+              <nuxt-link to="/topic/forex" class="pointer-events-none w-1/2 text-grey-100 mb-2">
                 Forex
-                <span class="tooltiptext">coming soon</span>
+                
               </nuxt-link>
-              <nuxt-link to="/topic/" class="w-1/2 text-grey-100 mb-2 tooltip">
+              <nuxt-link to="/topic/cryptocurrency" class="pointer-events-none w-1/2 text-grey-100 mb-2">
                 Cryptocurrency
-                <span class="tooltiptext">coming soon</span>
+                
               </nuxt-link>
-              <nuxt-link to="/topic/" class="flex w-1/2 text-black-900 hover:text-black-800 mb-2">
+              <nuxt-link to="/topic/options" class="pointer-events-none w-1/2 text-grey-100 mb-2">
+                Options
+                
+                <!-- <svg class="ml-1 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg> -->
+              </nuxt-link>
+              <nuxt-link to="/topic/futures" class="pointer-events-none w-1/2 text-grey-100 mb-2">
+                Futures
+                
+                <!-- <svg class="ml-1 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg> -->
+              </nuxt-link> 
+            </div> 
+          </div>
+        </div>
+        <div class="mt-10 flex">
+          <!-- paying taxes section -->
+          <div class="h-full w-1/3">
+            <p id="paying-taxes" class="text-black-900 uppercase font-semibold">Paying Taxes</p>
+            <div class="mt-5 flex flex-col">
+              <nuxt-link to="/topic/" class="pointer-events-none w-1/2 text-grey-100 mb-2">
+                Income Taxes
+                
+              </nuxt-link>
+              <nuxt-link to="/topic/" class="pointer-events-none w-1/2 text-grey-100 mb-2">
+                Property Taxes
+              </nuxt-link>
+              <nuxt-link to="/topic/" class="pointer-events-none w-1/2 text-grey-100 mb-2 ">
+                Business Taxes
+                <!-- <svg class="ml-1 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg> -->
+              </nuxt-link>
+              <!-- <nuxt-link to="/topic/" class="flex w-1/2 text-black-900 hover:text-black-800 mb-2">
                 xxx
                 <svg class="ml-1 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg>
-              </nuxt-link>
-              <nuxt-link to="/topic/" class="flex w-1/2 text-black-900 hover:text-black-800 mb-2">
-                xxx
-                <svg class="ml-1 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg>
-              </nuxt-link> -->
+              </nuxt-link>  -->
             </div> 
           </div>
         </div>
@@ -726,33 +734,33 @@
           <div class="h-full w-1/3">
             <p id="office-administration" class="text-black-900 uppercase font-semibold">Office Administration</p>
             <div class="mt-5 flex flex-col">
-              <nuxt-link to="/topic/microsoft-word" class="flex w-1/2 text-grey-100 mb-2 tooltip">
+              <nuxt-link to="/topic/microsoft-word" class="pointer-events-none flex w-1/2 text-grey-100 mb-2">
                 Microsoft Word
-                <span class="tooltiptext">coming soon</span>
+                
                 <!-- <svg class="ml-1 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg>
                 <div class="ml-3 bg-purple-500 text-white text-xs font-semibold rounded uppercase px-2">new</div> -->
               </nuxt-link>
-              <nuxt-link to="/topic/microsoft-excel" class="flex w-1/2 text-grey-100 mb-2 tooltip">
+              <nuxt-link to="/topic/microsoft-excel" class="pointer-events-none flex w-1/2 text-grey-100 mb-2">
                 Microsoft Excel
-                <span class="tooltiptext">coming soon</span>
+                
                 <!-- <div class="ml-3 bg-purple-500 text-white text-xs font-semibold rounded uppercase px-2">new</div> -->
               </nuxt-link>
-              <nuxt-link to="/topic/microsoft-powerpoint" class="flex w-1/2 text-grey-100 mb-2 tooltip">
+              <nuxt-link to="/topic/microsoft-powerpoint" class="pointer-events-none flex w-1/2 text-grey-100 mb-2">
                 Microsoft Powerpoint
-                <span class="tooltiptext">coming soon</span>
+                
                 <!-- <svg class="ml-1 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg> -->
               </nuxt-link>
               <!-- <nuxt-link to="/topic/" class="flex w-1/2 text-black-900 hover:text-black-800 mb-2">
                 xxx
                 <svg class="ml-1 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg>
               </nuxt-link>
-              <nuxt-link to="/topic/" class="w-1/2 text-grey-100 mb-2 tooltip">
+              <nuxt-link to="/topic/" class="w-1/2 text-grey-100 mb-2">
                 xxx
-                <span class="tooltiptext">coming soon</span>
+                
               </nuxt-link>
-              <nuxt-link to="/topic/" class="w-1/2 text-grey-100 mb-2 tooltip">
+              <nuxt-link to="/topic/" class="w-1/2 text-grey-100 mb-2">
                 xxx
-                <span class="tooltiptext">coming soon</span>
+                
               </nuxt-link> -->
             </div>           
           </div>
@@ -773,13 +781,13 @@
                 <svg class="ml-1 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg>
                 <div class="ml-3 bg-purple-500 text-white text-xs font-semibold rounded uppercase px-2">new</div>
               </nuxt-link>
-              <nuxt-link to="/topic/" class="w-1/2 text-grey-100 mb-2 tooltip">
+              <nuxt-link to="/topic/" class="w-1/2 text-grey-100 mb-2">
                 xxx
-                <span class="tooltiptext">coming soon</span>
+                
               </nuxt-link>
-              <nuxt-link to="/topic/" class="w-1/2 text-grey-100 mb-2 tooltip">
+              <nuxt-link to="/topic/" class="w-1/2 text-grey-100 mb-2">
                 xxx
-                <span class="tooltiptext">coming soon</span>
+                
               </nuxt-link> -->
             </div> 
           </div>
@@ -787,13 +795,13 @@
           <div class="h-full w-1/3">
             <!-- <nuxt-link to="filters/xxx" id="xxx" class="text-black-900 uppercase font-semibold">xxx</nuxt-link> -->
             <div class="mt-5 flex flex-col">
-              <!-- <nuxt-link to="/topic/" class="w-1/2 text-grey-100 mb-2 tooltip">
+              <!-- <nuxt-link to="/topic/" class="w-1/2 text-grey-100 mb-2">
                 xxx
-                <span class="tooltiptext">coming soon</span>
+                
               </nuxt-link>
-              <nuxt-link to="/topic/" class="w-1/2 text-grey-100 mb-2 tooltip">
+              <nuxt-link to="/topic/" class="w-1/2 text-grey-100 mb-2">
                 xxx
-                <span class="tooltiptext">coming soon</span>
+                
               </nuxt-link>
               <nuxt-link to="/topic/" class="flex w-1/2 text-black-900 hover:text-black-800 mb-2">
                 xxx

@@ -2,11 +2,7 @@
   <div class="body">
     <Header/>
     <div class="mt-32 px-32">
-      <div class="flex items-center">
-        <p class="text-sm text-blue-900 capitalize"><nuxt-link to="/topic/ruby-on-rails">Ruby on Rails</nuxt-link> <span class="ml-1 font-semibold">&rsaquo;</span></p>
-        <p class="ml-3 text-sm text-blue-900 capitalize"><nuxt-link to="/topic/ruby-on-rails">Teachers</nuxt-link> <span class="ml-1 font-semibold">&rsaquo;</span></p>
-        <div class="ml-5"><p class="text-xs text-blue-900 font-semibold px-2">Raul Palacios</p></div>
-      </div>
+      
       <section class="mt-12">
         <div class="flex items-center justify-between">
           <div>
