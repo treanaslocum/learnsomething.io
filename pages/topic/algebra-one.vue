@@ -42,8 +42,8 @@
           <div class="w-1/5 flex flex-col">
             <h3 class="text-black-400 uppercase font-semibold">similar topics</h3>
             <nuxt-link to="/topic/pre-algebra" class="mt-10 flex mb-2 text-black-900 hover:text-black-800">Pre-algebra</nuxt-link>
-            <nuxt-link to="/topic/geometry" class="mb-2 text-grey-100 line-through">Geometry</nuxt-link>
-            <nuxt-link to="/topic/algebra-two" class="mb-2 text-grey-100 line-through">Algebra 2</nuxt-link>
+            <nuxt-link to="/topic/geometry" class="mb-2 pointer-events-none text-grey-100 line-through">Geometry</nuxt-link>
+            <nuxt-link to="/topic/algebra-two" class="mb-2 pointer-events-none text-grey-100 line-through">Algebra 2</nuxt-link>
           </div>
         </div>
       </section>
@@ -88,7 +88,7 @@
           <div>
             <p class="text-purple-500 uppercase font-semibold">Do This First</p>
             <p class="mt-2 text-blue-900 font-semibold">It's important to find the best teacher for you. Before diving in, skim through the playlist of each teacher. This allows you to immediately identify what teaching style suits you best. <br><br>Things to consider when picking a teacher:</p>
-            <div class="flex items-center">
+            <div class="flex items-center max-w-full">
               <p class="mt-5 bg-grey-200 rounded-full px-3 text-grey-700 uppercase font-semibold">1 voice</p>
               <p class="mt-5 ml-3 bg-grey-200 rounded-full px-3 text-grey-700 uppercase font-semibold">2 personality</p>
               <p class="mt-5 ml-3 bg-grey-200 rounded-full px-3 text-grey-700 uppercase font-semibold">3 length of videos</p>
@@ -112,7 +112,7 @@
         </div>
 
         <!-- english teachers 1st row list -->
-        <div class="mt-16 flex xl:justify-around flex-wrap xl:flex-no-wrap">
+        <div class="mt-16 flex flex-wrap xl:flex-no-wrap">
 
           <!-- teacher 1 -->
           <div class="flex items-center flex-shrink-0">

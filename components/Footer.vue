@@ -9,7 +9,8 @@
           <div class="mt-3 -mb-5 left-move bg-purple-500 w-32 h-2"></div>
           <p>A passion project by <span class="font-bold"><a href="https://twitter.com/TreanaSlocum" target="_blank">Treana Slocum</a></span></p>
         </div>
-        <p>©2020. All Rights Reserved.</p>
+        <p class="text-blue-900">Made with <span class="text-red-500">❤</span> in Las Vegas</p>
+        <p class="text-blue-900">©2020. All Rights Reserved.</p>
       </div>
     </footer>
   </div>

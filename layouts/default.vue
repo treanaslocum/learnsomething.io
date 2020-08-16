@@ -1,14 +1,13 @@
 <template>
   <div>
-    <Header/>
     <nuxt />
-    <Footer/>
   </div>
 </template>
 
 <style>
 html {
-  font-family: 'Work Sans', sans-serif;
+  font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    Roboto, 'Helvetica Neue', Arial, sans-serif;
   font-size: 16px;
   word-spacing: 1px;
   -ms-text-size-adjust: 100%;
@@ -23,7 +22,6 @@ html {
 *:after {
   box-sizing: border-box;
   margin: 0;
-  padding: 0;
 }
 
 </style>

@@ -4,7 +4,7 @@
     <section class="mt-32 px-32">
       <p class="text-purple-500 uppercase font-semibold">Hack your education</p>
       <h2 class="text-blue-900 text-5xl">Browse all topics.</h2>
-      <p class="text-blue-900 leading-relaxed w-3/4">Here at LearnSomething.io we are always expanding our topic offerings. If you don't see a topic you want to learn available, don't panic. We'll add it as soon as we can. Demand dictates what's added first so please be patient with us. Go to the <a href="https://forms.gle/wwyM48EmXmz7vdn88" target="_blank"><span class="text-purple-500 hover:text-purple-600">topic suggestions</span></a> page to request a topic you'd like to see added to the site.</p>
+      <p class="text-blue-900 text-lg leading-relaxed w-3/4">Here at LearnSomething.io we are always expanding our topic offerings. If you don't see a topic you want to learn available, don't panic. We'll add it as soon as we can. Demand dictates what's added first so please be patient with us. Fill out the <a href="https://forms.gle/wwyM48EmXmz7vdn88" target="_blank"><span class="text-purple-500 hover:text-purple-600">topic suggestions</span></a> form to request a topic you'd like to see added to the site.</p>
     
       <div class="mt-20">
         <p class="text-purple-500 uppercase font-semibold">Stem</p>
@@ -477,8 +477,10 @@
           <div class="h-full w-1/3">
             <p id="fitness" class="text-black-900 uppercase font-semibold">Fitness</p>
             <div class="mt-5 flex flex-col">
-              <nuxt-link to="/topic/calisthenics" class="pointer-events-none w-1/2 text-grey-100 mb-2">
-                Calisthenics
+              <nuxt-link to="/topic/calisthenics-bodyweight" class="flex items-center w-3/4 text-black-900 hover:text-black-800 mb-2">
+                Calisthenics & Bodyweight
+                <div class="ml-3 bg-yellow-500 text-white text-xs font-semibold rounded uppercase px-2">in progress</div>
+
                 
                 <!-- <svg class="ml-1 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg> -->
               </nuxt-link>
@@ -688,14 +690,15 @@
                 Cryptocurrency
                 
               </nuxt-link>
-              <nuxt-link to="/topic/options" class="pointer-events-none w-1/2 text-grey-100 mb-2">
+              <nuxt-link to="/topic/options" class="flex items-center w-1/2 text-black-900 hover:text-black-800 mb-2">
                 Options
-                
+                <div class="ml-3 bg-yellow-500 text-white text-xs font-semibold rounded uppercase px-2">in progress</div>
+
                 <!-- <svg class="ml-1 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg> -->
               </nuxt-link>
-              <nuxt-link to="/topic/futures" class="pointer-events-none w-1/2 text-grey-100 mb-2">
+              <nuxt-link to="/topic/futures" class="flex items-center w-1/2 text-black-900 hover:text-black-800 mb-2">
                 Futures
-                
+                <div class="ml-3 bg-yellow-500 text-white text-xs font-semibold rounded uppercase px-2">in progress</div>
                 <!-- <svg class="ml-1 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg> -->
               </nuxt-link> 
             </div> 

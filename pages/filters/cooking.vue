@@ -3,7 +3,7 @@
     <Header/>
       <section class="mt-32 px-32">  
         <h2 class="text-blue-900 text-5xl">Cooking</h2>
-        <p class="text-blue-900 leading-relaxed w-3/4">xxx<a href="xxx" target="_blank" class="ml-1 text-sm text-purple-500 font-semibold">Wikipedia</a></p>
+        <p class="text-blue-900 leading-relaxed w-3/4">Cooking is the art, technology, science and craft of using heat to prepare food for consumption.<a href="https://en.wikipedia.org/wiki/Cooking" target="_blank" class="ml-1 text-sm text-purple-500 font-semibold">Wikipedia</a></p>
       </section>
 
       <section class="mt-20 px-32">

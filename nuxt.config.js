@@ -36,6 +36,8 @@ export default {
     // Doc: https://github.com/nuxt-community/nuxt-tailwindcss
     '@nuxtjs/tailwindcss',
   ],
+ 
+
   /*
   ** Nuxt.js modules
   */
@@ -45,6 +47,7 @@ export default {
   ** Build configuration
   */
   build: {
+    
     /*
     ** You can extend webpack config here
     */

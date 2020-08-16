@@ -1,24 +1,38 @@
 <template>
-  <div class="body min-h-screen max-h-screen">
+  <div>
     <AlertMessage/>
     <Header/>
-    <div class="mt-32 px-32 text-blue-900">
-      <h1 class="font-regular text-5xl leading-tight">Self-taught<br> learners <span class="font-semibold">unite</span>.</h1>
-      <p class="mt-4 font-regular text-lg w-3/5">Push your knowledge to the next level, through self-guided studying using YouTube video playlists and supplemental materials. <br><span class="font-semibold">Ready to challenge yourself?</span></p>
-      <div class="mt-2 flex items-center font-semibold">
-        <nuxt-link to="/challenges" class="px-10 py-3 uppercase text-white bg-purple-500 hover:bg-purple-400 transition duration-700 ease-out transform hover:-translate-y-1 hover:scale-105 rounded flex items-center">
-          
-          take on a challenge
-        </nuxt-link>
-        <!-- Integrate Twitter auto-post feature. -->
-        <div class="mt-6 flex flex-col items-center">
-          <a href="https://twitter.com/thelrnsomething" target="_blank" class="ml-10 px-10 py-3 uppercase text-blue-900 bg-grey-100 hover:bg-grey-400 transition duration-700 ease-out transform hover:-translate-y-1 hover:scale-105 rounded flex items-center">
+
+    <!-- Index Page Top Content -->
+
+    <div class="mt-32 pl-32 max-w-4xl text-blue-900">
+      <div class="max-w-xl font-regular leading-tight">
+        <h1 class="text-5xl">Self-taught learners <span class="font-semibold">meet YouTube</span>.</h1>
+      </div>
+      <div class="mt-6 max-w-xl leading-tight font-regular text-xl">
+        <p>Push your knowledge to the next level by unlocking the power of the #2 most used search engine in the world.
+        <nuxt-link to="#get-started" class="mt-1 font-semibold">Ready to start learning?</nuxt-link></p>
+        
+      </div>
+      
+      <div class="mt-8 max-w-xl flex flex-wrap flex-wrap-reverse items-center justify-between content-around font-semibold">
+        
+        <div class="py-4">
+          <a href="https://twitter.com/thelrnsomething" target="_blank" class="px-10 py-4 uppercase text-blue-900 bg-grey-100 hover:bg-grey-400 rounded flex items-center">
             <svg class="mr-3" xmlns="http://www.w3.org/2000/svg" width="19.652" height="15.962" viewBox="0 0 19.652 15.962"><defs><style>.a{fill:#2f2e41;}</style></defs><path class="a" d="M19.633,8c.013.175.013.349.013.523A11.382,11.382,0,0,1,8.186,19.981,11.381,11.381,0,0,1,2,18.172a8.417,8.417,0,0,0,.973.05,8.069,8.069,0,0,0,5-1.721,4.036,4.036,0,0,1-3.767-2.793,5.129,5.129,0,0,0,.761.062,4.286,4.286,0,0,0,1.061-.137A4.027,4.027,0,0,1,2.8,9.68V9.63a4.065,4.065,0,0,0,1.82.511A4.034,4.034,0,0,1,3.371,4.755,11.457,11.457,0,0,0,11.677,8.97a4.577,4.577,0,0,1-.1-.923,4.032,4.032,0,0,1,6.971-2.756A7.957,7.957,0,0,0,21.1,4.318a4.02,4.02,0,0,1-1.771,2.22,8.073,8.073,0,0,0,2.319-.624A8.645,8.645,0,0,1,19.633,8Z" transform="translate(-2 -4.019)"/></svg>
             Join the community
           </a>
-          <div class="mt-5 -mb-10 ml-12 bg-grey-300 w-64 h-2"></div>
-          <a href="https://twitter.com/share?url=https%3A%2F%2Flearnsomething.io&via=thelrnsomething&hashtags=LearnSomethingeveryday&text=I%27m+challenging+myself+to+learn+something+everyday+Join+me+%E2%86%92" target="_blank" class="mt-5 ml-12 move text-xs text-blue-900 font-normal">Or <span class="font-semibold">share a challenge with your network!</span></a>
         </div>
+        
+      
+        <div class="py-4">
+          <nuxt-link to="/challenges" class="px-10 py-4 uppercase text-white bg-purple-500 hover:bg-purple-400 rounded">
+          Take on a challenge
+          </nuxt-link>
+        </div>
+        
+        
+
       </div>
     </div>
 
@@ -29,7 +43,7 @@
       </div>
     </section> -->
 
-    <section class="mt-64 flex flex-col items-center justify-center">
+    <section id="get-started" class="mt-64 flex flex-col items-center justify-center">
       <div class="-mb-10 bg-purple-500 w-48 h-3"></div>
       <h2 class="text-blue-900 text-3xl font-semibold">How it works</h2>
       <p class="mt-12 text-black-900 text-lg">Learn anything and everything you to want to learn for free through curated video playlists.</p>
