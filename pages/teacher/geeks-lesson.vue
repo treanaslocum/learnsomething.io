@@ -60,20 +60,24 @@
       <!-- Video Playlist Section -->
       <section class="mt-20">
         <h3 class="text-black-900 uppercase font-semibold">Learning Playlists</h3>
-        <div class="mt-12 flex items-center">
-          <div class="max-w-sm rounded overflow-hidden">
-            <iframe width="400" height="200" src="https://www.youtube.com/embed/QKfk7YFILws" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <h4 class="mt-16 text-xl font-semibold">Computer Networking</h4>
+
+        <div class="mt-12 flex items-center flex-wrap">
+          <div class="rounded overflow-hidden">
+            <iframe width="480" height="270" src="https://www.youtube.com/embed/QKfk7YFILws" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             <div class="px-6 py-4">
               <span class="inline-block bg-grey-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">#mixed</span>
               <span class="inline-block bg-grey-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">#computer networking</span>
+              <span class="inline-block bg-grey-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">total duration 9:06:43</span>
             </div>
           </div>
 
-           <div class="ml-10 max-w-sm rounded overflow-hidden">
-            <iframe width="400" height="200" src="https://www.youtube.com/embed/0PbTi_Prpgs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+           <div class="ml-10 rounded overflow-hidden">
+            <iframe width="480" height="270" src="https://www.youtube.com/embed/0PbTi_Prpgs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             <div class="px-6 py-4">
               <span class="inline-block bg-grey-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">#mixed</span>
               <span class="inline-block bg-grey-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">#computer networking</span>
+              <span class="inline-block bg-grey-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">total duration 5:19:28</span>
             </div>
           </div>
           
@@ -81,23 +85,23 @@
         </div> 
 
          <!-- <div class="mt-12 flex items-center">
-          <div class="max-w-sm rounded overflow-hidden">
-            <iframe width="400" height="200" src="https://www.youtube.com/embed/videoseries?list=PLLAZ4kZ9dFpMMs5lskzBApYXn0bl7emsW" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <div class=" rounded overflow-hidden">
+            <iframe width="480" height="270" src="https://www.youtube.com/embed/videoseries?list=PLLAZ4kZ9dFpMMs5lskzBApYXn0bl7emsW" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             
             <div class="px-6 py-4">
               <span class="inline-block bg-grey-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">#beginner</span>
               <span class="inline-block bg-grey-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">#java/span>
             </div>
           </div>
-          <div class="ml-10 max-w-sm rounded overflow-hidden">
-            <iframe width="400" height="200" src="https://www.youtube.com/embed/videoseries?list=PLLAZ4kZ9dFpPQbcrA-SzALJeFm23tPrAI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <div class="ml-10  rounded overflow-hidden">
+            <iframe width="480" height="270" src="https://www.youtube.com/embed/videoseries?list=PLLAZ4kZ9dFpPQbcrA-SzALJeFm23tPrAI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             <div class="px-6 py-4">
               <span class="inline-block bg-grey-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">#beginner</span>
               <span class="inline-block bg-grey-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">#javascript</span>
             </div>
           </div>
-          <div class="ml-10 max-w-sm rounded overflow-hidden">
-            <iframe width="400" height="200" src="https://www.youtube.com/embed/videoseries?list=PLLAZ4kZ9dFpPpdR_9IQBUDLjYalvdrGGb" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <div class="ml-10  rounded overflow-hidden">
+            <iframe width="480" height="270" src="https://www.youtube.com/embed/videoseries?list=PLLAZ4kZ9dFpPpdR_9IQBUDLjYalvdrGGb" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             <div class="px-6 py-4">
               <span class="inline-block bg-grey-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">#beginner</span>
               <span class="inline-block bg-grey-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">#java</span>

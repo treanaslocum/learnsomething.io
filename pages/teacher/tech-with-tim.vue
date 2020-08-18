@@ -60,34 +60,48 @@
       <!-- Video Playlist Section -->
       <section class="mt-20">
         <h3 class="text-black-900 uppercase font-semibold">Learning Playlists</h3>
+
+        <h4 class="mt-16 text-xl font-semibold">Python</h4>
         <div class="mt-12 flex items-center">
-          <div class="max-w-sm rounded overflow-hidden">
-           <iframe width="400" height="200" src="https://www.youtube.com/embed/sxTmJE4k0ho" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <div class="rounded overflow-hidden">
+           <iframe width="480" height="270" src="https://www.youtube.com/embed/sxTmJE4k0ho" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             <div class="px-6 py-4">
               <span class="inline-block bg-grey-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">#beginner</span>
               <span class="inline-block bg-grey-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">#python</span>
-            </div>
-          </div>
-          <div class="ml-10 max-w-sm rounded overflow-hidden">
-            <iframe width="400" height="200" src="https://www.youtube.com/embed/videoseries?list=PLzMcBGfZo4-mOYgu42wKsStsA_ClOMpr3" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <div class="px-6 py-4">
-              <span class="inline-block bg-grey-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">#beginner</span>
-              <span class="inline-block bg-grey-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">#java</span>
-            </div>
-          </div>
-          <div class="ml-10 max-w-sm rounded overflow-hidden">
-            <iframe width="400" height="200" src="https://www.youtube.com/embed/videoseries?list=PLzMcBGfZo4-njtc5xy3qli4cN2zlKsoxd" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            
-            <div class="px-6 py-4">
-              <span class="inline-block bg-grey-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">#beginner</span>
-              <span class="inline-block bg-grey-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">#javascript</span>
+              <span class="inline-block bg-grey-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">total duration 6:21:12</span>
             </div>
           </div>
         </div> 
 
+        <h4 class="mt-16 text-xl font-semibold">Java</h4>
+        <div class="mt-12 flex items-center">
+          <div class="rounded overflow-hidden">
+            <iframe width="480" height="270" src="https://www.youtube.com/embed/videoseries?list=PLzMcBGfZo4-mOYgu42wKsStsA_ClOMpr3" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class="px-6 py-4">
+              <span class="inline-block bg-grey-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">#beginner</span>
+              <span class="inline-block bg-grey-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">#java</span>
+              <span class="inline-block bg-grey-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">total duration 4:00:30</span>
+            </div>
+          </div>
+        </div>
+
+
+         <h4 class="mt-16 text-xl font-semibold">JavaScript</h4>
+         <div class="mt-12 flex items-center">
+           <div class="rounded overflow-hidden">
+            <iframe width="480" height="270" src="https://www.youtube.com/embed/videoseries?list=PLzMcBGfZo4-njtc5xy3qli4cN2zlKsoxd" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class="px-6 py-4">
+              <span class="inline-block bg-grey-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">#beginner</span>
+              <span class="inline-block bg-grey-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">#javascript</span>
+              <span class="inline-block bg-grey-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">total duration 3:02:32</span>
+            </div>
+          </div>
+         </div>
+          
+
          <!-- <div class="mt-12 flex items-center">
           <div class="max-w-sm rounded overflow-hidden">
-            <iframe width="400" height="200" src="https://www.youtube.com/embed/videoseries?list=PLLAZ4kZ9dFpMMs5lskzBApYXn0bl7emsW" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="480" height="270" src="https://www.youtube.com/embed/videoseries?list=PLLAZ4kZ9dFpMMs5lskzBApYXn0bl7emsW" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             
             <div class="px-6 py-4">
               <span class="inline-block bg-grey-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">#beginner</span>
@@ -95,14 +109,14 @@
             </div>
           </div>
           <div class="ml-10 max-w-sm rounded overflow-hidden">
-            <iframe width="400" height="200" src="https://www.youtube.com/embed/videoseries?list=PLLAZ4kZ9dFpPQbcrA-SzALJeFm23tPrAI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="480" height="270" src="https://www.youtube.com/embed/videoseries?list=PLLAZ4kZ9dFpPQbcrA-SzALJeFm23tPrAI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             <div class="px-6 py-4">
               <span class="inline-block bg-grey-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">#beginner</span>
               <span class="inline-block bg-grey-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">#javascript</span>
             </div>
           </div>
           <div class="ml-10 max-w-sm rounded overflow-hidden">
-            <iframe width="400" height="200" src="https://www.youtube.com/embed/videoseries?list=PLLAZ4kZ9dFpPpdR_9IQBUDLjYalvdrGGb" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="480" height="270" src="https://www.youtube.com/embed/videoseries?list=PLLAZ4kZ9dFpPpdR_9IQBUDLjYalvdrGGb" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             <div class="px-6 py-4">
               <span class="inline-block bg-grey-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">#beginner</span>
               <span class="inline-block bg-grey-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">#java</span>

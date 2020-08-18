@@ -41,7 +41,7 @@
       </div>
 
       <div class="mt-12">
-        <p class="text-purple-500 uppercase font-semibold">Learning is marathon not a sprint</p>
+        <p class="text-purple-500 uppercase font-semibold">Learning is a marathon not a sprint</p>
         <p class="mt-2 text-blue-900 text-lg leading-relaxed w-2/3">Be patient with yourself, there is not a rule that states you have to know everything in order to master something, nor is there a rule which states that you must learn things fast.</p>
       </div>
 

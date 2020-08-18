@@ -60,9 +60,12 @@
       <!-- Video Playlist Section -->
       <section class="mt-20">
         <h3 class="text-black-900 uppercase font-semibold">Learning Playlists</h3>
+
+        <h4 class="mt-16 text-xl font-semibold">Java</h4>
+
         <div class="mt-12 flex items-center">
-          <div class="max-w-sm rounded overflow-hidden">
-            <iframe width="400" height="200" src="https://www.youtube.com/embed/r3GGV2TG_vw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <div class="rounded overflow-hidden">
+            <iframe width="480" height="270" src="https://www.youtube.com/embed/r3GGV2TG_vw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               <div class="px-6 py-4">
               <span class="inline-block bg-grey-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">#mixed</span>
               <span class="inline-block bg-grey-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">#java</span>
@@ -71,7 +74,7 @@
 
           <!-- C++ PLAYLIST -->
           <!-- <div class="ml-10 max-w-sm rounded overflow-hidden">
-            <iframe width="400" height="200" src="https://www.youtube.com/embed/videoseries?list=PL_c9BZzLwBRJVJsIfe97ey45V4LP_HXiG" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="480" height="270" src="https://www.youtube.com/embed/videoseries?list=PL_c9BZzLwBRJVJsIfe97ey45V4LP_HXiG" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             <div class="px-6 py-4">
               <span class="inline-block bg-grey-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">#mixed</span>
               <span class="inline-block bg-grey-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">#c++</span>
@@ -80,7 +83,7 @@
 
           <!-- DATABASE DESIGN PLAYLIST -->
           <!-- <div class="ml-10 max-w-sm rounded overflow-hidden">
-            <iframe width="400" height="200" src="https://www.youtube.com/embed/videoseries?list=PL_c9BZzLwBRK0Pc28IdvPQizD2mJlgoID" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="480" height="270" src="https://www.youtube.com/embed/videoseries?list=PL_c9BZzLwBRK0Pc28IdvPQizD2mJlgoID" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             
             <div class="px-6 py-4">
               <span class="inline-block bg-grey-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">#beginner</span>

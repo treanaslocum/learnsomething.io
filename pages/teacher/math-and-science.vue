@@ -66,57 +66,86 @@
       <!-- Video Playlist Section -->
       <section class="mt-20">
         <h3 class="text-black-900 uppercase font-semibold">Learning Playlists</h3>
-        <div class="mt-12 flex items-center">           
+
+        <h4 class="mt-16 text-xl font-semibold">Physics</h4>
+        
+    
+      
+
+        
+        <div class="mt-12 flex items-center flex-wrap">           
           
-          <div class="max-w-sm rounded overflow-hidden">
-              <iframe width="400" height="200" src="https://www.youtube.com/embed/videoseries?list=PLnVYEpTNGNtVbNcnrr8HoxXqPi6JBQMFa" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>        <div class="px-6 py-4">
+          <div class="rounded overflow-hidden">
+              <iframe width="480" height="270" src="https://www.youtube.com/embed/videoseries?list=PLnVYEpTNGNtVbNcnrr8HoxXqPi6JBQMFa" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>        <div class="px-6 py-4">
               <span class="inline-block bg-grey-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">#physics1</span>
               <span class="inline-block bg-grey-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">#unit1</span>
+              <span class="inline-block bg-grey-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">total duration 3:41:17</span>
             </div>
           </div>
 
 
-           <div class="ml-10 max-w-sm rounded overflow-hidden">
-              <iframe width="400" height="200" src="https://www.youtube.com/embed/videoseries?list=PLnVYEpTNGNtV63F6VJ4WywoN58UEmCO1i" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>         <div class="px-6 py-4">
+           <div class="ml-10 rounded overflow-hidden">
+              <iframe width="480" height="270" src="https://www.youtube.com/embed/videoseries?list=PLnVYEpTNGNtV63F6VJ4WywoN58UEmCO1i" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>         <div class="px-6 py-4">
               <span class="inline-block bg-grey-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">#physics1</span>
               <span class="inline-block bg-grey-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">#unit2</span>
+              <span class="inline-block bg-grey-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">total duration 3:12:57</span>
             </div>
           </div>
 
-          <div class="ml-10 max-w-sm rounded overflow-hidden">
-              <iframe width="400" height="200" src="https://www.youtube.com/embed/videoseries?list=PLnVYEpTNGNtWsGPLqeajc634t4vp1e-ZD" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>        <div class="px-6 py-4">
+        </div> 
+        
+
+        <div class="mt-12 flex items-center flex-wrap">           
+          
+
+          <div class="rounded overflow-hidden">
+              <iframe width="480" height="270" src="https://www.youtube.com/embed/videoseries?list=PLnVYEpTNGNtWsGPLqeajc634t4vp1e-ZD" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>        <div class="px-6 py-4">
               <span class="inline-block bg-grey-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">#physics1</span>
               <span class="inline-block bg-grey-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">#unit3</span>
+              <span class="inline-block bg-grey-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">total duration 4:27:03</span>
+            </div>
+          </div>
+
+
+        </div> 
+
+        <h4  class="mt-16 text-xl font-semibold">Pre-Algebra</h4>
+
+        <div class="mt-12 flex items-center flex-wrap">           
+
+          <div class="rounded overflow-hidden">
+              <iframe width="480" height="270" src="https://www.youtube.com/embed/videoseries?list=PLnVYEpTNGNtV1Q0BgprXP2cm4Nn_XPGSm" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>      <div class="px-6 py-4">
+              <span class="inline-block bg-grey-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">#pre-algebra</span>
+              <span class="inline-block bg-grey-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">#unit1</span>
+              <span class="inline-block bg-grey-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">total duration 2:50:39</span>
             </div>
           </div>
 
         </div> 
 
 
-        <div class="mt-12 flex items-center">
-          
-          <div class="max-w-sm rounded overflow-hidden">
-              <iframe width="400" height="200" src="https://www.youtube.com/embed/videoseries?list=PLnVYEpTNGNtV1Q0BgprXP2cm4Nn_XPGSm" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>      <div class="px-6 py-4">
-              <span class="inline-block bg-grey-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">#pre-algebra</span>
-              <span class="inline-block bg-grey-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">#unit1</span>
-            </div>
-          </div>
-         
+        <h4  class="mt-16 text-xl font-semibold">Algebra 1</h4>
 
+
+
+        <div class="mt-12 flex items-center flex-wrap">
           
-          <div class="ml-10 max-w-sm rounded overflow-hidden">
-              <iframe width="400" height="200" src="https://www.youtube.com/embed/videoseries?list=PLnVYEpTNGNtVt-s8GtCIicnkOPTDmJ_6t" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>       <div class="px-6 py-4">
+          
+          <div class="rounded overflow-hidden">
+              <iframe width="480" height="270" src="https://www.youtube.com/embed/videoseries?list=PLnVYEpTNGNtVt-s8GtCIicnkOPTDmJ_6t" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>       <div class="px-6 py-4">
               <span class="inline-block bg-grey-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">#algebra1</span>
               <span class="inline-block bg-grey-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">#unit1</span>
+              <span class="inline-block bg-grey-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">total duration 1:42:44</span>
             </div>
           </div>
           
 
            
-          <div class="ml-10 max-w-sm rounded overflow-hidden">
-              <iframe width="400" height="200" src="https://www.youtube.com/embed/videoseries?list=PLnVYEpTNGNtWZh0xq37R3_6eIdNkO8j0Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>      <div class="px-6 py-4">
+          <div class="ml-10 rounded overflow-hidden">
+              <iframe width="480" height="270" src="https://www.youtube.com/embed/videoseries?list=PLnVYEpTNGNtWZh0xq37R3_6eIdNkO8j0Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>      <div class="px-6 py-4">
               <span class="inline-block bg-grey-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">#algebra1</span>
               <span class="inline-block bg-grey-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">#unit2</span>
+              <span class="inline-block bg-grey-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">total duration 1:44:54</span>
             </div>
           </div>
       
@@ -125,21 +154,23 @@
 
 
 
-        <div class="mt-12 flex items-center">
+        <div class="mt-12 flex items-center flex-wrap">
           
-          <div class="max-w-sm rounded overflow-hidden">
-              <iframe width="400" height="200" src="https://www.youtube.com/embed/videoseries?list=PLnVYEpTNGNtWe25hJ_3F37JYd-n9AfFIz" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>       <div class="px-6 py-4">
+          <div class="rounded overflow-hidden">
+              <iframe width="480" height="270" src="https://www.youtube.com/embed/videoseries?list=PLnVYEpTNGNtWe25hJ_3F37JYd-n9AfFIz" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>       <div class="px-6 py-4">
               <span class="inline-block bg-grey-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">#algebra1</span>
               <span class="inline-block bg-grey-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">#unit3</span>
+              <span class="inline-block bg-grey-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">total duration 1:12:12</span>
             </div>
           </div>
           
 
           
-          <div class="ml-10 max-w-sm rounded overflow-hidden">
-              <iframe width="400" height="200" src="https://www.youtube.com/embed/videoseries?list=PLnVYEpTNGNtWe25hJ_3F37JYd-n9AfFIz" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>       <div class="px-6 py-4">
+          <div class="ml-10 rounded overflow-hidden">
+              <iframe width="480" height="270" src="https://www.youtube.com/embed/videoseries?list=PLnVYEpTNGNtWlChaYWzklgGVPB0ggFsrh" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>       <div class="px-6 py-4">
               <span class="inline-block bg-grey-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">#algebra1</span>
               <span class="inline-block bg-grey-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">#unit4</span>
+              <span class="inline-block bg-grey-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">total duration 1:55:03</span>
             </div>
           </div>
          
