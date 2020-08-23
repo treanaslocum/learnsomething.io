@@ -9,6 +9,10 @@
             <p class="text-purple-500 uppercase font-semibold">Teacher</p>
             <h2 class="text-blue-900 text-5xl">Raul Palacios</h2>
           </div>
+          <!-- flag section -->
+          <!-- <div>
+            <span><img src="~/assets/images/flags/mx.png" class="w-16" /></span>
+          </div> -->
         </div>
         <div class="mt-5 flex items-center justify-between">
           <div class="flex items-center">

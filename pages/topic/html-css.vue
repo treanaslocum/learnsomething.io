@@ -145,6 +145,7 @@
           </div>
         </div>
 
+        <h4 class="mt-16 text-xl font-semibold">English</h4>
         <!-- english teachers 1st row list -->
         <div class="mt-16 flex flex-wrap xl:flex-no-wrap">
 
@@ -193,6 +194,106 @@
             </div>
           </div>
         </div> 
+
+        <h4 class="mt-16 text-xl font-semibold">Spanish</h4>
+        <!-- spanish teachers 1st row list -->
+        <div class="mt-16 flex flex-wrap xl:flex-no-wrap">
+
+          <!-- teacher 1 -->
+          <div class="flex items-center flex-shrink-0">
+            <nuxt-link to="../teacher/xxx">
+              <img class="rounded-full" height="70px" width="70px" src="~assets/images/teachers/bring-your-own-laptop.jpg" alt="xxx">
+            </nuxt-link>
+            <div class="flex flex-col flex-wrap lg:flex-no-wrap xl:flex-no-wrap">
+              <nuxt-link to="../teacher/xxx">
+                <p class="ml-5 font-semibold">xxx</p>
+              </nuxt-link>
+            </div>
+          </div>
+
+          <div class="ml-12 flex items-center flex-shrink-0">
+            <nuxt-link to="../teacher/xxx">
+              <img class="rounded-full" height="70px" width="70px" src="~assets/images/teachers/freeCodeCamp.jpg" alt="xxx">
+            </nuxt-link>            
+            <div class="flex flex-col flex-wrap lg:flex-no-wrap xl:flex-no-wrap">
+              <nuxt-link to="../teacher/xxx">
+                <p class="ml-5 font-semibold">xxx</p>
+              </nuxt-link>
+            </div>
+          </div>
+
+          <div class="xl:ml-12 xl:mt-0 lg:mt-12 lg:ml-0 flex items-center flex-shrink-0">
+            <nuxt-link to="../teacher/xxx">
+              <img class="rounded-full" height="70px" width="70px" src="~assets/images/teachers/dani-krossing.jpg" alt="xxx">
+            </nuxt-link>
+            <div class="flex flex-col flex-wrap lg:flex-no-wrap xl:flex-no-wrap">
+              <nuxt-link to="../teacher/xxx">
+                <p class="ml-5 font-semibold">xxx</p>
+              </nuxt-link>
+            </div>
+          </div>
+
+          <div class="xl:ml-12 xl:mt-0 lg:mt-12 lg:ml-0 flex items-center flex-shrink-0">
+            <nuxt-link to="../teacher/xxx">
+              <img class="rounded-full" height="70px" width="70px" src="~assets/images/teachers/design-course.jpg" alt="xxx">
+            </nuxt-link>
+            <div class="flex flex-col flex-wrap lg:flex-no-wrap xl:flex-no-wrap">
+              <nuxt-link to="../teacher/xxx">
+                <p class="ml-5 font-semibold">xxx</p>
+              </nuxt-link>
+            </div>
+          </div>
+        </div> 
+
+        <h4 class="mt-16 text-xl font-semibold">French</h4>
+        <!-- spanish teachers 1st row list -->
+        <div class="mt-16 flex flex-wrap xl:flex-no-wrap">
+
+          <!-- teacher 1 -->
+          <div class="flex items-center flex-shrink-0">
+            <nuxt-link to="../teacher/xxx">
+              <img class="rounded-full" height="70px" width="70px" src="~assets/images/teachers/bring-your-own-laptop.jpg" alt="xxx">
+            </nuxt-link>
+            <div class="flex flex-col flex-wrap lg:flex-no-wrap xl:flex-no-wrap">
+              <nuxt-link to="../teacher/xxx">
+                <p class="ml-5 font-semibold">xxx</p>
+              </nuxt-link>
+            </div>
+          </div>
+
+          <div class="ml-12 flex items-center flex-shrink-0">
+            <nuxt-link to="../teacher/xxx">
+              <img class="rounded-full" height="70px" width="70px" src="~assets/images/teachers/freeCodeCamp.jpg" alt="xxx">
+            </nuxt-link>            
+            <div class="flex flex-col flex-wrap lg:flex-no-wrap xl:flex-no-wrap">
+              <nuxt-link to="../teacher/xxx">
+                <p class="ml-5 font-semibold">xxx</p>
+              </nuxt-link>
+            </div>
+          </div>
+
+          <div class="xl:ml-12 xl:mt-0 lg:mt-12 lg:ml-0 flex items-center flex-shrink-0">
+            <nuxt-link to="../teacher/xxx">
+              <img class="rounded-full" height="70px" width="70px" src="~assets/images/teachers/dani-krossing.jpg" alt="xxx">
+            </nuxt-link>
+            <div class="flex flex-col flex-wrap lg:flex-no-wrap xl:flex-no-wrap">
+              <nuxt-link to="../teacher/xxx">
+                <p class="ml-5 font-semibold">xxx</p>
+              </nuxt-link>
+            </div>
+          </div>
+
+          <div class="xl:ml-12 xl:mt-0 lg:mt-12 lg:ml-0 flex items-center flex-shrink-0">
+            <nuxt-link to="../teacher/xxx">
+              <img class="rounded-full" height="70px" width="70px" src="~assets/images/teachers/design-course.jpg" alt="xxx">
+            </nuxt-link>
+            <div class="flex flex-col flex-wrap lg:flex-no-wrap xl:flex-no-wrap">
+              <nuxt-link to="../teacher/xxx">
+                <p class="ml-5 font-semibold">xxx</p>
+              </nuxt-link>
+            </div>
+          </div>
+        </div> 
       </section>
 
       
@@ -226,7 +327,7 @@ import Footer from '~/components/Footer.vue'
 export default {
   components: {
     Header,
-    Footer
+    Footer,
   },
   head () {
     return {

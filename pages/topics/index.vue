@@ -1,13 +1,17 @@
 <template>
   <div class="body">
+    <!-- multi-language banner -->
+    <!-- <MultiLanguageSupport/> -->
     <Header/>
     <section class="mt-32 px-32">
       <p class="text-purple-500 uppercase font-semibold">Hack your education</p>
       <h2 class="text-blue-900 text-5xl">Browse all topics.</h2>
       <p class="text-blue-900 text-lg leading-relaxed w-3/4">Here at LearnSomething.io we are always expanding our topic offerings. If you don't see a topic you want to learn available, don't panic. We'll add it as soon as we can. Demand dictates what's added first so please be patient with us. Fill out the <a href="https://forms.gle/wwyM48EmXmz7vdn88" target="_blank"><span class="text-purple-500 hover:text-purple-600">topic suggestions</span></a> form to request a topic you'd like to see added to the site.</p>
-    
+      
+      <!-- start of stem section -->
       <div class="mt-20">
         <p class="text-purple-500 uppercase font-semibold">Stem</p>
+        <!-- start of stem row -->
         <div class="mt-10 flex">
           <!-- math section -->
           <div class="h-full w-1/3">
@@ -30,13 +34,13 @@
               </nuxt-link> -->
               <nuxt-link to="/topic/pre-algebra" class="flex items-center w-1/2 text-black-900 hover:text-black-800 mb-2">
                 Pre-algebra
-                <div class="ml-3 bg-purple-500 text-white text-xs font-semibold rounded uppercase px-2">new</div>
+                <!-- <div class="ml-3 bg-purple-500 text-white text-xs font-semibold rounded uppercase px-2">new</div> -->
                 <!-- <svg class="ml-1 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg> -->
               </nuxt-link>
               <nuxt-link to="/topic/algebra-one" class="flex items-center w-1/2 text-black-900 hover:text-black-800 mb-2">
                 Algebra 1
                 <!-- <svg class="ml-1 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg> -->
-                <div class="ml-3 bg-purple-500 text-white text-xs font-semibold rounded uppercase px-2">new</div>
+                <!-- <div class="ml-3 bg-purple-500 text-white text-xs font-semibold rounded uppercase px-2">new</div> -->
               </nuxt-link>
               <!-- <nuxt-link to="/topic/geometry" class="flex items-center w-1/2 text-black-900 hover:text-black-800 mb-2">
                 Geometry
@@ -85,7 +89,7 @@
               <nuxt-link to="/topic/physics" class="flex items-center w-1/2 text-black-900 hover:text-black-800 mb-2">
                 Physics
                 <!-- <svg class="ml-1 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg> -->
-                <div class="ml-3 bg-purple-500 text-white text-xs font-semibold rounded uppercase px-2">new</div>
+                <!-- <div class="ml-3 bg-purple-500 text-white text-xs font-semibold rounded uppercase px-2">new</div> -->
               </nuxt-link>
               <!-- <nuxt-link to="/topic/chemistry" class="flex items-center w-1/2 text-black-900 hover:text-black-800 mb-2">
                 Chemistry
@@ -117,6 +121,7 @@
               </nuxt-link>
             </div> 
           </div>
+          <!-- computer science section -->
           <div class="h-full w-1/3">
             <nuxt-link to="../filters/computer-science" id="computer-science" class="text-black-900 uppercase font-semibold">computer science</nuxt-link>
             <div class="mt-5 flex flex-col">
@@ -131,30 +136,35 @@
               <nuxt-link to="/topic/computer-networking" class="flex items-center w-3/4 text-black-900 hover:text-black-800 mb-2">
                 Computer Networking
                 <!-- <svg class="ml-1 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg> -->
-                <div class="ml-3 bg-purple-500 text-white text-xs font-semibold rounded uppercase px-2">new</div>
+                <!-- <div class="ml-3 bg-purple-500 text-white text-xs font-semibold rounded uppercase px-2">new</div> -->
               </nuxt-link>
               <nuxt-link to="/topic/html-css" class="flex items-center w-1/2 text-black-900 hover:text-black-800 mb-2">
                 HTML & CSS
-                <div class="ml-3 bg-purple-500 text-white text-xs font-semibold rounded uppercase px-2">new</div>              </nuxt-link>
+                <!-- <div class="ml-3 bg-purple-500 text-white text-xs font-semibold rounded uppercase px-2">new</div>              </nuxt-link> -->
+              </nuxt-link>
               <nuxt-link to="/topic/java" class="flex items-center w-1/2 text-black-900 hover:text-black-800 mb-2">
                 Java
                 <!-- <svg class="ml-1 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg> -->
-                <div class="ml-3 bg-purple-500 text-white text-xs font-semibold rounded uppercase px-2">new</div>
+                <!-- <div class="ml-3 bg-purple-500 text-white text-xs font-semibold rounded uppercase px-2">new</div> -->
               </nuxt-link>
               <nuxt-link to="/topic/javascript" class="flex items-center w-1/2 text-black-900 hover:text-black-800 mb-2">
                 JavaScript
                 <!-- <svg class="ml-1 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg> -->
-                <div class="ml-3 bg-purple-500 text-white text-xs font-semibold rounded uppercase px-2">new</div>
+                <!-- <div class="ml-3 bg-purple-500 text-white text-xs font-semibold rounded uppercase px-2">new</div> -->
               </nuxt-link>
               <nuxt-link to="/topic/ruby" class="flex items-center w-1/2 text-black-900 hover:text-black-800 mb-2">
                 Ruby
                 <!-- <svg class="ml-1 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg> -->
-                <div class="ml-3 bg-purple-500 text-white text-xs font-semibold rounded uppercase px-2">new</div>
+                <!-- <div class="ml-3 bg-purple-500 text-white text-xs font-semibold rounded uppercase px-2">new</div> -->
               </nuxt-link>
               <nuxt-link to="/topic/ruby-on-rails" class="flex items-center w-3/4 text-black-900 hover:text-black-800 mb-2">
                 Ruby on Rails
                 <!-- <svg class="ml-1 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg> -->
-                <div class="ml-3 bg-purple-500 text-white text-xs font-semibold rounded uppercase px-2">new</div>
+                <!-- <div class="ml-3 bg-purple-500 text-white text-xs font-semibold rounded uppercase px-2">new</div> -->
+              </nuxt-link>
+              <nuxt-link to="/topic/sinatra" class="pointer-events-none w-1/2 text-grey-100 mb-2">
+                Sinatra
+              
               </nuxt-link>
               <nuxt-link to="/topic/php" class="pointer-events-none w-1/2 text-grey-100 mb-2">
                 PHP
@@ -162,7 +172,7 @@
               </nuxt-link>
               <nuxt-link to="/topic/python" class="flex items-center w-1/2 text-black-900 hover:text-black-800 mb-2">
                 Python
-                <div class="ml-3 bg-purple-500 text-white text-xs font-semibold rounded uppercase px-2">new</div>              
+                <!-- <div class="ml-3 bg-purple-500 text-white text-xs font-semibold rounded uppercase px-2">new</div>               -->
               </nuxt-link>
               <nuxt-link to="/topic/laravel" class="pointer-events-none w-1/2 text-grey-100 mb-2">
                 Laravel
@@ -191,8 +201,114 @@
             </div> 
           </div>
         </div>
+        <!-- end of stem row -->
       </div>
+      <!-- end of stem section -->
 
+      <!-- start of second stem row -->
+      <div class="mt-10 flex">
+        <!-- robotics section -->
+        <div class="h-full w-1/3">
+          <nuxt-link to="../filters/robotics" id="robotics" class="text-black-900 uppercase font-semibold">Robotics</nuxt-link>
+          <div class="mt-5 flex flex-col">
+            <nuxt-link to="/topic/arduino" class="pointer-events-none w-1/2 text-grey-100 mb-2">
+              Arduino
+              <!-- <svg class="ml-1 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg> -->
+            </nuxt-link>
+            
+          </div>           
+        </div>
+        <!-- electrical engineering -->
+        <div class="h-full w-1/3">
+          <nuxt-link to="../filters/electrical-engineering" id="electrical-engineering" class="text-black-900 uppercase font-semibold">Electrical Engineering</nuxt-link>
+          <div class="mt-5 flex flex-col">
+            <nuxt-link to="/topic/circuits-electronics" class="flex items-center w-1/2 pointer-events-none text-grey-100 mb-2">
+              Circuits & Electronics
+              <!-- <svg class="ml-1 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg> -->
+              <!-- <div class="ml-3 bg-purple-500 text-white text-xs font-semibold rounded uppercase px-2">new</div> -->
+            </nuxt-link>
+          </div> 
+        </div>
+        <!-- mechanical engineering -->
+        <div class="h-full w-1/3">
+          <nuxt-link to="../filters/mechanical-engineering" id="mechanical-engineering" class="text-black-900 uppercase font-semibold">Mechanical Engineering</nuxt-link>
+          <div class="mt-5 flex flex-col">
+            <nuxt-link to="/topic/machines" class="pointer-events-none flex w-1/2 text-grey-100 mb-2">
+              Machines
+            </nuxt-link>
+          </div> 
+        </div>
+      </div>
+      <!-- end of second stem row -->
+
+      <!-- start of third stem row-->
+      <div class="mt-10 flex">
+        <!-- civil engineering section -->
+        <div class="h-full w-1/3">
+          <nuxt-link to="../filters/civil-engineering" id="civic-engineering" class="text-black-900 uppercase font-semibold">Civil Engineering</nuxt-link>
+          <div class="mt-5 flex flex-col">
+            <!-- <nuxt-link to="/topic/xxx" class="flex items-center w-3/5 text-black-900 hover:text-black-800 mb-2">
+              xxx
+              <svg class="ml-1 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg>
+              <div class="ml-3 bg-purple-500 text-white text-xs font-semibold rounded uppercase px-2">new</div>
+            </nuxt-link> -->
+            <!-- <nuxt-link to="/topic/xxx" class="pointer-events-none w-1/2 text-grey-100 mb-2">
+              xxx
+              
+              <svg class="ml-1 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg>
+            </nuxt-link> -->
+          </div>           
+        </div>
+      </div>
+      <!-- end of third stem row -->
+
+
+        
+    
+
+      <!-- start of art & design section -->
+
+      <div class="mt-20">
+        <p class="text-purple-500 uppercase font-semibold">Art & Design</p>
+        <!-- start of art & design row -->
+        <div class="mt-10 flex">
+          <!-- adobe section -->
+          <div class="h-full w-1/3">
+            <nuxt-link to="../filters/adobe" id="adobe" class="text-black-900 uppercase font-semibold">Adobe</nuxt-link>
+            <div class="mt-5 flex flex-col">
+              <nuxt-link to="/topic/adobe-xd" class="flex items-center pointer-events-none w-1/2 text-grey-100 mb-2">
+               Adobe XD
+                <!-- <svg class="ml-1 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg> -->
+              </nuxt-link>
+              <nuxt-link to="/topic/adobe-xd" class="flex items-center pointer-events-none w-1/2 text-grey-100 mb-2">
+               After Effects
+                <!-- <svg class="ml-1 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg> -->
+              </nuxt-link>
+              <nuxt-link to="/topic/photoshop" class="flex items-center pointer-events-none w-1/2 text-grey-100 mb-2">
+                Photoshop
+                <!-- <svg class="ml-1 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg> -->
+              </nuxt-link> 
+            </div>           
+          </div>
+          <!-- drawing section -->
+          <div class="h-full w-1/3">
+            <nuxt-link to="../filters/drawing" id="drawing" class="text-black-900 uppercase font-semibold">Drawing</nuxt-link>
+            <div class="mt-5 flex flex-col">
+            </div> 
+          </div>
+          <!-- xxx section -->
+          <div class="h-full w-1/3">
+            <!-- <nuxt-link to="../filters/xxx" id="xxx" class="text-black-900 uppercase font-semibold">xxx</nuxt-link> -->
+            <div class="mt-5 flex flex-col">
+            </div> 
+          </div>
+        </div>
+        <!-- end of art & design row -->
+      </div>
+      <!-- end of art & design section -->
+
+      
+      <!-- start of essential life skills section -->
       <div class="mt-20">
         <p class="text-purple-500 uppercase font-semibold">Essential Life Skills</p>
         <div class="mt-10 flex">
@@ -207,35 +323,28 @@
               </nuxt-link>
               <nuxt-link to="/topic/italian-cuisine" class="pointer-events-none flex w-1/2 text-grey-100 mb-2">
                 Italian Cuisine
-                
                 <!-- <div class="ml-3 bg-purple-500 text-white text-xs font-semibold rounded uppercase px-2">new</div> -->
               </nuxt-link>
               <nuxt-link to="/topic/indian-cuisine" class="pointer-events-none flex w-1/2 text-grey-100 mb-2">
                 Indian Cuisine
-                
                 <!-- <svg class="ml-1 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg> -->
               </nuxt-link>
-              <!-- <nuxt-link to="/topic/" class="flex w-1/2 text-grey-100 mb-2">
-                American
-                
-                <svg class="ml-1 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg>
+              <nuxt-link to="/topic/" class="flex w-1/2 pointer-events-none text-grey-100 mb-2">
+                American Cuisine
+                <!-- <svg class="ml-1 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg> -->
               </nuxt-link>
-              <nuxt-link to="/topic/" class="w-1/2 text-grey-100 mb-2">
-                Thai
-                
+              <nuxt-link to="/topic/" class="w-1/2 pointer-events-none text-grey-100 mb-2">
+                Thai Cuisine
               </nuxt-link>
-              <nuxt-link to="/topic/" class="w-1/2 text-grey-100 mb-2">
-                Chinese
-                
+              <nuxt-link to="/topic/" class="w-1/2 pointer-events-none text-grey-100 mb-2">
+                Chinese Cuisine
               </nuxt-link>
-              <nuxt-link to="/topic/" class="w-1/2 text-grey-100 mb-2">
-                Japanese
-                
+              <nuxt-link to="/topic/" class="w-1/2 pointer-events-none text-grey-100 mb-2">
+                Japanese Cuisine
               </nuxt-link>
-              <nuxt-link to="/topic/" class="w-1/2 text-grey-100 mb-2">
-                Mexican
-                
-              </nuxt-link> -->
+              <nuxt-link to="/topic/" class="w-1/2 pointer-events-none text-grey-100 mb-2">
+                Mexican Cuisine
+              </nuxt-link>
             </div>           
           </div>
           <!-- cleaning section -->
@@ -285,42 +394,46 @@
             <div class="mt-5 flex flex-col">
               <nuxt-link to="/topic/hunting" class="pointer-events-none w-1/2 text-grey-100 mb-2">
                 Hunting
-                
                 <!-- <svg class="ml-1 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg>
                 <div class="ml-3 bg-purple-500 text-white text-xs font-semibold rounded uppercase px-2">new</div> -->
               </nuxt-link>
-              <!-- <nuxt-link to="/topic/" class="flex items-center w-1/2 text-black-900 hover:text-black-800 mb-2">
-                Italian
-                <div class="ml-3 bg-purple-500 text-white text-xs font-semibold rounded uppercase px-2">new</div>
+              <nuxt-link to="/topic/disaster-preparedness" class="pointer-events-none w-1/2 text-grey-100 mb-2">
+                Disaster Preparedness
+                <!-- <svg class="ml-1 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg>
+                <div class="ml-3 bg-purple-500 text-white text-xs font-semibold rounded uppercase px-2">new</div> -->
               </nuxt-link>
-              <nuxt-link to="/topic/" class="flex w-1/2 text-black-900 hover:text-black-800 mb-2">
-                xxx
-                <svg class="ml-1 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg>
+              <nuxt-link to="/topic/camping" class="pointer-events-none w-1/2 text-grey-100 mb-2">
+                Camping
+                <!-- <svg class="ml-1 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg>
+                <div class="ml-3 bg-purple-500 text-white text-xs font-semibold rounded uppercase px-2">new</div> -->
               </nuxt-link>
-              <nuxt-link to="/topic/" class="flex w-1/2 text-black-900 hover:text-black-800 mb-2">
-                xxx
-                <svg class="ml-1 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg>
+              <nuxt-link to="/topic/foraging" class="pointer-events-none w-1/2 text-grey-100 mb-2">
+                Foraging
+                <!-- <svg class="ml-1 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg>
+                <div class="ml-3 bg-purple-500 text-white text-xs font-semibold rounded uppercase px-2">new</div> -->
               </nuxt-link>
-              <nuxt-link to="/topic/" class="w-1/2 text-grey-100 mb-2">
-                xxx
-                
+              <nuxt-link to="/topic/fishing" class="pointer-events-none w-1/2 text-grey-100 mb-2">
+                Fishing
+                <!-- <svg class="ml-1 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg>
+                <div class="ml-3 bg-purple-500 text-white text-xs font-semibold rounded uppercase px-2">new</div> -->
               </nuxt-link>
-              <nuxt-link to="/topic/" class="w-1/2 text-grey-100 mb-2">
-                xxx
-                
+              <nuxt-link to="/topic/shelter-building" class="pointer-events-none w-1/2 text-grey-100 mb-2">
+                Shelter Building
+                <!-- <svg class="ml-1 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg>
+                <div class="ml-3 bg-purple-500 text-white text-xs font-semibold rounded uppercase px-2">new</div> -->
               </nuxt-link>
-              <nuxt-link to="/topic/" class="w-1/2 text-grey-100 mb-2">
-                xxx
-                
+              <nuxt-link to="/topic/food-conservation" class="pointer-events-none w-1/2 text-grey-100 mb-2">
+                Food Conservation
+                <!-- <svg class="ml-1 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg>
+                <div class="ml-3 bg-purple-500 text-white text-xs font-semibold rounded uppercase px-2">new</div> -->
               </nuxt-link>
-              <nuxt-link to="/topic/" class="w-1/2 text-grey-100 mb-2">
-                xxx
-                
-              </nuxt-link> -->
             </div>           
           </div>
         </div>
       </div>
+      <!-- end of essential life skills section -->
+
+      <!-- start of second essential life skills section -->
       <div class="mt-20">
         <div class="mt-10 flex">
           <!-- self defense section -->
@@ -343,56 +456,28 @@
                 
                 <!-- <svg class="ml-1 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg> -->
               </nuxt-link>
-              <!-- <nuxt-link to="/topic/" class="flex w-1/2 text-black-900 hover:text-black-800 mb-2">
-                xxx
-                <svg class="ml-1 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg>
-              </nuxt-link>
-              <nuxt-link to="/topic/" class="w-1/2 text-grey-100 mb-2">
-                xxx
-                
-              </nuxt-link> -->
             </div>           
           </div>
-          <!-- dating section -->
-          <!-- <div class="h-full w-1/3">
-            <p id="dating" class="text-black-900 uppercase font-semibold">Dating</p>
-            <div class="mt-5 flex flex-col"> -->
-              <!-- <nuxt-link to="/topic/" class="flex items-center w-3/5 text-black-900 hover:text-black-800 mb-2">
-                xxx
-                <svg class="ml-1 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg>
-                <div class="ml-3 bg-purple-500 text-white text-xs font-semibold rounded uppercase px-2">new</div>
+          <!-- relationships section -->
+          <div class="h-full w-1/3">
+            <p id="relationships" class="text-black-900 uppercase font-semibold">Relationships</p>
+            <div class="mt-5 flex flex-col">
+              <nuxt-link to="/topic/dating" class="flex items-center w-3/5 pointer-events-none text-grey-100 mb-2">
+                Dating
+                <!-- <svg class="ml-1 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg>
+                <div class="ml-3 bg-purple-500 text-white text-xs font-semibold rounded uppercase px-2">new</div> -->
               </nuxt-link>
-              <nuxt-link to="/topic/" class="flex items-center w-1/2 text-black-900 hover:text-black-800 mb-2">
-                xxx
-                <div class="ml-3 bg-purple-500 text-white text-xs font-semibold rounded uppercase px-2">new</div>
+              <nuxt-link to="/topic/friends" class="flex items-center w-1/2 pointer-events-none text-grey-100 mb-2">
+                Friends
+                <!-- <div class="ml-3 bg-purple-500 text-white text-xs font-semibold rounded uppercase px-2">new</div> -->
               </nuxt-link>
-              <nuxt-link to="/topic/" class="flex w-1/2 text-black-900 hover:text-black-800 mb-2">
-                xxx
-                <svg class="ml-1 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg>
-              </nuxt-link>
-              <nuxt-link to="/topic/" class="flex w-1/2 text-black-900 hover:text-black-800 mb-2">
-                xxx
-                <svg class="ml-1 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg>
-              </nuxt-link>
-              <nuxt-link to="/topic/" class="w-1/2 text-grey-100 mb-2">
-                xxx
-                
-              </nuxt-link>
-              <nuxt-link to="/topic/" class="w-1/2 text-grey-100 mb-2">
-                xxx
-                
-              </nuxt-link>
-              <nuxt-link to="/topic/" class="w-1/2 text-grey-100 mb-2">
-                xxx
-                
-              </nuxt-link>
-              <nuxt-link to="/topic/" class="w-1/2 text-grey-100 mb-2">
-                xxx
-                
-              </nuxt-link> -->
-            <!-- </div>           
-          </div> -->
-          <!-- xxx section -->
+              <nuxt-link to="/topic/family" class="flex w-1/2 pointer-events-none text-grey-100 mb-2">
+                Family
+                <!-- <svg class="ml-1 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg> -->
+              </nuxt-link>              
+            </div>           
+          </div>
+          <!-- unmarked section -->
           <!-- <div class="h-full w-1/3">
             <p id="xxx" class="text-black-900 uppercase font-semibold">xxx</p>
             <div class="mt-5 flex flex-col">
@@ -433,6 +518,9 @@
           </div> -->
         </div>
       </div>
+      <!-- end of second essential life skills section -->
+
+      <!-- start of self care section -->
       <div class="mt-20">
         <p class="text-purple-500 uppercase font-semibold">Self Care</p>
         <div class="mt-10 flex">
@@ -440,48 +528,25 @@
           <div class="h-full w-1/3">
             <p id="skin-care" class="text-black-900 uppercase font-semibold">Skin Care</p>
             <div class="mt-5 flex flex-col">
-              <nuxt-link to="/topic/acne-treatment" class="pointer-events-none w-1/2 text-grey-100 mb-2">
-                Acne Treatment
-                
+              <nuxt-link to="/topic/facial-care" class="pointer-events-none w-1/2 text-grey-100 mb-2">
+                Facial Care
                 <!-- <svg class="ml-1 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg> -->
               </nuxt-link>
-              <nuxt-link to="/topic/skin-cleansing" class="pointer-events-none w-1/2 text-grey-100 mb-2">
-                Cleansing
-                
+              <nuxt-link to="/topic/hydration" class="pointer-events-none w-1/2 text-grey-100 mb-2">
+                Hydration
                 <!-- <svg class="ml-1 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg> -->
               </nuxt-link>
-              <!-- <nuxt-link to="/topic/" class="flex items-center w-3/5 text-black-900 hover:text-black-800 mb-2">
-                xxx
-                <svg class="ml-1 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg>
-                <div class="ml-3 bg-purple-500 text-white text-xs font-semibold rounded uppercase px-2">new</div>
-              </nuxt-link>
-              <nuxt-link to="/topic/" class="flex items-center w-1/2 text-black-900 hover:text-black-800 mb-2">
-                xxx
-                <div class="ml-3 bg-purple-500 text-white text-xs font-semibold rounded uppercase px-2">new</div>
-              </nuxt-link>
-              <nuxt-link to="/topic/" class="flex w-1/2 text-black-900 hover:text-black-800 mb-2">
-                xxx
-                <svg class="ml-1 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg>
-              </nuxt-link> -->
-              <!-- <nuxt-link to="/topic/" class="flex w-1/2 text-black-900 hover:text-black-800 mb-2">
-                xxx
-                <svg class="ml-1 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg>
-              </nuxt-link>
-              <nuxt-link to="/topic/" class="w-1/2 text-grey-100 mb-2">
-                xxx
-                
-              </nuxt-link> -->
             </div>           
           </div>
+          
           <!-- fitness section -->
           <div class="h-full w-1/3">
             <p id="fitness" class="text-black-900 uppercase font-semibold">Fitness</p>
             <div class="mt-5 flex flex-col">
-              <nuxt-link to="/topic/calisthenics-bodyweight" class="flex items-center w-3/4 text-black-900 hover:text-black-800 mb-2">
+              <nuxt-link to="/topic/calisthenics-bodyweight" class="flex items-center pointer-events-none w-3/4 text-black-900 hover:text-black-800 mb-2">
                 Calisthenics & Bodyweight
                 <div class="ml-3 bg-yellow-500 text-white text-xs font-semibold rounded uppercase px-2">in progress</div>
 
-                
                 <!-- <svg class="ml-1 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg> -->
               </nuxt-link>
               <nuxt-link to="/topic/weight-lifting" class="pointer-events-none w-1/2 text-grey-100 mb-2">
@@ -526,56 +591,42 @@
             </div> 
           </div>
         </div>
+        <!-- end of self care first row section -->
         <div class="mt-10 flex">
-          <!-- meditation section -->
+          <!-- mental health section -->
           <div class="h-full w-1/3">
-            <p id="meditation" class="text-black-900 uppercase font-semibold">Meditation</p>
+            <p id="mental-health" class="text-black-900 uppercase font-semibold">Mental Health</p>
             <div class="mt-5 flex flex-col">
-              <nuxt-link to="/topic/mindfulness" class="pointer-events-none w-1/2 text-grey-100 mb-2">
-                Mindfulness
-                
+              <nuxt-link to="/topic/meditation" class="pointer-events-none w-1/2 text-grey-100 mb-2">
+                Meditation
               </nuxt-link>
               <!-- <nuxt-link to="/topic/" class="flex items-center w-3/5 text-black-900 hover:text-black-800 mb-2">
-                Mindfulness
-                <svg class="ml-1 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg>
-                <div class="ml-3 bg-purple-500 text-white text-xs font-semibold rounded uppercase px-2">new</div>
-              </nuxt-link>
-              <nuxt-link to="/topic/" class="flex items-center w-1/2 text-black-900 hover:text-black-800 mb-2">
-                xxx
-                <div class="ml-3 bg-purple-500 text-white text-xs font-semibold rounded uppercase px-2">new</div>
-              </nuxt-link>
-              <nuxt-link to="/topic/" class="flex w-1/2 text-black-900 hover:text-black-800 mb-2">
                 xxx
                 <svg class="ml-1 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg>
+                <div class="ml-3 bg-purple-500 text-white text-xs font-semibold rounded uppercase px-2">new</div>
               </nuxt-link> -->
-            </div>           
-          </div>
+            </div>            
+          </div> 
           <!-- hair section -->
           <div class="h-full w-1/3">
             <p id="hair" class="text-black-900 uppercase font-semibold">Hair</p>
             <div class="mt-5 flex flex-col">
               <nuxt-link to="/topic/black-hair" class="pointer-events-none w-1/2 text-grey-100 mb-2">
-                Black Hair
-                
+                Curly Hair
                 <!-- <svg class="ml-1 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg> -->
               </nuxt-link>
-              <!-- <nuxt-link to="/topic/" class="flex w-1/2 text-black-900 hover:text-black-800 mb-2">
-                xxx
-                <svg class="ml-1 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg>
+              <nuxt-link to="/topic/black-hair" class="pointer-events-none w-1/2 text-grey-100 mb-2">
+                Coily Hair
+                <!-- <svg class="ml-1 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg> -->
               </nuxt-link>
-              <nuxt-link to="/topic/" class="flex items-center w-3/5 text-black-900 hover:text-black-800 mb-2">
-                xxx
-                <svg class="ml-1 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg>
-                <div class="ml-3 bg-purple-500 text-white text-xs font-semibold rounded uppercase px-2">new</div>
-              </nuxt-link>
-              <nuxt-link to="/topic/" class="w-1/2 text-grey-100 mb-2">
-                xxx
-                
-              </nuxt-link>
-              <nuxt-link to="/topic/" class="w-1/2 text-grey-100 mb-2">
-                xxx
-                
-              </nuxt-link> -->
+              <nuxt-link to="/topic/styling" class="flex w-1/2 pointer-events-none w-1/2 text-grey-100 mb-2">
+                Straight Hair
+                <!-- <svg class="ml-1 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg> -->
+              </nuxt-link> 
+              <nuxt-link to="/topic/styling" class="flex w-1/2 pointer-events-none w-1/2 text-grey-100 mb-2">
+                Wavy Hair
+                <!-- <svg class="ml-1 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg> -->
+              </nuxt-link> 
             </div> 
           </div>
           <!-- hygiene section -->
@@ -584,34 +635,17 @@
             <div class="mt-5 flex flex-col">
               <nuxt-link to="/topic/feminine-hygiene" class="pointer-events-none w-1/2 text-grey-100 mb-2">
                 Feminine Hygiene
-                
               </nuxt-link>
-              <!-- <nuxt-link to="/topic/" class="w-1/2 text-grey-100 mb-2">
-                xxx
-                
+              <nuxt-link to="/topic/grooming" class="w-1/2 pointer-events-none text-grey-100 mb-2">
+                Grooming
               </nuxt-link>
-              <nuxt-link to="/topic/" class="flex w-1/2 text-black-900 hover:text-black-800 mb-2">
-                xxx
-                <svg class="ml-1 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg>
-              </nuxt-link>
-              <nuxt-link to="/topic/" class="flex w-1/2 text-black-900 hover:text-black-800 mb-2">
-                xxx
-                <svg class="ml-1 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg>
-              </nuxt-link>
-              <nuxt-link to="/topic/ruby" class="flex w-1/2 text-black-900 hover:text-black-800 mb-2">
-                xxx
-                <svg class="ml-1 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg>
-              </nuxt-link>
-              <nuxt-link to="/topic/" class="flex w-1/2 text-black-900 hover:text-black-800 mb-2">
-                xxx
-                <svg class="ml-1 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg>
-              </nuxt-link> -->
             </div> 
           </div>
         </div>
       </div>
+      <!-- end of self care section -->
 
-      <!-- Finances Section -->
+      <!-- start of finances Section -->
       <div class="mt-20">
         <p class="text-purple-500 uppercase font-semibold">Finances</p>
         <div class="mt-10 flex">
@@ -619,84 +653,34 @@
           <div class="h-full w-1/3">
             <p id="credit" class="text-black-900 uppercase font-semibold">Credit</p>
             <div class="mt-5 flex flex-col">
-              <!-- <nuxt-link to="/topic/" class="flex items-center w-3/5 text-black-900 hover:text-black-800 mb-2">
-                xxx
-                <svg class="ml-1 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg>
-                <div class="ml-3 bg-purple-500 text-white text-xs font-semibold rounded uppercase px-2">new</div>
-              </nuxt-link>
-              <nuxt-link to="/topic/" class="flex items-center w-1/2 text-black-900 hover:text-black-800 mb-2">
-                xxx
-                <div class="ml-3 bg-purple-500 text-white text-xs font-semibold rounded uppercase px-2">new</div>
-              </nuxt-link>
-              <nuxt-link to="/topic/" class="flex w-1/2 text-black-900 hover:text-black-800 mb-2">
-                xxx
-                <svg class="ml-1 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg>
-              </nuxt-link>
-              <nuxt-link to="/topic/" class="flex w-1/2 text-black-900 hover:text-black-800 mb-2">
-                xxx
-                <svg class="ml-1 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg>
-              </nuxt-link>
-              <nuxt-link to="/topic/" class="w-1/2 text-grey-100 mb-2">
-                xxx
-                
-              </nuxt-link>
-              <nuxt-link to="/topic/" class="w-1/2 text-grey-100 mb-2">
-                xxx
-                
-              </nuxt-link> -->
             </div>           
           </div>
           <!-- money management section -->
           <div class="h-full w-1/3">
             <p id="money-management" class="text-black-900 uppercase font-semibold">Money Management</p>
             <div class="mt-5 flex flex-col">
-              <!-- <nuxt-link to="/topic/" class="flex w-1/2 text-black-900 hover:text-black-800 mb-2">
-                xxx
-                <svg class="ml-1 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg>
-              </nuxt-link>
-              <nuxt-link to="/topic/" class="flex w-1/2 text-black-900 hover:text-black-800 mb-2">
-                xxx
-                <svg class="ml-1 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg>
-              </nuxt-link>
-              <nuxt-link to="/topic/" class="flex items-center w-3/5 text-black-900 hover:text-black-800 mb-2">
-                xxx
-                <svg class="ml-1 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg>
-                <div class="ml-3 bg-purple-500 text-white text-xs font-semibold rounded uppercase px-2">new</div>
-              </nuxt-link>
-              <nuxt-link to="/topic/" class="w-1/2 text-grey-100 mb-2">
-                xxx
-                
-              </nuxt-link>
-              <nuxt-link to="/topic/" class="w-1/2 text-grey-100 mb-2">
-                xxx
-                
-              </nuxt-link> -->
             </div> 
-          </div>
-          
+          </div> 
           <!-- trading section -->
           <div class="h-full w-1/3">
             <p id="trading" class="text-black-900 uppercase font-semibold">Trading</p>
             <div class="mt-5 flex flex-col">
               <nuxt-link to="/topic/stocks" class="pointer-events-none w-1/2 text-grey-100 mb-2">
                 Stocks
-                
               </nuxt-link>
               <nuxt-link to="/topic/forex" class="pointer-events-none w-1/2 text-grey-100 mb-2">
                 Forex
-                
               </nuxt-link>
               <nuxt-link to="/topic/cryptocurrency" class="pointer-events-none w-1/2 text-grey-100 mb-2">
                 Cryptocurrency
-                
               </nuxt-link>
-              <nuxt-link to="/topic/options" class="flex items-center w-1/2 text-black-900 hover:text-black-800 mb-2">
+              <nuxt-link to="/topic/options" class="flex items-center pointer-events-none w-1/2 text-black-900 hover:text-black-800 mb-2">
                 Options
                 <div class="ml-3 bg-yellow-500 text-white text-xs font-semibold rounded uppercase px-2">in progress</div>
 
                 <!-- <svg class="ml-1 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg> -->
               </nuxt-link>
-              <nuxt-link to="/topic/futures" class="flex items-center w-1/2 text-black-900 hover:text-black-800 mb-2">
+              <nuxt-link to="/topic/futures" class="flex items-center pointer-events-none w-1/2 text-black-900 hover:text-black-800 mb-2">
                 Futures
                 <div class="ml-3 bg-yellow-500 text-white text-xs font-semibold rounded uppercase px-2">in progress</div>
                 <!-- <svg class="ml-1 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg> -->
@@ -704,6 +688,8 @@
             </div> 
           </div>
         </div>
+
+        <!-- start of second finances row -->
         <div class="mt-10 flex">
           <!-- paying taxes section -->
           <div class="h-full w-1/3">
@@ -711,7 +697,6 @@
             <div class="mt-5 flex flex-col">
               <nuxt-link to="/topic/" class="pointer-events-none w-1/2 text-grey-100 mb-2">
                 Income Taxes
-                
               </nuxt-link>
               <nuxt-link to="/topic/" class="pointer-events-none w-1/2 text-grey-100 mb-2">
                 Property Taxes
@@ -720,18 +705,17 @@
                 Business Taxes
                 <!-- <svg class="ml-1 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg> -->
               </nuxt-link>
-              <!-- <nuxt-link to="/topic/" class="flex w-1/2 text-black-900 hover:text-black-800 mb-2">
-                xxx
-                <svg class="ml-1 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg>
-              </nuxt-link>  -->
             </div> 
           </div>
         </div>
+        <!-- end of second finances row -->
       </div>
+      <!-- end of finances Section -->
 
-      <!-- Business Administration Section -->
+
+      <!-- start of business section -->
       <div class="mt-20">
-        <p class="text-purple-500 uppercase font-semibold">Business Administration</p>
+        <p class="text-purple-500 uppercase font-semibold">Business</p>
         <div class="mt-10 flex">
           <!-- office administration section -->
           <div class="h-full w-1/3">
@@ -767,57 +751,38 @@
               </nuxt-link> -->
             </div>           
           </div>
-          <!-- money management section -->
+          <!-- entrepreneurship section -->
           <div class="h-full w-1/3">
-            <!-- <p id="xxx" class="text-black-900 uppercase font-semibold">xxx</p> -->
+            <p id="entrepreneurship" class="text-black-900 uppercase font-semibold">Entrepreneurship</p>
             <div class="mt-5 flex flex-col">
-              <!-- <nuxt-link to="/topic/" class="flex w-1/2 text-black-900 hover:text-black-800 mb-2">
-                xxx
-                <svg class="ml-1 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg>
+              <nuxt-link to="/topic/starting-a-business" class="flex w-1/2 pointer-events-none text-grey-100 mb-2">
+                Starting A Business
+                <!-- <svg class="ml-1 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg> -->
               </nuxt-link>
-              <nuxt-link to="/topic/" class="flex w-1/2 text-black-900 hover:text-black-800 mb-2">
-                xxx
-                <svg class="ml-1 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg>
+              <nuxt-link to="/topic/startups" class="flex w-1/2 pointer-events-none text-grey-100 mb-2">
+                Startups
+                <!-- <svg class="ml-1 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg> -->
               </nuxt-link>
-              <nuxt-link to="/topic/" class="flex items-center w-3/5 text-black-900 hover:text-black-800 mb-2">
+              <nuxt-link to="/topic/remote-work" class="flex w-1/2 pointer-events-none text-grey-100 mb-2">
+                Remote Work
+                <!-- <svg class="ml-1 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg> -->
+              </nuxt-link>
+              <!-- <nuxt-link to="/topic/" class="flex items-center w-3/5 text-black-900 hover:text-black-800 mb-2">
                 xxx
                 <svg class="ml-1 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg>
                 <div class="ml-3 bg-purple-500 text-white text-xs font-semibold rounded uppercase px-2">new</div>
               </nuxt-link>
               <nuxt-link to="/topic/" class="w-1/2 text-grey-100 mb-2">
                 xxx
-                
               </nuxt-link>
               <nuxt-link to="/topic/" class="w-1/2 text-grey-100 mb-2">
                 xxx
-                
-              </nuxt-link> -->
-            </div> 
-          </div>
-          <!-- paying taxes section -->
-          <div class="h-full w-1/3">
-            <!-- <nuxt-link to="filters/xxx" id="xxx" class="text-black-900 uppercase font-semibold">xxx</nuxt-link> -->
-            <div class="mt-5 flex flex-col">
-              <!-- <nuxt-link to="/topic/" class="w-1/2 text-grey-100 mb-2">
-                xxx
-                
-              </nuxt-link>
-              <nuxt-link to="/topic/" class="w-1/2 text-grey-100 mb-2">
-                xxx
-                
-              </nuxt-link>
-              <nuxt-link to="/topic/" class="flex w-1/2 text-black-900 hover:text-black-800 mb-2">
-                xxx
-                <svg class="ml-1 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg>
-              </nuxt-link>
-              <nuxt-link to="/topic/" class="flex w-1/2 text-black-900 hover:text-black-800 mb-2">
-                xxx
-                <svg class="ml-1 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg>
-              </nuxt-link> -->
+              </nuxt-link>  --> 
             </div> 
           </div>
         </div>
       </div>
+      <!-- end of business section -->
     </section>
     
     <Footer/>
@@ -845,11 +810,13 @@
 <script>
 import Header from '~/components/Header.vue'
 import Footer from '~/components/Footer.vue'
+import MultiLanguageSupport from '~/components/MultiLanguageSupport.vue'
 
 export default {
   components: {
     Header,
-    Footer
+    Footer,
+    MultiLanguageSupport
   },
   head () {
     return {
