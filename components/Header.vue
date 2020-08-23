@@ -9,7 +9,7 @@
           <nuxt-link to="/topics" class="ml-8 hover:text-blue-800">Browse Topics</nuxt-link>
           <nuxt-link to="/challenges" class="ml-8 hover:text-blue-800">Challenges</nuxt-link>
           <nuxt-link to="/about" class="ml-8 hover:text-blue-800">About</nuxt-link>
-          <a href="https://twitter.com/lrnsomething_io" target="_blank" class="ml-8 hover:text-blue-800">Community</a>
+          <a href="https://twitter.com/thelrnsomething" target="_blank" class="ml-8 hover:text-blue-800">Community</a>
           <!-- Connect to Teespring Shop -->
           <!-- <a href="" class="ml-8">Shop</a> -->
           <!-- <nuxt-link to="/about" class="ml-8 bg-grey-100 text-blue-900 rounded px-4 py-3">Signup</nuxt-link> -->
