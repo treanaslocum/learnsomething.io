@@ -63,12 +63,7 @@
         </div>
       </section>
 
-      <!-- <div class="mt-20 flex justify-between">
-        <div class="">
-          <p class="mt-10 text-black-900 font-semibold uppercase">Prerequisites</p>
-          <p class="mt-5 text-black-900 leading-relaxed w-3/5">Before taking this course, it's preferred that you have some experience with fundamental coding concepts. Here’s our suggested resources to get you up to speed. <span class="text-purple-400 hover:text-purple-600 capitalize">Intro to computer programming</span>, <span class="text-purple-400 hover:text-purple-600">HTML</span>, <span class="text-purple-400 hover:text-purple-600">JavaScript</span>.</p>
-        </div>
-      </div> -->
+      <CodeCompanion/>
 
       <!-- Video Playlist Section -->
       <section class="mt-20">
@@ -114,23 +109,6 @@
               </div>
           </div>
         </div>
-
-<!-- 
-           <div class="ml-10 max-w-sm rounded overflow-hidden">
-              <iframe width="480" height="270" src="https://www.youtube.com/embed/videoseries?list=PLIddmSRJEJ0sxS-RmqdRMlkyWOQWvEGEt" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>        <div class="px-6 py-4">
-              <span class="inline-block bg-grey-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">#beginner</span>
-              <span class="inline-block bg-grey-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">#lavarel</span>
-            </div>
-          </div>
-
-          <div class="ml-10 max-w-sm rounded overflow-hidden">
-              <iframe width="480" height="270" src="https://www.youtube.com/embed/videoseries?list=PLIddmSRJEJ0uaT5imV49pJqP8CGSqN-7E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>        <div class="px-6 py-4">
-              <span class="inline-block bg-grey-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">#xxx</span>
-              <span class="inline-block bg-grey-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">#xxx</span>
-            </div>
-          </div> -->
-
-
      
       </section>
 
@@ -159,11 +137,13 @@
 <script>
 import Header from '~/components/Header.vue'
 import Footer from '~/components/Footer.vue'
+import CodeCompanion from '~/components/CodeCompanion.vue'
 
 export default {
   components: {
     Header,
-    Footer
+    Footer,
+    CodeCompanion
   },
   head () {
     return {

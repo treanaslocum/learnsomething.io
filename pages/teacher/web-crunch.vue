@@ -46,12 +46,7 @@
         </div>
       </section>
 
-      <!-- <div class="mt-20 flex justify-between">
-        <div class="">
-          <p class="mt-10 text-black-900 font-semibold uppercase">Prerequisites</p>
-          <p class="mt-5 text-black-900 leading-relaxed w-3/5">Before taking this course, it's preferred that you have some experience with fundamental coding concepts. Here’s our suggested resources to get you up to speed. <span class="text-purple-400 hover:text-purple-600 capitalize">Intro to computer programming</span>, <span class="text-purple-400 hover:text-purple-600">HTML</span>, <span class="text-purple-400 hover:text-purple-600">JavaScript</span>.</p>
-        </div>
-      </div> -->
+      <CodeCompanion/>
 
       <!-- Video Playlist Section -->
       <section class="mt-20">
@@ -118,11 +113,13 @@
 <script>
 import Header from '~/components/Header.vue'
 import Footer from '~/components/Footer.vue'
+import CodeCompanion from '~/components/CodeCompanion.vue'
 
 export default {
   components: {
     Header,
-    Footer
+    Footer,
+    CodeCompanion
   },
   head () {
     return {
