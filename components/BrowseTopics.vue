@@ -5,9 +5,35 @@
       <h2 class="text-blue-900 text-5xl">Browse all topics.</h2>
       <p class="text-blue-900 text-lg leading-relaxed w-3/4">Here at LearnSomething.io we are always expanding our topic offerings. If you don't see a topic you want to learn available, don't panic. We'll add it as soon as we can. Demand dictates what's added first so please be patient with us. Fill out the <a href="https://forms.gle/wwyM48EmXmz7vdn88" target="_blank"><span class="text-purple-500 hover:text-purple-600">topic suggestions</span></a> form to request a topic you'd like to see added to the site.</p>
       
+      <!-- topic jump links -->
+      <section class="mt-16">
+        <div class="flex items-center">
+          <p class="text-blue-900">Categories</p>
+          <nuxt-link to="#stem" class="ml-3 ">
+            <p class="bg-grey-200 rounded-full px-3 text-blue-900 uppercase font-semibold">Stem</p>
+          </nuxt-link>
+          <nuxt-link to="#art-design" class="ml-3 ">
+            <p class="bg-grey-200 rounded-full px-3 text-blue-900 uppercase font-semibold">Art & Design</p>
+          </nuxt-link>
+          <nuxt-link to="#essential-life" class="ml-3 ">
+            <p class="bg-grey-200 rounded-full px-3 text-blue-900 uppercase font-semibold">Essential Life Skills</p>
+          </nuxt-link>
+          <nuxt-link to="#self-care" class="ml-3 ">
+            <p class="bg-grey-200 rounded-full px-3 text-blue-900 uppercase font-semibold">Self Care</p>
+          </nuxt-link>
+          <nuxt-link to="#finances" class="ml-3 ">
+            <p class="bg-grey-200 rounded-full px-3 text-blue-900 uppercase font-semibold">Finances</p>
+          </nuxt-link>
+          <nuxt-link to="#business" class="ml-3 ">
+            <p class="bg-grey-200 rounded-full px-3 text-blue-900 uppercase font-semibold">Business</p>
+          </nuxt-link>
+       
+        </div>
+      </section>
+
       <!-- start of stem section -->
-      <div class="mt-20">
-        <p class="text-purple-500 uppercase font-semibold">Stem</p>
+      <div class="mt-32">
+        <p id="stem" class="text-purple-500 uppercase font-semibold">Stem</p>
         <!-- start of stem row -->
         <div class="mt-10 flex">
           <!-- math section -->
@@ -266,7 +292,7 @@
       <!-- start of art & design section -->
 
       <div class="mt-20">
-        <p class="text-purple-500 uppercase font-semibold">Art & Design</p>
+        <p id="art-design" class="text-purple-500 uppercase font-semibold">Art & Design</p>
         <!-- start of art & design row -->
         <div class="mt-10 flex">
           <!-- adobe section -->
@@ -307,7 +333,7 @@
       
       <!-- start of essential life skills section -->
       <div class="mt-20">
-        <p class="text-purple-500 uppercase font-semibold">Essential Life Skills</p>
+        <p id="essential-life" class="text-purple-500 uppercase font-semibold">Essential Life Skills</p>
         <div class="mt-10 flex">
           <!-- cooking section -->
           <div class="h-full w-1/3">
@@ -519,7 +545,7 @@
 
       <!-- start of self care section -->
       <div class="mt-20">
-        <p class="text-purple-500 uppercase font-semibold">Self Care</p>
+        <p id="self-care" class="text-purple-500 uppercase font-semibold">Self Care</p>
         <div class="mt-10 flex">
           <!-- skin care section -->
           <div class="h-full w-1/3">
@@ -644,7 +670,7 @@
 
       <!-- start of finances Section -->
       <div class="mt-20">
-        <p class="text-purple-500 uppercase font-semibold">Finances</p>
+        <p id="finances" class="text-purple-500 uppercase font-semibold">Finances</p>
         <div class="mt-10 flex">
           <!-- credit section -->
           <div class="h-full w-1/3">
@@ -671,15 +697,15 @@
               <nuxt-link to="/topic/cryptocurrency" class="pointer-events-none w-1/2 text-grey-100 mb-2">
                 Cryptocurrency
               </nuxt-link>
-              <nuxt-link to="/topic/options" class="flex items-center pointer-events-none w-1/2 text-black-900 hover:text-black-800 mb-2">
+              <nuxt-link to="/topic/options" class="flex items-center w-1/2 text-black-900 hover:text-black-800 mb-2">
                 Options
-                <div class="ml-3 bg-yellow-500 text-white text-xs font-semibold rounded uppercase px-2">in progress</div>
+                <div class="ml-3 bg-purple-500 text-white text-xs font-semibold rounded uppercase px-2">new</div>
 
                 <!-- <svg class="ml-1 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg> -->
               </nuxt-link>
-              <nuxt-link to="/topic/futures" class="flex items-center pointer-events-none w-1/2 text-black-900 hover:text-black-800 mb-2">
+              <nuxt-link to="/topic/futures" class="flex items-center w-1/2 text-black-900 hover:text-black-800 mb-2">
                 Futures
-                <div class="ml-3 bg-yellow-500 text-white text-xs font-semibold rounded uppercase px-2">in progress</div>
+                <div class="ml-3 bg-purple-500 text-white text-xs font-semibold rounded uppercase px-2">new</div>
                 <!-- <svg class="ml-1 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg> -->
               </nuxt-link> 
             </div> 
@@ -712,7 +738,7 @@
 
       <!-- start of business section -->
       <div class="mt-20">
-        <p class="text-purple-500 uppercase font-semibold">Business</p>
+        <p id="business" class="text-purple-500 uppercase font-semibold">Business</p>
         <div class="mt-10 flex">
           <!-- office administration section -->
           <div class="h-full w-1/3">
