@@ -47,9 +47,12 @@
               </div>
             </div>
             <div class="bg-gray-700 mt-8 px-6 py-4">
-              <h3 class="font-semibold text-sm">Track your progress</h3>
+              <h3 class="font-semibold text-sm">Objective</h3>
               <p class="mt-4 text-sm">&#9745; Code for 30 minutes each day for the next 7 days.
 </p>
+            </div>
+            <div class="bg-gray-700 mt-8 px-6 py-4">
+              <h3 class="font-semibold text-sm">Track your progress</h3>
               <p class="mt-6 text-sm">&#9745; Tweet your progress every day with the hashtag #7CodeLRNS</p>
             </div>
             <div class="bg-gray-700 mt-4 px-6 py-4">
@@ -78,9 +81,12 @@
             </div>
           </div>
           <div class="bg-gray-700 mt-8 px-6 py-4">
-            <h3 class="font-semibold text-sm">Track your progress</h3>
+            <h3 class="font-semibold text-sm">Objective</h3>
             <p class="mt-4 text-sm">&#9745; Do math sets for 30 minutes each day for the next 7 days.
   </p>
+          </div>
+          <div class="bg-gray-700 mt-8 px-6 py-4">
+            <h3 class="font-semibold text-sm">Track your progress</h3>
             <p class="mt-6 text-sm">&#9745; Tweet your progress every day with the hashtag #7MathLRNS</p>
           </div>
           <div class="bg-gray-700 mt-4 px-6 py-4">
@@ -105,9 +111,12 @@
               </div>
             </div>
             <div class="bg-gray-700 mt-8 px-6 py-4">
-              <h3 class="font-semibold text-sm">Track your progress</h3>
-              <p class="mt-4 text-sm">&#9745; Study Science for 30 minutes each day for the next 7 days.
+              <h3 class="font-semibold text-sm">Objective</h3>
+              <p class="mt-4 text-sm">&#9745; Study science for 30 minutes each day for the next 7 days.
 </p>
+            </div>
+            <div class="bg-gray-700 mt-8 px-6 py-4">
+              <h3 class="font-semibold text-sm">Track your progress</h3>
               <p class="mt-6 text-sm">&#9745; Tweet your progress every day with the hashtag #7ScienceLRNS</p>
             </div>
             <div class="bg-gray-700 mt-4 px-6 py-4">
