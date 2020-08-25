@@ -195,11 +195,11 @@
           </div>
         </div> 
 
-        <h4 class="mt-16 text-xl font-semibold">Spanish</h4>
-        <!-- spanish teachers 1st row list -->
+        <!-- <h4 class="mt-16 text-xl font-semibold">Spanish</h4>
+        spanish teachers 1st row list
         <div class="mt-16 flex flex-wrap xl:flex-no-wrap">
 
-          <!-- teacher 1 -->
+          teacher 1
           <div class="flex items-center flex-shrink-0">
             <nuxt-link to="../teacher/xxx">
               <img class="rounded-full" height="70px" width="70px" src="~assets/images/teachers/bring-your-own-laptop.jpg" alt="xxx">
@@ -246,10 +246,10 @@
         </div> 
 
         <h4 class="mt-16 text-xl font-semibold">French</h4>
-        <!-- spanish teachers 1st row list -->
+        spanish teachers 1st row list
         <div class="mt-16 flex flex-wrap xl:flex-no-wrap">
 
-          <!-- teacher 1 -->
+          teacher 1
           <div class="flex items-center flex-shrink-0">
             <nuxt-link to="../teacher/xxx">
               <img class="rounded-full" height="70px" width="70px" src="~assets/images/teachers/bring-your-own-laptop.jpg" alt="xxx">
@@ -292,7 +292,7 @@
                 <p class="ml-5 font-semibold">xxx</p>
               </nuxt-link>
             </div>
-          </div>
+          </div> -->
         </div> 
       </section>
 
