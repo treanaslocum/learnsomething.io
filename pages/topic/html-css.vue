@@ -145,7 +145,7 @@
           </div>
         </div>
 
-        <h4 class="mt-16 text-xl font-semibold">English</h4>
+        <!-- <h4 class="mt-16 text-xl font-semibold">English</h4> -->
         <!-- english teachers 1st row list -->
         <div class="mt-16 flex flex-wrap xl:flex-no-wrap">
 
@@ -293,13 +293,13 @@
               </nuxt-link>
             </div>
           </div> -->
-        </div> 
+        <!-- </div>  -->
       </section>
 
       
-        
+      <Footer/>
     </div>
-    <Footer/>
+    
     <!-- Default Statcounter code for Learnsomething.io
     http://www.learnsomething.io -->
     <script type="text/javascript">
