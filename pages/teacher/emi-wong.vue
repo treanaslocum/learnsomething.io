@@ -6,7 +6,7 @@
       <section class="mt-12">
         <div class="flex items-center">
           <div>
-            <img src="~/assets/images/teachers/emi-wong.jpg" alt="Emi Wong" class="rounded-full">
+            <img src="~/assets/images/teachers/emi-wong.jpg" alt="Emi Wong" class="rounded-full h-24">
           </div>
           <div class="ml-10">
             <p class="text-purple-500 uppercase font-semibold">Teacher</p>

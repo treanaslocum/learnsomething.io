@@ -4,8 +4,11 @@
     <div class="mt-32 px-32">
     
       <section class="mt-12">
-        <div class="flex items-center justify-between">
+        <div class="flex items-center">
           <div>
+            <img src="~/assets/images/teachers/the-organic-chemistry-tutor.jpg" alt="The Organic Chemistry Tutor" class="rounded-full h-24">
+          </div>
+          <div class="ml-10">
             <p class="text-purple-500 uppercase font-semibold">Teacher</p>
             <h2 class="text-blue-900 text-5xl">The Organic Chemistry Tutor</h2>
           </div>
@@ -56,12 +59,6 @@
         </div>
       </section>
 
-      <!-- <div class="mt-20 flex justify-between">
-        <div class="">
-          <p class="mt-10 text-black-900 font-semibold uppercase">Prerequisites</p>
-          <p class="mt-5 text-black-900 leading-relaxed w-3/5">Before taking this course, it's preferred that you have some experience with fundamental coding concepts. Here’s our suggested resources to get you up to speed. <span class="text-purple-400 hover:text-purple-600 capitalize">Intro to computer programming</span>, <span class="text-purple-400 hover:text-purple-600">HTML</span>, <span class="text-purple-400 hover:text-purple-600">JavaScript</span>.</p>
-        </div>
-      </div> -->
 
       <!-- Video Playlist Section -->
       <section class="mt-20">

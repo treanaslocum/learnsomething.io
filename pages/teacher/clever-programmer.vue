@@ -4,8 +4,11 @@
     <div class="mt-32 px-32">
     
       <section class="mt-12">
-        <div class="flex items-center justify-between">
+        <div class="flex items-center">
           <div>
+            <img src="~/assets/images/teachers/clever-programmer.jpg" alt="Clever Programmer" class="rounded-full h-24">
+          </div>
+          <div class="ml-10">
             <p class="text-purple-500 uppercase font-semibold">Teacher</p>
             <h2 class="text-blue-900 text-5xl">Clever Programmer</h2>
           </div>

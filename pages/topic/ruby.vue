@@ -207,7 +207,7 @@
         <div class="mt-16 flex flex-wrap xl:flex-no-wrap">
 
           <!-- teacher 1 -->
-           <div class="xl:ml-12 xl:mt-0 lg:mt-12 lg:ml-0 flex items-center flex-shrink-0">
+           <div class="xl:mt-0 lg:mt-12 lg:ml-0 flex items-center flex-shrink-0">
             <nuxt-link to="../teacher/boris-paskhaver">
               <img class="rounded-full" height="70px" width="70px" src="~assets/images/teachers/boris-paskhaver.jpg" alt="Boris Paskhaver">
             </nuxt-link>
