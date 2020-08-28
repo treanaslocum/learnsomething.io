@@ -46,38 +46,68 @@
       <section class="mt-20">
         <h3 class="text-black-900 uppercase font-semibold">Learning Playlists</h3>
 
+        <h4 class="mt-16 text-xl font-semibold">Full Body</h4>
+
+        <div class="mt-12 flex items-center">
+          <div class="rounded overflow-hidden">
+            <iframe width="480" height="270" src="https://www.youtube.com/embed/videoseries?list=PLGj6tJC_x-77K8b7vJorSKBQjVikbZRaz" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <div class="px-6 py-4">
+              <span class="inline-block bg-grey-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">#mixed</span>
+              <span class="inline-block bg-grey-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">#full-body</span>
+              <span class="inline-block bg-grey-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">total duration 9:57:39</span>
+            </div>
+          </div>
+        </div> 
+
+        <h4 class="mt-16 text-xl font-semibold">Upper Body</h4>
+
+        <div class="mt-12 flex items-center">
+          <div class="rounded overflow-hidden">
+            <iframe width="480" height="270" src="https://www.youtube.com/embed/videoseries?list=PLGj6tJC_x-77RZ3Zh53S3s92DNeFTUiBT" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <div class="px-6 py-4">
+              <span class="inline-block bg-grey-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">#mixed</span>
+              <span class="inline-block bg-grey-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">#upper-body</span>
+              <span class="inline-block bg-grey-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">total duration 5:50:49</span>
+            </div>
+          </div>
+        </div> 
+
         <h4 class="mt-16 text-xl font-semibold">Abs</h4>
 
         <div class="mt-12 flex items-center">
           <div class="rounded overflow-hidden">
-            <iframe width="480" height="270" src="https://www.youtube.com/embed/videoseries?list=PLAFs3kxY4h18C-BEvQWBxwNZYPLK_BDQF" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="480" height="270" src="https://www.youtube.com/embed/videoseries?list=PLGj6tJC_x-77uT7KkibWPPEkSPjBd9GJj" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               <div class="px-6 py-4">
               <span class="inline-block bg-grey-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">#mixed</span>
               <span class="inline-block bg-grey-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">#abs</span>
-              <span class="inline-block bg-grey-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">total duration 1:24:26</span>
+              <span class="inline-block bg-grey-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">total duration 5:11:53</span>
             </div>
           </div>
 
           <div class="ml-10 rounded overflow-hidden">
-            <iframe width="480" height="270" src="https://www.youtube.com/embed/videoseries?list=PLAFs3kxY4h190VrR7w4aCXJXU5-vWt-0w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <div class="px-6 py-4">
-              <span class="inline-block bg-grey-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">#mixed</span>
-              <span class="inline-block bg-grey-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">#abs</span>
-              <span class="inline-block bg-grey-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">total duration 1:24:26</span>
-            </div>
-          </div>
-        </div> 
-
-        <div class="mt-12 flex items-center">
-          <div class="rounded overflow-hidden">
-            <iframe width="480" height="270" src="https://www.youtube.com/embed/videoseries?list=PLAFs3kxY4h1-LHUzBN2XhtJ1IutUxAB43" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="480" height="270" src="https://www.youtube.com/embed/videoseries?list=PLGj6tJC_x-775I8mJoqIoSBre_Wcyb7QW" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               <div class="px-6 py-4">
               <span class="inline-block bg-grey-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">#mixed</span>
               <span class="inline-block bg-grey-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">#abs</span>
-              <span class="inline-block bg-grey-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">total duration 2:38:03</span>
+              <span class="inline-block bg-grey-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">total duration 3:36:52</span>
             </div>
           </div>
-        </div> 
+        </div>
+
+        
+
+        <h4 class="mt-16 text-xl font-semibold">Legs</h4>
+
+        <div class="mt-12 flex items-center">
+          <div class="rounded overflow-hidden">
+            <iframe width="480" height="270" src="https://www.youtube.com/embed/videoseries?list=PLGj6tJC_x-77i3SUPBPWwVTc_g3HrS0gl" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <div class="px-6 py-4">
+              <span class="inline-block bg-grey-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">#mixed</span>
+              <span class="inline-block bg-grey-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">#legs</span>
+              <span class="inline-block bg-grey-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">total duration 8:21:08</span>
+            </div>
+          </div>
+        </div>
 
 
 
