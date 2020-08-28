@@ -77,6 +77,10 @@
               TD Ameritrade
               <div class="ml-3 bg-grey-300 text-white text-xs font-semibold rounded uppercase px-2">free</div>
             </a>
+            <a href="https://www.investopedia.com/terms/o/option.asp" target="_blank" class="flex mb-2 items-center text-black-900 hover:text-black-800">
+              Investopedia
+              <div class="ml-3 bg-grey-300 text-white text-xs font-semibold rounded uppercase px-2">free</div>
+            </a>
           </div>
         </div>
       </section>

@@ -58,6 +58,10 @@
               TD Ameritrade
               <div class="ml-3 bg-grey-300 text-white text-xs font-semibold rounded uppercase px-2">free</div>
             </a>
+            <a href="https://www.investopedia.com/terms/f/futurescontract.asp" target="_blank" class="mt-10 flex items-center mb-2 text-black-900 hover:text-black-800">
+              Investopedia
+              <div class="ml-3 bg-grey-300 text-white text-xs font-semibold rounded uppercase px-2">free</div>
+            </a>
         
           </div>
         </div>

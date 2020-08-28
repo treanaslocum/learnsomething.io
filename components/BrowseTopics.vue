@@ -12,8 +12,8 @@
           <nuxt-link to="#stem" class="ml-3 ">
             <p class="bg-grey-200 rounded-full px-3 text-blue-900 uppercase font-semibold">Stem</p>
           </nuxt-link>
-          <nuxt-link to="#art-design" class="ml-3 ">
-            <p class="bg-grey-200 rounded-full px-3 text-blue-900 uppercase font-semibold">Art & Design</p>
+          <nuxt-link to="#arts" class="ml-3 ">
+            <p class="bg-grey-200 rounded-full px-3 text-blue-900 uppercase font-semibold">Arts</p>
           </nuxt-link>
           <nuxt-link to="#essential-life" class="ml-3 ">
             <p class="bg-grey-200 rounded-full px-3 text-blue-900 uppercase font-semibold">Essential Life Skills</p>
@@ -292,12 +292,12 @@
       <!-- start of art & design section -->
 
       <div class="mt-20">
-        <p id="art-design" class="text-purple-500 uppercase font-semibold">Art & Design</p>
+        <p id="arts" class="text-purple-500 uppercase font-semibold">Arts</p>
         <!-- start of art & design row -->
         <div class="mt-10 flex">
           <!-- adobe section -->
           <div class="h-full w-1/3">
-            <nuxt-link to="../filters/adobe" id="adobe" class="text-black-900 uppercase font-semibold">Adobe</nuxt-link>
+            <nuxt-link to="../filters/design" id="design" class="text-black-900 uppercase font-semibold">Design</nuxt-link>
             <div class="mt-5 flex flex-col">
               <nuxt-link to="/topic/adobe-xd" class="flex items-center pointer-events-none w-1/2 text-grey-100 mb-2">
                Adobe XD
@@ -321,8 +321,28 @@
           </div>
           <!-- xxx section -->
           <div class="h-full w-1/3">
-            <!-- <nuxt-link to="../filters/xxx" id="xxx" class="text-black-900 uppercase font-semibold">xxx</nuxt-link> -->
+            <nuxt-link to="../filters/dance" id="dance" class="text-black-900 uppercase font-semibold">Dance</nuxt-link>
             <div class="mt-5 flex flex-col">
+              <nuxt-link to="/topic/hip-hop" class="flex items-center pointer-events-none w-1/2 text-grey-100 mb-2">
+               Hip Hop
+                <!-- <svg class="ml-1 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg> -->
+              </nuxt-link>
+              <nuxt-link to="/topic/ballet" class="flex items-center pointer-events-none w-1/2 text-grey-100 mb-2">
+               Ballet
+                <!-- <svg class="ml-1 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg> -->
+              </nuxt-link>
+              <nuxt-link to="/topic/contemporary" class="flex items-center pointer-events-none w-1/2 text-grey-100 mb-2">
+               Contemporary
+                <!-- <svg class="ml-1 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg> -->
+              </nuxt-link>
+              <nuxt-link to="/topic/jazz-funk" class="flex items-center pointer-events-none w-1/2 text-grey-100 mb-2">
+               Jazz Funk
+                <!-- <svg class="ml-1 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg> -->
+              </nuxt-link>
+              <nuxt-link to="/topic/tap" class="flex items-center pointer-events-none w-1/2 text-grey-100 mb-2">
+               Tap
+                <!-- <svg class="ml-1 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg> -->
+              </nuxt-link>
             </div> 
           </div>
         </div>
@@ -585,6 +605,10 @@
               </nuxt-link>
               <nuxt-link to="/topic/walking" class="pointer-events-none w-1/2 text-grey-100 mb-2">
                 Walking
+                
+              </nuxt-link>
+              <nuxt-link to="/topic/jump-roping" class="pointer-events-none w-1/2 text-grey-100 mb-2">
+                Jump Roping
                 
               </nuxt-link>
             </div> 

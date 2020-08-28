@@ -64,28 +64,9 @@
             <iframe width="480" height="270" src="https://www.youtube.com/embed/r3GGV2TG_vw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               <div class="px-6 py-4">
               <span class="inline-block bg-grey-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">#mixed</span>
-              <span class="inline-block bg-grey-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">#java</span>
+              <span class="inline-block bg-grey-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">total duration 6:36:38</span>
             </div>
-          </div>
-
-          <!-- C++ PLAYLIST -->
-          <!-- <div class="ml-10 max-w-sm rounded overflow-hidden">
-            <iframe width="480" height="270" src="https://www.youtube.com/embed/videoseries?list=PL_c9BZzLwBRJVJsIfe97ey45V4LP_HXiG" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <div class="px-6 py-4">
-              <span class="inline-block bg-grey-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">#mixed</span>
-              <span class="inline-block bg-grey-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">#c++</span>
-            </div>
-          </div> -->
-
-          <!-- DATABASE DESIGN PLAYLIST -->
-          <!-- <div class="ml-10 max-w-sm rounded overflow-hidden">
-            <iframe width="480" height="270" src="https://www.youtube.com/embed/videoseries?list=PL_c9BZzLwBRK0Pc28IdvPQizD2mJlgoID" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            
-            <div class="px-6 py-4">
-              <span class="inline-block bg-grey-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">#beginner</span>
-              <span class="inline-block bg-grey-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">#database design</span>
-            </div>
-          </div> -->
+          </div> 
         </div> 
       </section>
 
