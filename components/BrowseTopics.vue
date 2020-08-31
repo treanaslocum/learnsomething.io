@@ -33,7 +33,7 @@
 
       <!-- start of stem section -->
       <div class="mt-32">
-        <p id="stem" class="text-purple-500 uppercase font-semibold">Stem</p>
+        <p id="stem" class="text-4xl  text-purple-500 uppercase font-semibold">Stem</p>
         <!-- start of stem row -->
         <div class="mt-10 flex">
           <!-- math section -->
@@ -292,7 +292,7 @@
       <!-- start of art & design section -->
 
       <div class="mt-20">
-        <p id="arts" class="text-purple-500 uppercase font-semibold">Arts</p>
+        <p id="arts" class="text-4xl text-purple-500 uppercase font-semibold">Arts</p>
         <!-- start of art & design row -->
         <div class="mt-10 flex">
           <!-- adobe section -->
@@ -484,7 +484,7 @@
       
       <!-- start of essential life skills section -->
       <div class="mt-20">
-        <p id="essential-life" class="text-purple-500 uppercase font-semibold">Essential Life Skills</p>
+        <p id="essential-life" class="text-4xl text-purple-500 uppercase font-semibold">Essential Life Skills</p>
         <div class="mt-10 flex">
           <!-- cooking section -->
           <div class="h-full w-1/3">
@@ -696,7 +696,7 @@
 
       <!-- start of self care section -->
       <div class="mt-20">
-        <p id="self-care" class="text-purple-500 uppercase font-semibold">Self Care</p>
+        <p id="self-care" class="text-4xl text-purple-500 uppercase font-semibold">Self Care</p>
         <div class="mt-10 flex">
           <!-- skin care section -->
           <div class="h-full w-1/3">
@@ -825,7 +825,7 @@
 
       <!-- start of finances Section -->
       <div class="mt-20">
-        <p id="finances" class="text-purple-500 uppercase font-semibold">Finances</p>
+        <p id="finances" class="text-4xl text-purple-500 uppercase font-semibold">Finances</p>
         <div class="mt-10 flex">
           <!-- credit section -->
           <div class="h-full w-1/3">
@@ -893,7 +893,7 @@
 
       <!-- start of business section -->
       <div class="mt-20">
-        <p id="business" class="text-purple-500 uppercase font-semibold">Business</p>
+        <p id="business" class="text-4xl text-purple-500 uppercase font-semibold">Business</p>
         <div class="mt-10 flex">
           <!-- office administration section -->
           <div class="h-full w-1/3">
@@ -962,7 +962,7 @@
       </div>
       <!-- end of business section -->
     </section>
-    <vue-scroll-progress-bar @complete="handleComplete" height=".50rem"/>
+    <vue-scroll-progress-bar @complete="handleComplete" height=".30rem"/>
   </div>
   
 </template>
