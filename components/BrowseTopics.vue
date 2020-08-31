@@ -10,22 +10,22 @@
         <div class="flex items-center">
           <p class="text-blue-900">Categories</p>
           <nuxt-link to="#stem" class="ml-3 ">
-            <p class="bg-grey-200 rounded-full px-3 text-blue-900 uppercase font-semibold">Stem</p>
+            <p class="bg-grey-600 rounded-full  px-4 py-2 text-blue-900 text-sm uppercase font-semibold">Stem</p>
           </nuxt-link>
           <nuxt-link to="#arts" class="ml-3 ">
-            <p class="bg-grey-200 rounded-full px-3 text-blue-900 uppercase font-semibold">Arts</p>
+            <p class="bg-grey-600 rounded-full  px-4 py-2 text-blue-900 text-sm text-orange-900 uppercase font-semibold">Arts</p>
           </nuxt-link>
           <nuxt-link to="#essential-life" class="ml-3 ">
-            <p class="bg-grey-200 rounded-full px-3 text-blue-900 uppercase font-semibold">Essential Life Skills</p>
+            <p class="bg-grey-600 rounded-full  px-4 py-2 text-blue-900 text-sm uppercase font-semibold">Essential Life Skills</p>
           </nuxt-link>
           <nuxt-link to="#self-care" class="ml-3 ">
-            <p class="bg-grey-200 rounded-full px-3 text-blue-900 uppercase font-semibold">Self Care</p>
+            <p class="bg-grey-600 rounded-full  px-4 py-2 text-blue-900 text-sm uppercase font-semibold">Self Care</p>
           </nuxt-link>
           <nuxt-link to="#finances" class="ml-3 ">
-            <p class="bg-grey-200 rounded-full px-3 text-blue-900 uppercase font-semibold">Finances</p>
+            <p class="bg-grey-600 rounded-full  px-4 py-2 text-blue-900 text-sm uppercase font-semibold">Finances</p>
           </nuxt-link>
           <nuxt-link to="#business" class="ml-3 ">
-            <p class="bg-grey-200 rounded-full px-3 text-blue-900 uppercase font-semibold">Business</p>
+            <p class="bg-grey-600 rounded-full  px-4 py-2 text-blue-900 text-sm uppercase font-semibold">Business</p>
           </nuxt-link>
        
         </div>
@@ -299,8 +299,36 @@
           <div class="h-full w-1/3">
             <nuxt-link to="../filters/design" id="design" class="text-black-900 uppercase font-semibold">Design</nuxt-link>
             <div class="mt-5 flex flex-col">
-              <nuxt-link to="/topic/adobe-xd" class="flex items-center pointer-events-none w-1/2 text-grey-100 mb-2">
+              <nuxt-link to="/topic/adobe-xd" class="flex items-center w-1/2 text-black-900 hover:text-black-800 mb-2">
                Adobe XD
+                <!-- <svg class="ml-1 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg> -->
+              </nuxt-link>
+              <nuxt-link to="/topic/ui-design" class="flex items-center w-1/2 text-black-900 hover:text-black-800 mb-2">
+               UI Design
+                <!-- <svg class="ml-1 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg> -->
+              </nuxt-link>
+              <nuxt-link to="/topic/product-design" class="flex items-center w-1/2 text-black-900 hover:text-black-800 mb-2">
+               Product Design
+                <!-- <svg class="ml-1 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg> -->
+              </nuxt-link>
+              <nuxt-link to="/topic/invision-studio" class="flex items-center w-1/2 text-black-900 hover:text-black-800 mb-2">
+               Invision Studio
+                <!-- <svg class="ml-1 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg> -->
+              </nuxt-link>
+              <nuxt-link to="/topic/figma" class="flex items-center w-1/2 text-black-900 hover:text-black-800 mb-2">
+               Figma
+                <!-- <svg class="ml-1 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg> -->
+              </nuxt-link>
+              <nuxt-link to="/topic/webflow" class="flex items-center w-1/2 text-black-900 hover:text-black-800 mb-2">
+               Webflow
+                <!-- <svg class="ml-1 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg> -->
+              </nuxt-link>
+              <nuxt-link to="/topic/graphic-design" class="flex items-center pointer-events-none w-1/2 text-grey-100 mb-2">
+               Graphic Design
+                <!-- <svg class="ml-1 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg> -->
+              </nuxt-link>
+              <nuxt-link to="/topic/web-design" class="flex items-center pointer-events-none w-1/2 text-grey-100 mb-2">
+               Web Design
                 <!-- <svg class="ml-1 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg> -->
               </nuxt-link>
               <nuxt-link to="/topic/adobe-xd" class="flex items-center pointer-events-none w-1/2 text-grey-100 mb-2">
@@ -315,8 +343,24 @@
           </div>
           <!-- drawing section -->
           <div class="h-full w-1/3">
-            <nuxt-link to="../filters/drawing" id="drawing" class="text-black-900 uppercase font-semibold">Drawing</nuxt-link>
+            <nuxt-link to="../filters/art" id="art" class="text-black-900 uppercase font-semibold">Art</nuxt-link>
             <div class="mt-5 flex flex-col">
+              <nuxt-link to="/topic/photography" class="flex items-center pointer-events-none w-1/2 text-grey-100 mb-2">
+               Photography
+                <!-- <svg class="ml-1 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg> -->
+              </nuxt-link>
+              <nuxt-link to="/topic/illustration" class="flex pointer-events-none text-grey-100 mb-2">
+              Illustration
+             </nuxt-link>
+             <nuxt-link to="/topic/digital-illustration" class="flex pointer-events-none text-grey-100 mb-2">
+              Digital Illustration
+             </nuxt-link>
+             <nuxt-link to="/topic/painting" class="flex pointer-events-none text-grey-100 mb-2">
+              Painting
+             </nuxt-link>
+             <nuxt-link to="/topic/digital-painting" class="flex pointer-events-none text-grey-100 mb-2">
+              Digital Painting
+             </nuxt-link>
             </div> 
           </div>
           <!-- xxx section -->
@@ -345,6 +389,93 @@
               </nuxt-link>
             </div> 
           </div>
+        </div>
+
+        <div class="mt-10 flex">
+          <!-- adobe section -->
+          <div class="h-full w-1/3">
+            <nuxt-link to="../filters/writing" id="writing" class="text-black-900 uppercase font-semibold">Writing</nuxt-link>
+            <div class="mt-5 flex flex-col">
+              <nuxt-link to="/topic/poetry" class="flex items-center pointer-events-none w-1/2 text-grey-100 mb-2">
+               Poetry
+                <!-- <svg class="ml-1 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg> -->
+              </nuxt-link>
+            </div>           
+          </div>
+
+          <div class="h-full w-1/3">
+            <nuxt-link to="../filters/architecture" id="architecture" class="text-black-900 uppercase font-semibold">Architecture</nuxt-link>
+            <div class="mt-5 flex flex-col">
+              <nuxt-link to="/topic/drafting" class="flex pointer-events-none text-grey-100 mb-2">
+              Drafting
+             </nuxt-link>
+             <nuxt-link to="/topic/arch-illustration" class="flex pointer-events-none text-grey-100 mb-2">
+              Illustration
+             </nuxt-link>
+            </div> 
+          </div>
+
+          <div class="h-full w-1/3">
+            <nuxt-link to="../filters/music" id="music" class="text-black-900 uppercase font-semibold">Music</nuxt-link>
+            <div class="mt-5 flex flex-col">
+              <nuxt-link to="/topic/music-engineering" class="flex items-center pointer-events-none w-1/2 text-grey-100 mb-2">
+               Engineering
+                <!-- <svg class="ml-1 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg> -->
+              </nuxt-link>
+              <nuxt-link to="/topic/composing" class="flex items-center pointer-events-none w-1/2 text-grey-100 mb-2">
+               Composing
+                <!-- <svg class="ml-1 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg> -->
+              </nuxt-link>
+              <nuxt-link to="/topic/song-writing" class="flex items-center pointer-events-none w-1/2 text-grey-100 mb-2">
+               Song Writing
+                <!-- <svg class="ml-1 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg> -->
+              </nuxt-link>
+            </div> 
+          </div>
+        </div>
+
+        <div class="mt-10 flex">
+
+          <div class="h-full w-1/3">
+            <nuxt-link to="../filters/media-arts" id="media-arts" class="text-black-900 uppercase font-semibold">Media Arts</nuxt-link>
+            <div class="mt-5 flex flex-col">
+              <nuxt-link to="/topic/television-production" class="flex pointer-events-none text-grey-100 mb-2">
+              TV Production
+             </nuxt-link>
+             <nuxt-link to="/topic/movie-production" class="flex pointer-events-none text-grey-100 mb-2">
+              Movie Production
+             </nuxt-link>
+             <nuxt-link to="/topic/screen-writing" class="flex items-center pointer-events-none w-1/2 text-grey-100 mb-2">
+               Screen Writing
+                <!-- <svg class="ml-1 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg> -->
+              </nuxt-link>
+              <nuxt-link to="/topic/tv-writing" class="flex items-center pointer-events-none w-1/2 text-grey-100 mb-2">
+               TV Writing
+                <!-- <svg class="ml-1 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg> -->
+              </nuxt-link>
+            </div> 
+          </div>
+          
+          <!-- adobe section -->
+          <!-- <div class="h-full w-1/3">
+            <nuxt-link to="../filters/xxx" id="writing" class="text-black-900 uppercase font-semibold">xxx</nuxt-link>
+            <div class="mt-5 flex flex-col">
+              <nuxt-link to="/topic/xxx" class="flex items-center pointer-events-none w-1/2 text-grey-100 mb-2">
+               xxx
+                <svg class="ml-1 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg>
+              </nuxt-link>
+            </div>           
+          </div> -->
+
+          <!-- <div class="h-full w-1/3">
+            <nuxt-link to="../filters/xxx" id="xxx" class="text-black-900 uppercase font-semibold">xxx</nuxt-link>
+            <div class="mt-5 flex flex-col">
+              <nuxt-link to="/topic/xxx" class="flex items-center pointer-events-none w-1/2 text-grey-100 mb-2">
+               xxx
+                <svg class="ml-1 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg>
+              </nuxt-link>
+            </div> 
+          </div> -->
         </div>
         <!-- end of art & design row -->
       </div>
@@ -831,6 +962,17 @@
       </div>
       <!-- end of business section -->
     </section>
-    
+    <vue-scroll-progress-bar @complete="handleComplete" height=".50rem"/>
   </div>
+  
 </template>
+
+<script>
+import { VueScrollProgressBar} from '@guillaumebriday/vue-scroll-progress-bar'
+
+export default {
+  components: {
+    VueScrollProgressBar
+  },
+}
+</script>

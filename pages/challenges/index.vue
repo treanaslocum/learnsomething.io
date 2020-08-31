@@ -21,202 +21,173 @@
       </div>
 
       <div class="mt-32">
-        <h2 class="text-blue-900 text-3xl">Start a challenge</h2>
-        <p class="mt-2 text-blue-900 text-lg leading-relaxed w-2/3">Pick a challenge and change your life for the better.</p>
+        
+        <h2 class="text-blue-900 text-3xl font-semibold">It's time to level up</h2>
+        <p class="mt-2 text-blue-900 text-lg leading-relaxed w-2/3">Pick a challenge category and gain a new skill.</p>
+      
+        <ul class="mt-8">
+          <nuxt-link to="../challenges#preschool" class="text-sm uppercase font-semibold px-4 py-2 rounded-full inline-block bg-grey-600 text-blue-900">Preschool</nuxt-link>
+          <nuxt-link to="../challenges#elementary" class="pointer-events-none opacity-40 ml-2 text-sm uppercase font-semibold px-4 py-2 rounded-full inline-block bg-grey-600 text-blue-900">Elementary</nuxt-link>
+          <nuxt-link to="../challenges#middleschool" class="pointer-events-none opacity-40 ml-2 text-sm uppercase font-semibold px-4 py-2 rounded-full inline-block bg-grey-600 text-blue-900">Middle school</nuxt-link>
+          <nuxt-link to="challenges#highschool" class="pointer-events-none opacity-40 ml-2 text-sm uppercase font-semibold px-4 py-2 rounded-full inline-block bg-grey-600 text-blue-900">High school</nuxt-link>
+          <nuxt-link to="../challenges#university" class="pointer-events-none opacity-40 ml-2 text-sm uppercase font-semibold px-4 py-2 rounded-full inline-block bg-grey-600 text-blue-900">University</nuxt-link>
+        </ul>
+     
       </div>
 
        
-
-      <div class="mt-24 flex items-center">
-    
-
-       
-        <!-- 7 Day Code Challenge -->
-        <div class="max-w-sm rounded overflow-hidden shadow">
-            <div class="px-6 py-4">
-              <p class="mt-5 text-xl font-semibold"><span class="bg-orange-900 p-1 text-white text-sm uppercase">l1</span> Code Cadet</p>
-              <p class="mt-4">Make yourself into a coding machine one line at a time.</p>
-              <p class="mt-4 text-sm">Suggested Languages: </p>
-              <div class="flex items-center">
+      <h3 id="preschool" class="mt-24 text-2xl font-semibold text-blue-900">Preschool - 7 Days</h3>
+      <p class="mt-4 text-lg w-1/2">Never done a challenge before? Or you're not sure you can fully commit to one? Start at preschool.</p>
+      <div class="mt-12 flex items-center">
+  
+        <!-- first row challenges -->
+        <div class="max-w-sm border-t-2 border-red-500 rounded overflow-hidden shadow">
+            <div class="px-6 py-4 ">
+              <p class="mt-5 text-xl font-semibold">Computer Science</p>
+              <p class="mt-4 text-sm">Suggested computer science topics: </p>
+              <div class="mt-2 flex items-center">
                 <p><nuxt-link to="topic/html-css" class="underline"> HTML&CSS</nuxt-link> <span>or </span><nuxt-link to="topic/javascript" class="underline">JavaScript</nuxt-link></p>    
               </div>
-              
-              <div class="mt-12">
-                <span class="inline-block bg-grey-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">7 days</span>
-                <span class="inline-block bg-grey-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">#7CodeLRNS</span>
-              </div>
-            </div>
-            <div class="bg-gray-700 mt-8 px-6 py-4">
-              <h3 class="font-semibold text-sm">Objective</h3>
-              <p class="mt-4 text-sm">&#9745; Code for 30 minutes each day for the next 7 days.
-</p>
-            </div>
-            <div class="bg-gray-700 mt-8 px-6 py-4">
-              <h3 class="font-semibold text-sm">Track your progress</h3>
-              <p class="mt-6 text-sm">&#9745; Tweet your progress every day with the hashtag #7CodeLRNS</p>
+             
             </div>
             <div class="bg-gray-700 mt-4 px-6 py-4">
-              <h3 class="font-semibold text-sm">Tools for coding</h3>
-              <a href="https://repl.it/" target="_blank" class="text-sm"><p class="mt-4">&starf; Repl.it</p>
-</a>
-              <a href="https://codepen.io/" target="_blank" class="text-sm"><p class="mt-2">&starf; CodePen.io</p></a>
+              <h3 class="font-semibold text-sm">Objective</h3>
+              <p class="mt-4 text-sm">&#9745; Program for 30 minutes each day for the next 7 days.</p>
             </div>
+            <div class="bg-gray-700 mt-4 px-6 py-4">
+              <h3 class="font-semibold text-sm">Track your progress</h3>
+              <p class="mt-6 text-sm">&#9745; Tweet your progress every day with the hashtag #7CompLRNS</p>
+            </div>
+            <div class="ml-4 mt-4">
+              <span class="inline-block bg-grey-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700">#7CompLRNS</span>
+            </div>
+            <div class="mt-4"></div>
           </div> 
 
 
-        <!-- 7 Day Math Challenge -->
-        <div class="ml-4 max-w-sm rounded overflow-hidden shadow">
+        <div class="ml-4 max-w-sm border-t-2 border-red-500 rounded overflow-hidden shadow">
           <div class="px-6 py-4">
-            <p class="mt-5 text-xl font-semibold"><span class="bg-orange-900 p-1 text-white text-sm uppercase">l1</span> Math Newbie</p>
-            <p class="mt-4">It's okay to take things slow. Math can be challenging but you can do it.</p>
-             <p class="mt-4 text-sm">Suggested Maths: </p>
-              <div class="flex items-center">
-                <p><nuxt-link to="topic/pre-algebra" class="underline">Pre-algebra</nuxt-link> <span>or </span><nuxt-link to="topic/algebra-one" class="underline">Algebra 1</nuxt-link></p>    
-              </div>
-            
-            
-            <div class="mt-12">
-              <span class="inline-block bg-grey-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">7 days</span>
-              <span class="inline-block bg-grey-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">#7MathLRNS</span>
+            <p class="mt-5 text-xl font-semibold">Math</p>
+            <p class="mt-4 text-sm">Suggested math topics: </p>
+            <div class="mt-2 flex items-center">
+              <p><nuxt-link to="topic/pre-algebra" class="underline">Pre-algebra</nuxt-link> <span>or </span><nuxt-link to="topic/algebra-one" class="underline">Algebra 1</nuxt-link></p>    
             </div>
+            
           </div>
-          <div class="bg-gray-700 mt-8 px-6 py-4">
+          <div class="bg-gray-700 mt-4 px-6 py-4">
             <h3 class="font-semibold text-sm">Objective</h3>
-            <p class="mt-4 text-sm">&#9745; Do math sets for 30 minutes each day for the next 7 days.
-  </p>
+            <p class="mt-4 text-sm">&#9745; Do math sets for 30 minutes each day for the next 7 days.</p>
           </div>
-          <div class="bg-gray-700 mt-8 px-6 py-4">
+          <div class="bg-gray-700 mt-4 px-6 py-4">
             <h3 class="font-semibold text-sm">Track your progress</h3>
             <p class="mt-6 text-sm">&#9745; Tweet your progress every day with the hashtag #7MathLRNS</p>
           </div>
-          <div class="bg-gray-700 mt-4 px-6 py-4">
-            <h3 class="font-semibold text-sm">Tools for math</h3>
-            <a href="https://play.google.com/store/apps/details?id=com.GamesForKids.Mathgames.MultiplicationTables&hl=en_US" target="_blank" class="text-sm"><p class="mt-2">&starf; Math Games... by GunjanApps Studios</p></a>
+          <div class="ml-4 mt-4">
+            <span class="inline-block bg-grey-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700">#7MathLRNS</span>
           </div>
+          <div class="mt-4"></div>
         </div>
-        
-        <!-- 7 Day Read Challenge -->
-        <div class="ml-4 max-w-sm rounded overflow-hidden shadow">
-            <div class="px-6 py-4">
-              <p class="mt-5 text-xl font-semibold"><span class="bg-orange-900 p-1 text-white text-sm uppercase">l1</span> Little Einstein</p>
-              <p class="mt-4">Developing a love for science takes time. Just ask Einstein.</p>
-              <p class="mt-4 text-sm">Suggested Sciences: </p>
-              <div class="flex items-center">
-                <p><nuxt-link to="topic/physics" class="underline">Physics</nuxt-link></p>   
-              </div>
-              
-              <div class="mt-12">
-                <span class="inline-block bg-grey-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">7 days</span>
-                <span class="inline-block bg-grey-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">#7ScienceLRNS</span>
-              </div>
+        <div class="ml-4 max-w-sm border-t-2 border-red-500 rounded overflow-hidden shadow">
+          <div class="px-6 py-4">
+            <p class="mt-5 text-xl font-semibold">Science</p>
+            <p class="mt-4 text-sm">Suggested science topics: </p>
+            <div class="mt-2 flex items-center">
+              <p><nuxt-link to="topic/physics" class="underline">Physics</nuxt-link></p>   
             </div>
-            <div class="bg-gray-700 mt-8 px-6 py-4">
-              <h3 class="font-semibold text-sm">Objective</h3>
-              <p class="mt-4 text-sm">&#9745; Study science for 30 minutes each day for the next 7 days.
-</p>
-            </div>
-            <div class="bg-gray-700 mt-8 px-6 py-4">
-              <h3 class="font-semibold text-sm">Track your progress</h3>
-              <p class="mt-6 text-sm">&#9745; Tweet your progress every day with the hashtag #7ScienceLRNS</p>
-            </div>
-            <div class="bg-gray-700 mt-4 px-6 py-4">
-              <h3 class="font-semibold text-sm">Tools for science</h3>
-              <a href="https://play.google.com/store/apps/details?id=com.discovery.scigo&hl=en_US" target="_blank" class="text-sm"><p class="text-sm mt-2">&starf; SCIgo</p>
-</a>
-            </div>
-          </div> 
+            
+          </div>
+          <div class="bg-gray-700 mt-4 px-6 py-4">
+            <h3 class="font-semibold text-sm">Objective</h3>
+            <p class="mt-4 text-sm">&#9745; Study science for 30 minutes each day for the next 7 days.</p>
+          </div>
+          <div class="bg-gray-700 mt-4 px-6 py-4">
+            <h3 class="font-semibold text-sm">Track your progress</h3>
+            <p class="mt-6 text-sm">&#9745; Tweet your progress every day with the hashtag #7ScienceLRNS</p>
+          </div>
+          <div class="ml-4 mt-4">
+            <span class="inline-block bg-grey-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700">#7ScienceLRNS</span>
+          </div>
+          <div class="mt-4"></div>
+        </div> 
       </div> 
 
-      <!-- <div class="mt-24 flex items-center">
-    
 
-        
-        <div class="max-w-sm rounded overflow-hidden shadow">
-          <div class="px-6 py-4">
-            <p class="mt-5 text-xl font-semibold"><span class="bg-green-300 p-1 text-white text-sm uppercase">l2</span> Code Warrior</p>
-            <p class="mt-4">Make yourself into a coding machine one line at a time.</p>
-            <div class="mt-12">
-              <span class="inline-block bg-grey-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">28 days</span>
-              <span class="inline-block bg-grey-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">#28CodeLRNS</span>
+      <!-- Second row challenges -->
+      <div class="mt-12 flex items-center">
+        <div class="max-w-sm border-t-2 border-red-500  rounded overflow-hidden shadow">
+            <div class="px-6 py-4 ">
+              <p class="mt-5 text-xl font-semibold">Design</p>
+              <p class="mt-4 text-sm">Suggested design topics:</p>
+              <div class="flex items-center">
+                <p><nuxt-link to="topic/adobe-xd" class="underline">Adobe XD</nuxt-link> <span>or </span><nuxt-link to="topic/ui-design" class="underline">UI Design</nuxt-link></p>    
+              </div>
+             
             </div>
+            <div class="bg-gray-700 mt-4 px-6 py-4">
+              <h3 class="font-semibold text-sm">Objective</h3>
+              <p class="mt-4 text-sm">&#9745; Design for 30 minutes each day for the next 7 days.</p>
+            </div>
+            <div class="bg-gray-700 mt-4 px-6 py-4">
+              <h3 class="font-semibold text-sm">Track your progress</h3>
+              <p class="mt-6 text-sm">&#9745; Tweet your progress every day with the hashtag #7DesignLRNS</p>
+            </div>
+            <div class="ml-4 mt-4">
+              <span class="inline-block bg-grey-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700">#7DesignLRNS</span>
+            </div>
+            <div class="mt-4"></div>
+          </div> 
+
+
+        <div class="ml-4 max-w-sm border-t-2 border-red-500 rounded overflow-hidden shadow">
+          <div class="px-6 py-4">
+            <p class="mt-5 text-xl font-semibold">Cooking</p>
+            <p class="mt-4 text-sm">Suggested cooking topics: </p>
+            <div class="flex items-center">
+              <p><nuxt-link to="topic/korean-cuisine" class="underline">Korean Cuisine</nuxt-link></p>    
+            </div>
+            
           </div>
+          <div class="bg-gray-700 mt-4 px-6 py-4">
+            <h3 class="font-semibold text-sm">Objective</h3>
+            <p class="mt-4 text-sm">&#9745; Cook one meal each day for the next 7 days.</p>
+          </div>
+          <div class="bg-gray-700 mt-4 px-6 py-4">
+            <h3 class="font-semibold text-sm">Track your progress</h3>
+            <p class="mt-6 text-sm">&#9745; Tweet your progress every day with the hashtag #7CookingLRNS</p>
+          </div>
+          <div class="ml-4 mt-4">
+            <span class="inline-block bg-grey-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700">#7CookingLRNS</span>
+          </div>
+          <div class="mt-4"></div>
         </div>
         
-
-        
-        <div class="ml-4 max-w-sm rounded overflow-hidden shadow">
+        <div class="ml-4 max-w-sm border-t-2 border-red-500 rounded overflow-hidden shadow">
           <div class="px-6 py-4">
-            <p class="mt-5 text-xl font-semibold"><span class="bg-green-300 p-1 text-white text-sm uppercase">l2</span> Math Whiz</p>
-            <p class="mt-4">Make yourself into a coding machine one line at a time.</p>
-            <div class="mt-12">
-              <span class="inline-block bg-grey-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">28 days</span>
-              <span class="inline-block bg-grey-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">#28MathLRNS</span>
+            <p class="mt-5 text-xl font-semibold">Art</p>
+            <p class="mt-4 text-sm">Suggested Art topics: </p>
+            <div class="flex items-center">
+              <p><nuxt-link to="topic/illustration" class="underline">Illustration</nuxt-link></p>   
             </div>
+            
           </div>
-        </div>
-       
-
-       
-        <div class="ml-4 max-w-sm rounded overflow-hidden shadow">
-          <div class="px-6 py-4">
-            <p class="mt-5 text-xl font-semibold"><span class="superscript bg-green-300 p-1 text-white text-sm uppercase">l2</span> Speed Reader</p>
-            <p class="mt-4">Make yourself into a coding machine one line at a time.</p>
-            <div class="mt-12">
-              <span class="inline-block bg-grey-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">28 days</span>
-              <span class="inline-block bg-grey-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">#28ReadLRNS</span>
-            </div>
+          <div class="bg-gray-700 mt-4 px-6 py-4">
+            <h3 class="font-semibold text-sm">Objective</h3>
+            <p class="mt-4 text-sm">&#9745; Study illustration for 30 minutes each day for the next 7 days.</p>
           </div>
-        </div>
-        
-
-      </div>  -->
-
-
-
-      <!-- <div class="mt-24 flex items-center">
-    
-
-        
-        <div class="max-w-sm rounded overflow-hidden shadow">
-          <div class="px-6 py-4">
-            <p class="mt-5 text-xl font-semibold"><span class="bg-red-500 p-1 text-white text-sm uppercase">l3</span> Code Warrior</p>
-            <p class="mt-4">Make yourself into a coding machine one line at a time.</p>
-            <div class="mt-12">
-              <span class="inline-block bg-grey-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">90 days</span>
-              <span class="inline-block bg-grey-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">#90CodeLRNS</span>
-            </div>
+          <div class="bg-gray-700 mt-4 px-6 py-4">
+            <h3 class="font-semibold text-sm">Track your progress</h3>
+            <p class="mt-6 text-sm">&#9745; Tweet your progress every day with the hashtag #7IllustrationLRNS</p>
           </div>
-        </div>
-        
-
-        
-        <div class="ml-4 max-w-sm rounded overflow-hidden shadow">
-          <div class="px-6 py-4">
-            <p class="mt-5 text-xl font-semibold"><span class="bg-red-500 p-1 text-white text-sm uppercase">l3</span> Math Whiz</p>
-            <p class="mt-4">Make yourself into a coding machine one line at a time.</p>
-            <div class="mt-12">
-              <span class="inline-block bg-grey-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">90 days</span>
-              <span class="inline-block bg-grey-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">#90MathLRNS</span>
-            </div>
+          <div class="ml-4 mt-4">
+            <span class="inline-block bg-grey-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700">#7IllustrationLRNS</span>
           </div>
-        </div>
-       
+          <div class="mt-4"></div>
+        </div> 
+      </div> 
 
-       
-        <div class="ml-4 max-w-sm rounded overflow-hidden shadow">
-          <div class="px-6 py-4">
-            <p class="mt-5 text-xl font-semibold"><span class="superscript bg-red-500 p-1 text-white text-sm uppercase">l3</span> Speed Reader</p>
-            <p class="mt-4">Make yourself into a coding machine one line at a time.</p>
-            <div class="mt-12">
-              <span class="inline-block bg-grey-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">90 days</span>
-              <span class="inline-block bg-grey-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">#90ReadLRNS</span>
-            </div>
-          </div>
-        </div>
-        
 
-      </div>  -->
 
+      
       
   
     </div>
