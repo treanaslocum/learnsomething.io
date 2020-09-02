@@ -85,7 +85,7 @@
           
           <div class="xl:mt-0 lg:mt-12 flex items-center flex-shrink-0">
             <nuxt-link to="../teacher/adobe">
-              <img class="rounded-full" height="70px" width="70px" src="~assets/images/teachers/adobe.jpg" alt="Bring Your Own Laptop">
+              <img class="rounded-full" height="70px" width="70px" src="~assets/images/teachers/adobe.jpg" alt="Adobe">
             </nuxt-link>
             <div class="flex flex-col flex-wrap lg:flex-no-wrap xl:flex-no-wrap">
               <nuxt-link to="../teacher/adobe">
