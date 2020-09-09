@@ -161,7 +161,7 @@
           <div class="mt-4"></div>
         </div>
         
-        <div class="ml-4 max-w-sm border-t-2 border-red-500 rounded overflow-hidden shadow">
+        <div class="ml-4 max-w-sm border-t-2 border-red-500 pointer-events-none opacity-40 rounded overflow-hidden shadow">
           <div class="px-6 py-4">
             <p class="mt-5 text-xl font-semibold">Art</p>
             <p class="mt-4 text-sm">Suggested Art topics: </p>
