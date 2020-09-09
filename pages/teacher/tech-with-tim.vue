@@ -53,6 +53,39 @@
         </div>
       </section>
 
+      <section class="mt-20">
+        <div class="flex justify-between">
+          <div class="w-4/5">
+            <h3 class="text-black-900 uppercase font-semibold">similar teachers</h3>
+            <div class="mt-10 flex items-center">
+              
+              <div class="flex items-center">
+                <nuxt-link to="../teacher/freeCodeCamp">
+                  <img class="rounded-full" src="~assets/images/teachers/freeCodeCamp.jpg" alt="freeCodeCamp" height="50px" width="50px">
+                </nuxt-link>
+                <nuxt-link to ="../teacher/freeCodeCamp" class="ml-5 text-black-900 hover:text-black-800">freeCodeCamp</nuxt-link>
+              </div>
+
+              <div class="ml-10 flex items-center">
+                <nuxt-link to="../teacher/caleb-curry">
+                  <img class="rounded-full" src="~assets/images/teachers/caleb-curry.jpg" alt="Caleb Curry" height="50px" width="50px">
+                </nuxt-link>
+                <nuxt-link to ="../teacher/caleb-curry" class="ml-5 text-black-900 hover:text-black-800">Caleb Curry</nuxt-link>
+              </div>
+
+              <div class="ml-10 flex items-center">
+                <nuxt-link to="../teacher/mosh">
+                  <img class="rounded-full" src="~assets/images/teachers/mosh.jpg" alt="Mosh" height="50px" width="50px">
+                </nuxt-link>
+                <nuxt-link to ="../teacher/mosh" class="ml-5 text-black-900 hover:text-black-800">Mosh</nuxt-link>
+              </div>
+              
+            </div> 
+          </div>
+          
+        </div>
+      </section>
+
       <CodeCompanion/>
 
       <!-- Video Playlist Section -->

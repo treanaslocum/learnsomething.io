@@ -161,12 +161,12 @@
           <div class="mt-4"></div>
         </div>
         
-        <div class="ml-4 max-w-sm border-t-2 border-red-500 rounded overflow-hidden shadow opacity-40">
+        <div class="ml-4 max-w-sm border-t-2 border-red-500 rounded overflow-hidden shadow">
           <div class="px-6 py-4">
             <p class="mt-5 text-xl font-semibold">Art</p>
             <p class="mt-4 text-sm">Suggested Art topics: </p>
             <div class="flex items-center">
-              <p><nuxt-link to="topic/illustration" class="pointer-events-none underline">Illustration</nuxt-link></p>   
+              <p><nuxt-link to="topic/illustration" class="underline">Illustration</nuxt-link></p>   
             </div>
             
           </div>

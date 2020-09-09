@@ -59,6 +59,42 @@
         </div>
       </section>
 
+      <section class="mt-20">
+        <div class="flex justify-between">
+          <div class="w-4/5">
+            <h3 class="text-black-900 uppercase font-semibold">similar teachers</h3>
+            <div class="mt-10 flex items-center">
+              <div class="flex items-center">
+                <nuxt-link to="../teacher/dani-krossing">
+                  <img class="rounded-full" src="~assets/images/teachers/dani-krossing.jpg" alt="Dani Krossing" height="50px" width="50px">
+                </nuxt-link>
+                <nuxt-link to ="../teacher/dani-krossing" class="ml-5 text-black-900 hover:text-black-800">Dani Krossing</nuxt-link>
+              </div>
+
+              <!-- JavaScript teacher
+              <div class="ml-10 flex items-center">
+                <nuxt-link to="../teacher/xxx">
+                  <img class="rounded-full" src="~assets/images/teachers/xxx.jpg" alt="xxx" height="50px" width="50px">
+                </nuxt-link>
+                <nuxt-link to ="../teacher/xxx" class="ml-5 text-black-900 hover:text-black-800">xxx</nuxt-link>
+              </div> -->
+
+              <!-- Java teacher
+              <div class="ml-10 flex items-center">
+                <nuxt-link to="../teacher/xxx">
+                  <img class="rounded-full" src="~assets/images/teachers/xxx.jpg" alt="xxx" height="50px" width="50px">
+                </nuxt-link>
+                <nuxt-link to ="../teacher/xxx" class="ml-5 text-black-900 hover:text-black-800">xxx</nuxt-link>
+              </div> -->
+
+              
+              
+            </div> 
+          </div>
+          
+        </div>
+      </section>
+
       <CodeCompanion/>
 
       <!-- Video Playlist Section -->

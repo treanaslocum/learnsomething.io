@@ -53,6 +53,45 @@
         </div>
       </section>
 
+      <section class="mt-20">
+        <div class="flex justify-between">
+          <div class="w-4/5">
+            <h3 class="text-black-900 uppercase font-semibold">similar teachers</h3>
+            <div class="mt-10 flex items-center">
+              <div class="flex items-center">
+                <nuxt-link to="../teacher/freeCodeCamp">
+                  <img class="rounded-full" src="~assets/images/teachers/freeCodeCamp.jpg" alt="freeCodeCamp" height="50px" width="50px">
+                </nuxt-link>
+                <nuxt-link to ="../teacher/freeCodeCamp" class="ml-5 text-black-900 hover:text-black-800">freeCodeCamp</nuxt-link>
+              </div>
+
+              <div class="ml-10 flex items-center">
+                <nuxt-link to="../teacher/dev-ed">
+                  <img class="rounded-full" src="~assets/images/teachers/dev-ed.jpg" alt="Dev Ed" height="50px" width="50px">
+                </nuxt-link>
+                <nuxt-link to ="../teacher/dev-ed" class="ml-5 text-black-900 hover:text-black-800">Dev Ed</nuxt-link>
+              </div>
+
+              <div class="ml-10 flex items-center">
+                <nuxt-link to="../teacher/adobe">
+                  <img class="rounded-full" src="~assets/images/teachers/adobe.jpg" alt="Adobe" height="50px" width="50px">
+                </nuxt-link>
+                <nuxt-link to ="../teacher/adobe" class="ml-5 text-black-900 hover:text-black-800">Adobe</nuxt-link>
+              </div>
+
+              <div class="ml-10 flex items-center">
+                <nuxt-link to="../teacher/bring-your-own-laptop">
+                  <img class="rounded-full" src="~assets/images/teachers/bring-your-own-laptop.jpg" alt="Bring Your Own Laptop" height="50px" width="50px">
+                </nuxt-link>
+                <nuxt-link to ="../teacher/bring-your-own-laptop" class="ml-5 text-black-900 hover:text-black-800">Bring Your Own Laptop</nuxt-link>
+              </div>
+              
+            </div> 
+          </div>
+          
+        </div>
+      </section>
+
       <CodeCompanion/>
 
       <!-- Video Playlist Section -->

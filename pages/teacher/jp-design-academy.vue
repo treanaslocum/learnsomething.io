@@ -36,6 +36,16 @@
         </div>
       </section>
 
+      <section class="mt-20">
+        <div class="flex justify-between">
+          <div class="w-4/5">
+            <h3 class="text-black-900 uppercase font-semibold">similar teachers</h3>
+                         
+          </div>
+          
+        </div>
+      </section>
+
 
 
 

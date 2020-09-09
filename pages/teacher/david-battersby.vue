@@ -51,6 +51,33 @@
         </div>
       </section>
 
+      <section class="mt-20">
+        <div class="flex justify-between">
+          <div class="w-4/5">
+            <h3 class="text-black-900 uppercase font-semibold">similar teachers</h3>
+            <div class="mt-10 flex items-center">
+              <div class="flex items-center">
+                <nuxt-link to="../teacher/web-crunch">
+                  <img class="rounded-full" src="~assets/images/teachers/web-crunch.jpg" alt="Web-Crunch" height="50px" width="50px">
+                </nuxt-link>
+                <nuxt-link to ="../teacher/web-crunch" class="ml-5 text-black-900 hover:text-black-800">Web-Crunch</nuxt-link>
+              </div>
+
+              <div class="ml-10 flex items-center">
+                <nuxt-link to="../teacher/deanin">
+                  <img class="rounded-full" src="~assets/images/teachers/deanin.jpg" alt="Deanin" height="50px" width="50px">
+                </nuxt-link>
+                <nuxt-link to ="../teacher/deanin" class="ml-5 text-black-900 hover:text-black-800">Deanin</nuxt-link>
+              </div>
+              
+            </div> 
+
+            
+          </div>
+          
+        </div>
+      </section>
+
       <CodeCompanion/>
 
       <!-- Video Playlist Section -->

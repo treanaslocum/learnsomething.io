@@ -229,30 +229,30 @@
       <!-- end of stem section -->
 
       <!-- start of second stem row -->
-      <div class="mt-10 flex">
-        <!-- robotics section -->
+      <!-- <div class="mt-10 flex">
+        robotics section
         <div class="h-full w-1/3">
           <nuxt-link to="../filters/robotics" id="robotics" class="text-black-900 uppercase font-semibold">Robotics</nuxt-link>
           <div class="mt-5 flex flex-col">
             <nuxt-link to="/topic/arduino" class="pointer-events-none w-1/2 text-grey-100 mb-2">
               Arduino
-              <!-- <svg class="ml-1 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg> -->
+              <svg class="ml-1 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg>
             </nuxt-link>
             
           </div>           
         </div>
-        <!-- electrical engineering -->
+        electrical engineering
         <div class="h-full w-1/3">
           <nuxt-link to="../filters/electrical-engineering" id="electrical-engineering" class="text-black-900 uppercase font-semibold">Electrical Engineering</nuxt-link>
           <div class="mt-5 flex flex-col">
             <nuxt-link to="/topic/circuits-electronics" class="flex items-center w-1/2 pointer-events-none text-grey-100 mb-2">
               Circuits & Electronics
-              <!-- <svg class="ml-1 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg> -->
-              <!-- <div class="ml-3 bg-purple-500 text-white text-xs font-semibold rounded uppercase px-2">new</div> -->
+              <svg class="ml-1 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg>
+              <div class="ml-3 bg-purple-500 text-white text-xs font-semibold rounded uppercase px-2">new</div>
             </nuxt-link>
           </div> 
         </div>
-        <!-- mechanical engineering -->
+        mechanical engineering
         <div class="h-full w-1/3">
           <nuxt-link to="../filters/mechanical-engineering" id="mechanical-engineering" class="text-black-900 uppercase font-semibold">Mechanical Engineering</nuxt-link>
           <div class="mt-5 flex flex-col">
@@ -262,27 +262,27 @@
           </div> 
         </div>
       </div>
-      <!-- end of second stem row -->
+      end of second stem row -->
 
-      <!-- start of third stem row-->
+      <!-- start of third stem row
       <div class="mt-10 flex">
-        <!-- civil engineering section -->
+        civil engineering section
         <div class="h-full w-1/3">
           <nuxt-link to="../filters/civil-engineering" id="civic-engineering" class="text-black-900 uppercase font-semibold">Civil Engineering</nuxt-link>
           <div class="mt-5 flex flex-col">
-            <!-- <nuxt-link to="/topic/xxx" class="flex items-center w-3/5 text-black-900 hover:text-black-800 mb-2">
+             <nuxt-link to="/topic/xxx" class="flex items-center w-3/5 text-black-900 hover:text-black-800 mb-2">
               xxx
               <svg class="ml-1 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg>
               <div class="ml-3 bg-purple-500 text-white text-xs font-semibold rounded uppercase px-2">new</div>
-            </nuxt-link> -->
-            <!-- <nuxt-link to="/topic/xxx" class="pointer-events-none w-1/2 text-grey-100 mb-2">
+            </nuxt-link> 
+            <nuxt-link to="/topic/xxx" class="pointer-events-none w-1/2 text-grey-100 mb-2">
               xxx
               
               <svg class="ml-1 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg>
-            </nuxt-link> -->
+            </nuxt-link>
           </div>           
         </div>
-      </div>
+      </div> -->
       <!-- end of third stem row -->
 
 
@@ -319,10 +319,9 @@
                Figma
                 <!-- <svg class="ml-1 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg> -->
               </nuxt-link>
-              <nuxt-link to="/topic/webflow" class="flex items-center pointer-events-none w-1/2 text-grey-100 mb-2">
+              <nuxt-link to="/topic/webflow" class="flex items-center w-1/2 text-black-900 hover:text-black-800 mb-2">
                Webflow
-              <div class="ml-3 bg-yellow-500 text-white text-xs font-semibold rounded uppercase px-2">in progress</div>
-                <!-- <svg class="ml-1 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg> -->
+              <!-- <svg class="ml-1 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg> -->
               </nuxt-link>
               <nuxt-link to="/topic/graphic-design" class="flex items-center pointer-events-none w-1/2 text-grey-100 mb-2">
                Graphic Design
@@ -350,7 +349,10 @@
                Photography
                 <!-- <svg class="ml-1 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg> -->
               </nuxt-link>
-              <nuxt-link to="/topic/illustration" class="flex items-center pointer-events-none text-grey-100 mb-2">
+              <nuxt-link to="/topic/drawing" class="flex pointer-events-none text-grey-100 mb-2">
+              Drawing
+             </nuxt-link>
+              <nuxt-link to="/topic/illustration" class="flex items-center pointer-events-none w-1/2 text-grey-100 mb-2">
               Illustration
               <div class="ml-3 bg-yellow-500 text-white text-xs font-semibold rounded uppercase px-2">in progress</div>
              </nuxt-link>

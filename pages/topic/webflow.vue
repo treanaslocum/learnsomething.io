@@ -4,15 +4,15 @@
     <div class="mt-32 px-32">
       <div class="flex items-center">
         <p class="text-sm text-blue-900 capitalize"><nuxt-link to="/topics">Home</nuxt-link> <span class="ml-1 font-semibold">&rsaquo;</span></p>
-        <p class="ml-5 text-sm text-blue-900 capitalize"><nuxt-link to="/topics/#finances">Finances</nuxt-link> <span class="ml-1 font-semibold">&rsaquo;</span></p>
-        <div class="ml-5"><p class="text-xs text-blue-900 font-semibold px-2">Futures</p></div>
+        <p class="ml-5 text-sm text-blue-900 capitalize"><nuxt-link to="/topics/#design">Design</nuxt-link> <span class="ml-1 font-semibold">&rsaquo;</span></p>
+        <div class="ml-5"><p class="text-xs text-blue-900 font-semibold px-2">Webflow</p></div>
       </div>
 
       <section class="mt-12">
         <div class="flex items-center justify-between">
           <div>
-            <p class="text-purple-500 uppercase font-semibold">Finances</p>
-            <h2 class="text-blue-900 text-5xl">Futures</h2>
+            <p class="text-purple-500 uppercase font-semibold">Design</p>
+            <h2 class="text-blue-900 text-5xl">Webflow</h2>
           </div>
           <!-- <div class="flex items-center border border-red-500 rounded-full py-1 px-3">
             <span><svg class="fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg></span>
@@ -23,11 +23,13 @@
         <div class="mt-5 flex items-center justify-between">
           <div class="flex items-center">
             <p class="text-grey-700">Tags</p>
-            <nuxt-link to="../filters/finance" class="ml-3">
-              <p class="bg-grey-200 rounded-full px-3 text-grey-700 uppercase font-semibold hover:text-grey-300">finance</p>
+            <nuxt-link to="../filters/design" class="ml-3">
+              <p class="bg-grey-200 rounded-full px-3 text-grey-700 uppercase font-semibold hover:text-grey-300">Design</p>
             </nuxt-link>
           </div>
-          
+          <div>
+            <a class="mt-5 text-black-900 hover:text-black-800" href="https://webflow.com/" target="_blank">https://webflow.com/</a>
+          </div>
         </div>
       </section>
 
@@ -35,34 +37,28 @@
         <div class="flex justify-between">
           <div class="w-4/5">
             <h3 class="text-black-900 uppercase font-semibold">about</h3>
-            <p class="mt-10 text-black-900 leading-relaxed w-3/5">In finance, a futures contract is a standardized legal agreement to buy or sell something at a predetermined price at a specified time in the future, between parties not known to each other. The asset transacted is usually a commodity or financial instrument.<a href="https://en.wikipedia.org/wiki/Futures_contract" target="_blank" class="ml-1 text-lg text-purple-500 font-semibold">&rsaquo;&rsaquo;</a></p>
+            <p class="mt-10 leading-relaxed w-3/5">Webflow, Inc. is an American company, based in San Francisco, that provides software as a service for website building and hosting. Their online visual editor platform allows users to design, build, and launch websites.<a href="https://en.wikipedia.org/wiki/Webflow" target="_blank" class="ml-1 text-lg text-purple-500 font-semibold">&rsaquo;&rsaquo;</a></p>
           </div>
           <div class="w-1/5 flex flex-col">
             <h3 class="text-black-400 uppercase font-semibold">similar topics</h3>
-            <nuxt-link to="/topic/options" class="mt-10 mb-2 text-black-900 hover:text-black-800">Options</nuxt-link>
-            <nuxt-link to="/topic/forex" class="mb-2 pointer-events-none text-grey-100 line-through">Forex</nuxt-link>
-            <nuxt-link to="/topic/cryptocurrency" class="mb-2 pointer-events-none text-grey-100 line-through">Cryptocurrency</nuxt-link>
-            <nuxt-link to="/topic/stocks" class="mb-2 pointer-events-none text-grey-100 line-through">Stocks</nuxt-link>
+            <nuxt-link to="/topic/digital-illustration" class="mt-10 flex mb-2 pointer-events-none text-grey-100 line-through">
+              Web Design
+              <!-- <svg class="ml-1 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg>            -->
+            </nuxt-link>
           </div>
         </div>
       </section>
 
-
       <section class="mt-20">
         <div class="flex justify-between">
           <div class="w-4/5">
-          </div>
-          <div class="w-1/5 flex flex-col">
-            <h3 class="text-black-400 uppercase font-semibold">supplemental sites</h3>
-            <a href="https://www.tdameritrade.com/investment-products/futures-trading.page" target="_blank" class="mt-10 flex items-center mb-2 text-black-900 hover:text-black-800">
-              TD Ameritrade
-              <div class="ml-3 bg-grey-300 text-white text-xs font-semibold rounded uppercase px-2">free</div>
-            </a>
-            <a href="https://www.investopedia.com/terms/f/futurescontract.asp" target="_blank" class="flex items-center mb-2 text-black-900 hover:text-black-800">
-              Investopedia
-              <div class="ml-3 bg-grey-300 text-white text-xs font-semibold rounded uppercase px-2">free</div>
-            </a>
-        
+            <h3 class="text-black-900 uppercase font-semibold">creators</h3>
+            <div class="mt-10 flex items-center">
+              <a href="https://en.wikipedia.org/wiki/Webflow" target="_blank">
+                <img class="rounded-full" src="~assets/images/webflow.jpg" alt="Webflow" height="50px" width="50px">
+              </a>
+              <a href="https://en.wikipedia.org/wiki/Webflow" target="_blank" class="ml-5 text-black-900 hover:text-black-800">Webflow</a>
+            </div>    
           </div>
         </div>
       </section>
@@ -84,42 +80,63 @@
         </div>
       </div>
 
+      
         <!-- Teacher list Section -->
       <section class="mt-20">
+        <!-- Introduction to Ruby Teacher section -->
 
         <!-- section header -->
         <div class="mt-12 flex">
           <div class="flex items-center">
-            <p id="ruby-teachers" class="mt-10 text-black-900 font-semibold uppercase">Futures Teachers</p>
+            <p class="mt-10 text-black-900 font-semibold uppercase">Webflow Teachers</p>
           </div>
         </div>
 
+        <!-- <h4 class="mt-16 text-xl font-semibold">English</h4> -->
+        <!-- english teachers 1st row list -->
         <div class="mt-16 flex flex-wrap xl:flex-no-wrap">
 
           <!-- teacher 1 -->
-          <div class="flex items-center flex-shrink-0">
-            <nuxt-link to="../teacher/clay-trader">
-              <img class="rounded-full" height="70px" width="70px" src="~assets/images/teachers/clay-trader.jpg" alt="Mike Dane">
+         <div class="flex items-center flex-shrink-0">
+            <nuxt-link to="../teacher/webflow">
+              <img class="rounded-full" height="70px" width="70px" src="~assets/images/teachers/webflow.jpg" alt="Webflow">
             </nuxt-link>
             <div class="flex flex-col flex-wrap lg:flex-no-wrap xl:flex-no-wrap">
-              <nuxt-link to="../teacher/clay-trader">
-                <p class="ml-5 font-semibold">ClayTrader</p>
+              <nuxt-link to="../teacher/webflow">
+                <p class="ml-5 font-semibold">Webflow</p>
               </nuxt-link>
             </div>
           </div>
 
+          <div class="xl:ml-12 xl:mt-0 lg:mt-12 lg:ml-0 flex items-center flex-shrink-0">
+            <nuxt-link to="../teacher/flux">
+              <img class="rounded-full" height="70px" width="70px" src="~assets/images/teachers/flux.jpg" alt="Flux">
+            </nuxt-link>
+            <div class="flex flex-col flex-wrap lg:flex-no-wrap xl:flex-no-wrap">
+              <nuxt-link to="../teacher/flux">
+                <p class="ml-5 font-semibold">Flux</p>
+              </nuxt-link>
+            </div>
+          </div>
+
+          <div class="xl:ml-12 xl:mt-0 lg:mt-12 lg:ml-0 flex items-center flex-shrink-0">
+            <nuxt-link to="../teacher/charli-marie-tv">
+              <img class="rounded-full" height="70px" width="70px" src="~assets/images/teachers/charli-marie-tv.jpg" alt="CharliMarieTV">
+            </nuxt-link>
+            <div class="flex flex-col flex-wrap lg:flex-no-wrap xl:flex-no-wrap">
+              <nuxt-link to="../teacher/charli-marie-tv">
+                <p class="ml-5 font-semibold">CharliMarieTV</p>
+              </nuxt-link>
+            </div>
+          </div>
         </div> 
 
       </section>
 
-     
-
-
-        
-        
-  
-
+      
+      <Footer/>
     </div>
+    
     <!-- Default Statcounter code for Learnsomething.io
     http://www.learnsomething.io -->
     <script type="text/javascript">
@@ -137,7 +154,6 @@
     src="https://c.statcounter.com/12370753/0/429f25a4/1/"
     alt="Web Analytics"></a></div></noscript>
     <!-- End of Statcounter Code -->
-    <Footer/>
   </div>
 </template>
 
@@ -148,11 +164,11 @@ import Footer from '~/components/Footer.vue'
 export default {
   components: {
     Header,
-    Footer
+    Footer,
   },
   head () {
     return {
-      title: "Futures - LearnSomething.io",
+      title: "Webflow - LearnSomething.io",
       meta: [
         // hid is used as unique identifier. Do not use `vmid` for it as it will not work
         { hid: 'description', name: 'description', content: 'My custom description' }

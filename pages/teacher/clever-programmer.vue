@@ -43,10 +43,46 @@
               JavaScript
               <!-- <svg class="ml-1 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg> -->
             </nuxt-link>
+            <nuxt-link to="/topic/react-js" class="flex mt-10 mb-2 pointer-events-none text-grey-100 line-through">
+              ReactJS
+              <!-- <svg class="ml-1 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg>            -->
+            </nuxt-link>
             <nuxt-link to="/topic/python" class="flex text-black-900 hover:text-black-800 mb-2">
               Python
             </nuxt-link>
           </div>
+        </div>
+      </section>
+
+      <section class="mt-20">
+        <div class="flex justify-between">
+          <div class="w-4/5">
+            <h3 class="text-black-900 uppercase font-semibold">similar teachers</h3>
+            <div class="mt-10 flex items-center">
+              <div class="flex items-center">
+                <nuxt-link to="../teacher/mosh">
+                  <img class="rounded-full" src="~assets/images/teachers/mosh.jpg" alt="Mosh" height="50px" width="50px">
+                </nuxt-link>
+                <nuxt-link to ="../teacher/mosh" class="ml-5 text-black-900 hover:text-black-800">Mosh</nuxt-link>
+              </div>
+
+              <div class="ml-10 flex items-center">
+                <nuxt-link to="../teacher/freeCodeCamp">
+                  <img class="rounded-full" src="~assets/images/teachers/freeCodeCamp.jpg" alt="freeCodeCamp" height="50px" width="50px">
+                </nuxt-link>
+                <nuxt-link to ="../teacher/freeCodeCamp" class="ml-5 text-black-900 hover:text-black-800">freeCodeCamp</nuxt-link>
+              </div>
+
+              <div class="ml-10 flex items-center">
+                <nuxt-link to="../teacher/tech-with-tim">
+                  <img class="rounded-full" src="~assets/images/teachers/tech-with-tim.jpg" alt="Tech With Tim" height="50px" width="50px">
+                </nuxt-link>
+                <nuxt-link to ="../teacher/tech-with-tim" class="ml-5 text-black-900 hover:text-black-800">Tech With Tim</nuxt-link>
+              </div>
+              
+            </div> 
+          </div>
+          
         </div>
       </section>
 
