@@ -2,20 +2,20 @@
   <div class="body">
     <Header/>
       <section class="mt-32 px-32">  
-        <h2 class="text-blue-900 text-5xl">Cooking</h2>
-        <p class="text-blue-900 leading-relaxed w-3/4">Cooking is the art, technology, science and craft of using heat to prepare food for consumption.<a href="https://en.wikipedia.org/wiki/Cooking" target="_blank" class="ml-1 text-sm text-purple-500 font-semibold">Wikipedia</a></p>
+        <h2 class="text-blue-900 text-5xl">Nutrition</h2>
+        <p class="text-blue-900 leading-relaxed w-3/4">Nutrition is the science that interprets the nutrients and other substances in food in relation to maintenance, growth, reproduction, health and disease of an organism. It includes ingestion, absorption, assimilation, biosynthesis, catabolism and excretion.<a href="https://en.wikipedia.org/wiki/Nutrition" target="_blank" class="ml-1 text-sm text-purple-500 font-semibold">Wikipedia</a></p>
       </section>
 
       <section class="mt-20 px-32">
         <div class="flex items-center">
           <div class="flex flex-col w-1/4">
             <!-- Algebra 1 -->
-            <nuxt-link to="../topic/korean-cuisine">
+            <nuxt-link to="../topic/keto">
               <div class="flex flex-col w-64">
                   <p class="text-blue-900 text-sm">Discipline</p>
                   <div class="flex items-center">
                       <p class="text-lg text-blue-900 font-semibold">
-                        #Korean-Cuisine
+                        #Keto
                       </p>
                   </div>
               </div>
@@ -136,7 +136,7 @@ export default {
   },
   head () {
     return {
-      title: "Cooking - LearnSomething.io",
+      title: "Nutrition - LearnSomething.io",
       meta: [
         // hid is used as unique identifier. Do not use `vmid` for it as it will not work
         { hid: 'description', name: 'description', content: 'My custom description' }
