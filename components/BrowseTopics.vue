@@ -15,6 +15,9 @@
           <nuxt-link to="#arts" class="ml-3 ">
             <p class="bg-grey-600 rounded-full  px-4 py-2 text-blue-900 text-sm text-orange-900 uppercase font-semibold">Arts</p>
           </nuxt-link>
+          <nuxt-link to="#languages" class="ml-3 ">
+            <p class="bg-grey-600 rounded-full  px-4 py-2 text-blue-900 text-sm text-orange-900 uppercase font-semibold">Languages</p>
+          </nuxt-link>
           <nuxt-link to="#essential-life" class="ml-3 ">
             <p class="bg-grey-600 rounded-full  px-4 py-2 text-blue-900 text-sm uppercase font-semibold">Essential Life Skills</p>
           </nuxt-link>
@@ -484,6 +487,127 @@
         <!-- end of art & design row -->
       </div>
       <!-- end of art & design section -->
+
+      <!-- start of languages section -->
+
+      <div class="mt-20">
+        <p id="languages" class="text-4xl text-purple-500 uppercase font-semibold">Languages</p>
+        <!-- start of art & design row -->
+        <div class="mt-10 flex">
+          <!-- adobe section -->
+          <div class="h-full w-1/3">
+            <nuxt-link to="../filters/latin-america-lang" id="latin-america" class="text-black-900 uppercase font-semibold">Latin America</nuxt-link>
+            <div class="mt-5 flex flex-col">
+              <nuxt-link to="/topic/spanish-language" class="flex items-center pointer-events-none w-1/2 text-grey-100 mb-2">
+               Spanish
+                <!-- <svg class="ml-1 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg> -->
+                <div class="ml-3 bg-orange-900 text-white text-xs font-semibold rounded uppercase px-2">coming soon</div>
+              </nuxt-link>
+              <nuxt-link to="/topic/portuguese-language" class="flex items-center pointer-events-none w-1/2 text-grey-100 mb-2">
+               Portuguese
+                <!-- <svg class="ml-1 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg> -->
+              </nuxt-link>
+            </div>           
+          </div>
+          <!-- drawing section -->
+          <div class="h-full w-1/3">
+            <nuxt-link to="../filters/asia-lang" id="asia-lang" class="text-black-900 uppercase font-semibold">Asia</nuxt-link>
+            <div class="mt-5 flex flex-col">
+              <nuxt-link to="/topic/korean-language" class="flex items-center pointer-events-none w-1/2 text-grey-100 mb-2">
+               Korean
+                <!-- <svg class="ml-1 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg> -->
+              </nuxt-link>
+              <nuxt-link to="/topic/japanese-language" class="flex pointer-events-none text-grey-100 mb-2">
+              Japanese
+             </nuxt-link>
+              <nuxt-link to="/topic/chinese-lang" class="flex items-center pointer-events-none w-1/2 text-grey-100 mb-2">
+              Chinese (Mandarin)
+              <!-- <div class="ml-3 bg-yellow-500 text-white text-xs font-semibold rounded uppercase px-2">in progress</div> -->
+             </nuxt-link>
+             <nuxt-link to="/topic/hindi-language" class="flex pointer-events-none text-grey-100 mb-2">
+              Hindi
+             </nuxt-link>
+             <nuxt-link to="/topic/tagalog-language" class="flex pointer-events-none text-grey-100 mb-2">
+              Tagalog
+             </nuxt-link>
+             <nuxt-link to="/topic/thai-language" class="flex pointer-events-none text-grey-100 mb-2">
+              Thai
+             </nuxt-link>
+            </div> 
+          </div>
+          <!-- xxx section -->
+          <div class="h-full w-1/3">
+            <nuxt-link to="../filters/africa-lang" id="africa-lang" class="text-black-900 uppercase font-semibold">Africa</nuxt-link>
+            <div class="mt-5 flex flex-col">
+              <nuxt-link to="/topic/swahili-language" class="flex items-center pointer-events-none w-1/2 text-grey-100 mb-2">
+               Swahili
+                <!-- <svg class="ml-1 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg> -->
+              </nuxt-link>
+              <nuxt-link to="/topic/amharic-language" class="flex items-center pointer-events-none w-1/2 text-grey-100 mb-2">
+               Amharic
+                <!-- <svg class="ml-1 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg> -->
+              </nuxt-link>
+              <nuxt-link to="/topic/yoruba-language" class="flex items-center pointer-events-none w-1/2 text-grey-100 mb-2">
+               Yoruba
+                <!-- <svg class="ml-1 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg> -->
+              </nuxt-link>
+            </div> 
+          </div>
+        </div>
+
+        <div class="mt-10 flex">
+          <!-- adobe section -->
+          <div class="h-full w-1/3">
+            <nuxt-link to="../filters/europe-lang" id="europe-lang" class="text-black-900 uppercase font-semibold">Europe</nuxt-link>
+            <div class="mt-5 flex flex-col">
+              <nuxt-link to="/topic/french-language" class="flex items-center pointer-events-none w-1/2 text-grey-100 mb-2">
+               French
+                <!-- <svg class="ml-1 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg> -->
+              </nuxt-link>
+              <nuxt-link to="/topic/italian-language" class="flex items-center pointer-events-none w-1/2 text-grey-100 mb-2">
+               Italian
+                <!-- <svg class="ml-1 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg> -->
+              </nuxt-link>
+              <nuxt-link to="/topic/russian-language" class="flex items-center pointer-events-none w-1/2 text-grey-100 mb-2">
+               Russian
+                <!-- <svg class="ml-1 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg> -->
+              </nuxt-link>
+              <nuxt-link to="/topic/german-language" class="flex items-center pointer-events-none w-1/2 text-grey-100 mb-2">
+               German
+                <!-- <svg class="ml-1 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg> -->
+              </nuxt-link>
+            </div>   
+          </div>
+
+          <div class="h-full w-1/3">
+            <nuxt-link to="../filters/middle-east-lang" id="middle-east-lang" class="text-black-900 uppercase font-semibold">Middle East</nuxt-link>
+            <div class="mt-5 flex flex-col">
+              <nuxt-link to="/topic/arabic-language" class="flex items-center pointer-events-none w-1/2 text-grey-100 mb-2">
+               Arabic
+                <!-- <svg class="ml-1 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg> -->
+              </nuxt-link>
+              <nuxt-link to="/topic/farsi-language" class="flex items-center pointer-events-none w-1/2 text-grey-100 mb-2">
+               Farsi
+                <!-- <svg class="ml-1 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg> -->
+              </nuxt-link>
+              <nuxt-link to="/topic/pashto-language" class="flex items-center pointer-events-none w-1/2 text-grey-100 mb-2">
+               Pashto
+                <!-- <svg class="ml-1 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg> -->
+              </nuxt-link>
+              <nuxt-link to="/topic/turkish-language" class="flex items-center pointer-events-none w-1/2 text-grey-100 mb-2">
+               Turkish
+                <!-- <svg class="ml-1 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg> -->
+              </nuxt-link>
+              <nuxt-link to="/topic/hebrew-language" class="flex items-center pointer-events-none w-1/2 text-grey-100 mb-2">
+               Hebrew
+                <!-- <svg class="ml-1 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg> -->
+              </nuxt-link>
+            </div> 
+          </div>
+        </div>
+        
+      </div>
+      <!-- end of languages section -->
 
       
       <!-- start of essential life skills section -->
