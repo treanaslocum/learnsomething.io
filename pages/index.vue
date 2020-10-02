@@ -27,7 +27,7 @@
       
         <div class="ml-8 py-4">
           <nuxt-link to="/topics" class="px-10 py-4 uppercase text-white bg-purple-500 hover:bg-purple-400 rounded">
-          Start learning
+          Start learning <span class="text-xl"> &rarr; </span>
           </nuxt-link>
         </div>
         
