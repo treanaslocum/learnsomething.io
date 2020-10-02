@@ -7,7 +7,7 @@
 
     <div class="mt-32 pl-32 max-w-4xl text-blue-900">
       <div class="max-w-xl font-regular leading-tight">
-        <h1 class="text-5xl">Self-taught learners <span class="font-semibold">meet YouTube</span>.</h1>
+        <h1 class="text-5xl">We make it easy to <span class="font-semibold">learn anything</span>.</h1>
       </div>
       <div class="mt-6 max-w-xl leading-tight font-regular text-xl">
         <p>Push your knowledge to the next level by unlocking the power of the #2 most used search engine in the world.
@@ -15,7 +15,7 @@
         
       </div>
       
-      <div class="mt-8 max-w-xl flex flex-wrap flex-wrap-reverse items-center justify-between content-around font-semibold">
+      <div class="mt-8 max-w-xl flex flex-wrap flex-wrap-reverse items-center font-semibold">
         
         <div class="py-4">
           <a href="https://twitter.com/thelrnsomething" target="_blank" class="px-10 py-4 uppercase text-blue-900 bg-grey-100 hover:bg-grey-400 rounded flex items-center">
@@ -25,9 +25,9 @@
         </div>
         
       
-        <div class="py-4">
-          <nuxt-link to="/challenges" class="px-10 py-4 uppercase text-white bg-purple-500 hover:bg-purple-400 rounded">
-          Take on a challenge
+        <div class="ml-8 py-4">
+          <nuxt-link to="/topics" class="px-10 py-4 uppercase text-white bg-purple-500 hover:bg-purple-400 rounded">
+          Start learning
           </nuxt-link>
         </div>
         
