@@ -8,7 +8,7 @@
         <div class="text-blue-900 font-semibold">
           <nuxt-link to="/topics" class="ml-8 hover:text-blue-800">Browse Topics</nuxt-link>
           <nuxt-link to="/challenges" class="ml-8 hover:text-blue-800">Challenges</nuxt-link>
-          <nuxt-link to="/about" class="ml-8 hover:text-blue-800">About</nuxt-link>
+          <nuxt-link to="/about" class="ml-8 hover:text-blue-800">Manifesto</nuxt-link>
           <a href="https://twitter.com/thelrnsomething" target="_blank" class="ml-8 hover:text-blue-800">Community</a>
           <!-- Connect to Teespring Shop -->
           <!-- <a href="" class="ml-8">Shop</a> -->
