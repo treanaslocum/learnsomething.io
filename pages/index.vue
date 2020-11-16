@@ -10,7 +10,7 @@
         <h1 class="text-5xl">We make it easy to <span class="font-semibold">learn anything</span>.</h1>
       </div>
       <div class="mt-6 max-w-xl leading-tight font-regular text-xl">
-        <p>Push your knowledge to the next level by unlocking the power of the #2 most used search engine in the world.
+        <p>Push your knowledge to the next level. <br>
         <nuxt-link to="#get-started" class="mt-1 font-semibold">Ready to start learning?</nuxt-link></p>
         
       </div>
