@@ -213,6 +213,19 @@
               </nuxt-link>
             </div>
           </div>
+
+          <!-- teacher 2 -->
+
+          <div class="ml-10 flex items-center flex-shrink-0">
+            <nuxt-link to="../teacher/clever-programmer">
+              <img class="rounded-full" height="70px" width="70px" src="~assets/images/teachers/clever-programmer.jpg" alt="Mike Dane">
+            </nuxt-link>
+            <div class="flex flex-col flex-wrap lg:flex-no-wrap xl:flex-no-wrap">
+              <nuxt-link to="../teacher/clever-programmer">
+                <p class="ml-5 font-semibold">Clever Programmer</p>
+              </nuxt-link>
+            </div>
+          </div>
         </div> 
 
       </section>

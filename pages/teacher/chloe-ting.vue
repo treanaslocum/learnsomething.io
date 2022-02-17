@@ -42,6 +42,31 @@
         </div>
       </section>
 
+      <section class="mt-20">
+        <div class="flex justify-between">
+          <div class="w-4/5">
+            <h3 class="text-black-900 uppercase font-semibold">similar teachers</h3>
+            <div class="mt-10 flex items-center">
+              <div class="flex items-center">
+                <nuxt-link to="../teacher/emi-wong">
+                  <img class="rounded-full" src="~assets/images/teachers/emi-wong.jpg" alt="Emi Wong" height="50px" width="50px">
+                </nuxt-link>
+                <nuxt-link to ="../teacher/emi-wong" class="ml-5 text-black-900 hover:text-black-800">Emi Wong</nuxt-link>
+              </div>
+
+              <div class="ml-10 flex items-center">
+                <nuxt-link to="../teacher/thenx">
+                  <img class="rounded-full" src="~assets/images/teachers/thenx.jpg" alt="THENX" height="50px" width="50px">
+                </nuxt-link>
+                <nuxt-link to ="../teacher/thenx" class="ml-5 text-black-900 hover:text-black-800">THENX</nuxt-link>
+              </div>
+              
+            </div> 
+          </div>
+          
+        </div>
+      </section>
+
 
 
 

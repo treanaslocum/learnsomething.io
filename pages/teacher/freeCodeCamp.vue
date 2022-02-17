@@ -45,6 +45,11 @@
               <!-- <svg class="ml-1 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg> -->
             </nuxt-link>
 
+            <nuxt-link to="/topic/python" class="flex mb-2 text-black-900 hover:text-black-800">
+              Python
+              <!-- <svg class="ml-1 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg> -->
+            </nuxt-link>
+
             <nuxt-link to="/topic/java" class="flex mb-2 text-black-900 hover:text-black-800">
               Java
               <!-- <svg class="ml-1 fill-current text-red-500" xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 24 24"><path d="M12.579,2.393c-0.349-0.248-0.808-0.245-1.153,0.006C9.592,3.728,4,8.252,4,14c0,3.247,1.948,6.043,4.734,7.296 C8.275,20.645,8,19.855,8,19c-0.017-3.221,3.558-6.893,3.71-7c0.173-0.124,0.407-0.124,0.579,0C12.441,12.107,16,14.974,16,19.002 c0,0.854-0.275,1.643-0.733,2.294C18.052,20.043,20,17.248,20,14.005C20,8.144,14.418,3.698,12.579,2.393z"/></svg> -->
@@ -56,6 +61,42 @@
             </nuxt-link>
 
           </div>
+        </div>
+      </section>
+
+      <section class="mt-20">
+        <div class="flex justify-between">
+          <div class="w-4/5">
+            <h3 class="text-black-900 uppercase font-semibold">similar teachers</h3>
+            <div class="mt-10 flex items-center">
+              <div class="flex items-center">
+                <nuxt-link to="../teacher/dani-krossing">
+                  <img class="rounded-full" src="~assets/images/teachers/dani-krossing.jpg" alt="Dani Krossing" height="50px" width="50px">
+                </nuxt-link>
+                <nuxt-link to ="../teacher/dani-krossing" class="ml-5 text-black-900 hover:text-black-800">Dani Krossing</nuxt-link>
+              </div>
+
+              <!-- JavaScript teacher
+              <div class="ml-10 flex items-center">
+                <nuxt-link to="../teacher/xxx">
+                  <img class="rounded-full" src="~assets/images/teachers/xxx.jpg" alt="xxx" height="50px" width="50px">
+                </nuxt-link>
+                <nuxt-link to ="../teacher/xxx" class="ml-5 text-black-900 hover:text-black-800">xxx</nuxt-link>
+              </div> -->
+
+              <!-- Java teacher
+              <div class="ml-10 flex items-center">
+                <nuxt-link to="../teacher/xxx">
+                  <img class="rounded-full" src="~assets/images/teachers/xxx.jpg" alt="xxx" height="50px" width="50px">
+                </nuxt-link>
+                <nuxt-link to ="../teacher/xxx" class="ml-5 text-black-900 hover:text-black-800">xxx</nuxt-link>
+              </div> -->
+
+              
+              
+            </div> 
+          </div>
+          
         </div>
       </section>
 
@@ -100,6 +141,21 @@
               <span class="inline-block bg-grey-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">#beginner</span>
               <span class="inline-block bg-grey-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">#javascript</span>
               <span class="inline-block bg-grey-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">total duration 3:00:17</span>
+            </div>
+          </div>
+
+        </div> 
+
+         <h4 class="mt-16 text-xl font-semibold">Python</h4>
+        
+        <div class="mt-12 flex items-center flex-wrap">
+
+
+          <div class=" rounded overflow-hidden">
+              <iframe width="480" height="270" src="https://www.youtube.com/embed/8DvywoWv6fI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>          <div class="px-6 py-4">
+              <span class="inline-block bg-grey-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">#beginner</span>
+              <span class="inline-block bg-grey-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">#python</span>
+              <span class="inline-block bg-grey-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">total duration 13:40:09</span>
             </div>
           </div>
 

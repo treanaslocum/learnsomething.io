@@ -45,6 +45,24 @@
         </div>
       </section>
 
+      <section class="mt-20">
+        <div class="flex justify-between">
+          <div class="w-4/5">
+            <h3 class="text-black-900 uppercase font-semibold">similar teachers</h3>
+            <div class="mt-10 flex items-center">
+              <div class="flex items-center">
+                <nuxt-link to="../teacher/adobe">
+                  <img class="rounded-full" src="~assets/images/teachers/adobe.jpg" alt="Adobe" height="50px" width="50px">
+                </nuxt-link>
+                <nuxt-link to ="../teacher/adobe" class="ml-5 text-black-900 hover:text-black-800">Adobe</nuxt-link>
+              </div>
+              
+            </div> 
+          </div>
+          
+        </div>
+      </section>
+
 
 
 

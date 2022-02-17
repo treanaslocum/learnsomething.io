@@ -35,35 +35,47 @@
             <nuxt-link to="/topic/figma" class="mt-10 flex text-black-900 hover:text-black-800 mb-2">
               Figma
             </nuxt-link>
-            <nuxt-link to="/topic/web-design" class="flex pointer-events-none text-grey-100 line-through mb-2">
-              Web Design
-            </nuxt-link>
-            <nuxt-link to="/topic/web-development" class="flex pointer-events-none text-grey-100 line-through mb-2">
-              Web Development
-            </nuxt-link>
-          </div>
+      </div>
         </div>
       </section>
 
+      <section class="mt-20">
+        <div class="flex justify-between">
+          <div class="w-4/5">
+            <h3 class="text-black-900 uppercase font-semibold">similar teachers</h3>
+            <div class="mt-10 flex items-center">
+              <div class="flex items-center">
+                <nuxt-link to="../teacher/design-course">
+                  <img class="rounded-full" src="~assets/images/teachers/design-course.jpg" alt="DesignCourse" height="50px" width="50px">
+                </nuxt-link>
+                <nuxt-link to ="../teacher/design-course" class="ml-5 text-black-900 hover:text-black-800">DesignCourse</nuxt-link>
+              </div>
 
+            </div> 
+          </div>
+          
+        </div>
+      </section>
 
 
       <!-- Video Playlist Section -->
       <section class="mt-20">
         <h3 class="text-black-900 uppercase font-semibold">Learning Playlists</h3>
 
-        <h4 class="mt-16 text-xl font-semibold">Web Design</h4>
+        <h4 class="mt-16 text-xl font-semibold">Figma</h4>
 
         <div class="mt-12 flex items-center">
           <div class="rounded overflow-hidden">
             <iframe width="480" height="270" src="https://www.youtube.com/embed/videoseries?list=PLDyQo7g0_nsWnzPqYMqoJpm08ULrkiIbt" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               <div class="px-6 py-4">
               <span class="inline-block bg-grey-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">#mixed</span>
-              <span class="inline-block bg-grey-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">#ui-design</span>
+              <span class="inline-block bg-grey-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">#figma/web-design</span>
               <span class="inline-block bg-grey-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">total duration 8:05:08</span>
             </div>
           </div>
         </div> 
+
+        
       </section>
 
     </div>

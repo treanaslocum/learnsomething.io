@@ -31,6 +31,17 @@
                   </div>
               </div>
             </nuxt-link>
+            <!-- Organic Chemistry -->
+            <!-- <nuxt-link to="../topic/organic-chemistry" class="mt-8">
+              <div class="flex flex-col w-64">
+                  <p class="text-blue-900 text-sm">Discipline</p>
+                  <div class="flex items-center">
+                      <p class="text-lg text-blue-900 font-semibold">
+                        #Organic Chemistry
+                      </p>
+                  </div>
+              </div>
+            </nuxt-link> -->
             <!-- Biology -->
             <nuxt-link to="../topic/biology" class="mt-8">
               <div class="flex flex-col w-64">
@@ -43,16 +54,16 @@
               </div>
             </nuxt-link>
             <!-- xxx -->
-            <!-- <nuxt-link to="../topic/xxx" class="mt-8">
+            <nuxt-link to="../topic/quantum-physics" class="mt-8">
               <div class="flex flex-col w-64">
                   <p class="text-blue-900 text-sm">Discipline</p>
                   <div class="flex items-center">
                       <p class="text-lg text-blue-900 font-semibold">
-                        #xxx
+                        #Quantum Physics
                       </p>
                   </div>
               </div>
-            </nuxt-link> -->
+            </nuxt-link>
           </div> 
 
           <!-- second row of filters -->

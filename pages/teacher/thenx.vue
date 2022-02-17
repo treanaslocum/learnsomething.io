@@ -29,7 +29,7 @@
           <div class="w-4/5">
             <h3 class="text-black-900 uppercase font-semibold">about</h3>
             <p class="mt-10 leading-relaxed w-3/5">ELITE FITNESS TRAINING BY CHRIS HERIA
-<a href="https://www.youtube.com/c/OFFICIALTHENXSTUDIOS/featured" target="_blank" class="ml-1 text-lg text-purple-500 font-semibold">&rsaquo;&rsaquo;</a></p>
+            <a href="https://www.youtube.com/c/OFFICIALTHENXSTUDIOS/featured" target="_blank" class="ml-1 text-lg text-purple-500 font-semibold">&rsaquo;&rsaquo;</a></p>
           </div>
           <div class="w-1/5 flex flex-col truncate">
             <h3 class="text-black-400 uppercase font-semibold">topics I teach</h3>
@@ -37,6 +37,31 @@
               Calisthenics & Bodyweight
             </nuxt-link>
           </div>
+        </div>
+      </section>
+
+      <section class="mt-20">
+        <div class="flex justify-between">
+          <div class="w-4/5">
+            <h3 class="text-black-900 uppercase font-semibold">similar teachers</h3>
+            <div class="mt-10 flex items-center">
+              <div class="flex items-center">
+                <nuxt-link to="../teacher/emi-wong">
+                  <img class="rounded-full" src="~assets/images/teachers/emi-wong.jpg" alt="Emi Wong" height="50px" width="50px">
+                </nuxt-link>
+                <nuxt-link to ="../teacher/emi-wong" class="ml-5 text-black-900 hover:text-black-800">Emi Wong</nuxt-link>
+              </div>
+
+              <div class="ml-10 flex items-center">
+                <nuxt-link to="../teacher/chloe-ting">
+                  <img class="rounded-full" src="~assets/images/teachers/chloe-ting.jpg" alt="Chloe Ting" height="50px" width="50px">
+                </nuxt-link>
+                <nuxt-link to ="../teacher/chloe-ting" class="ml-5 text-black-900 hover:text-black-800">Chloe Ting</nuxt-link>
+              </div>
+              
+            </div> 
+          </div>
+          
         </div>
       </section>
 

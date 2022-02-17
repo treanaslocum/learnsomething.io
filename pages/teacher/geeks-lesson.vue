@@ -53,12 +53,24 @@
         </div>
       </section>
 
-      <!-- <div class="mt-20 flex justify-between">
-        <div class="">
-          <p class="mt-10 text-black-900 font-semibold uppercase">Prerequisites</p>
-          <p class="mt-5 text-black-900 leading-relaxed w-3/5">Before taking this course, it's preferred that you have some experience with fundamental coding concepts. Here’s our suggested resources to get you up to speed. <span class="text-purple-400 hover:text-purple-600 capitalize">Intro to computer programming</span>, <span class="text-purple-400 hover:text-purple-600">HTML</span>, <span class="text-purple-400 hover:text-purple-600">JavaScript</span>.</p>
+      <section class="mt-20">
+        <div class="flex justify-between">
+          <div class="w-4/5">
+            <h3 class="text-black-900 uppercase font-semibold">similar teachers</h3>
+            <div class="mt-10 flex items-center">
+              <div class="flex items-center">
+                <nuxt-link to="../teacher/eli-the-computer-guy">
+                  <img class="rounded-full" src="~assets/images/teachers/eli-the-computer-guy.jpg" alt="Eli The Computer Guy" height="50px" width="50px">
+                </nuxt-link>
+                <nuxt-link to ="../teacher/eli-the-computer-guy" class="ml-5 text-black-900 hover:text-black-800">Eli The Computer Guy</nuxt-link>
+              </div>
+
+              
+            </div> 
+          </div>
+          
         </div>
-      </div> -->
+      </section>
 
       <!-- Video Playlist Section -->
       <section class="mt-20">

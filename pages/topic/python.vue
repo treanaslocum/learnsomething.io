@@ -105,6 +105,10 @@
               Udemy
               <div class="ml-3 bg-grey-300 text-white text-xs font-semibold rounded uppercase px-2">free</div>
             </a>
+            <a href="https://scrimba.com/learn/python" target="_blank" class="flex items-center mb-2 text-black-900 hover:text-black-800">
+              Scrimba
+              <div class="ml-3 bg-grey-300 text-white text-xs font-semibold rounded uppercase px-2">free</div>
+            </a>
             <a href="https://teamtreehouse.com/library/python-basics-3" target="_blank" class="flex mb-2 items-center text-black-900 hover:text-black-800">
               Treehouse
               <div class="ml-3 bg-grey-600 text-white text-xs font-semibold rounded uppercase px-2">paid</div>
@@ -194,6 +198,22 @@
               </nuxt-link>
             </div>
           </div>
+        </div> 
+
+        <div class="mt-16 flex flex-wrap xl:flex-no-wrap">
+
+          <!-- teacher 1 -->
+          <div class="flex items-center flex-shrink-0">
+            <nuxt-link to="../teacher/freeCodeCamp">
+              <img class="rounded-full" height="70px" width="70px" src="~assets/images/teachers/freeCodeCamp.jpg" alt="freeCodeCamp">
+            </nuxt-link>
+            <div class="flex flex-col flex-wrap lg:flex-no-wrap xl:flex-no-wrap">
+              <nuxt-link to="../teacher/freeCodeCamp">
+                <p class="ml-5 font-semibold">freeCodeCamp</p>
+              </nuxt-link>
+            </div>
+          </div>
+
         </div> 
       </section>
 

@@ -14,7 +14,7 @@
       
       <div class="mt-12">
         <p class="text-purple-500 uppercase font-semibold">what is the rapid learning method</p>
-        <p class="mt-2 text-blue-900 text-lg leading-relaxed w-2/3">Self-taught learning can be a lonely journey, but also extremely rewarding. <br><br>In order to learn anything on your own, you need a solid roadmap to point in you in the right direction. The RAPID learning method was developed out of necessity. If I wanted to know something I had to figure it out on my own. Now I am passing the knowledge of how I did it to everyone else around the world.</p>
+        <p class="mt-2 text-blue-900 text-lg leading-relaxed w-2/3">Self-taught learning can be a lonely journey, but also extremely rewarding. <br><br>In order to learn anything on your own, you need a solid roadmap to point you in the right direction. The RAPID learning method was developed out of necessity. If I wanted to know something I had to figure it out on my own. Now I am passing the knowledge of how I did it to everyone else around the world.</p>
       </div>
       
       <div class="mt-12">

@@ -167,6 +167,17 @@
           </div>
 
           <div class="ml-12 flex items-center flex-shrink-0">
+            <nuxt-link to="../teacher/derek-banas">
+              <img class="rounded-full" height="70px" width="70px" src="~assets/images/teachers/derek_banas.jpg" alt="Derek Banas">
+            </nuxt-link>            
+            <div class="flex flex-col flex-wrap lg:flex-no-wrap xl:flex-no-wrap">
+              <nuxt-link to="../teacher/derek-banas">
+                <p class="ml-5 font-semibold">Derek Banas</p>
+              </nuxt-link>
+            </div>
+          </div>
+
+          <div class="ml-12 flex items-center flex-shrink-0">
             <nuxt-link to="../teacher/mosh">
               <img class="rounded-full" height="70px" width="70px" src="~assets/images/teachers/mosh.jpg" alt="Mosh">
             </nuxt-link>            
