@@ -1,0 +1,1 @@
+Hey, we're AJ&Smart! We're a product design and innovation studio based in Berlin, Germany! 
