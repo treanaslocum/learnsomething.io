@@ -1,6 +1,5 @@
 <template>
   <div>
-    <AlertMessage/>
     <Header/>
 
     <!-- Index Page Top Content -->
