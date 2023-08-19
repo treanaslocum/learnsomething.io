@@ -7,7 +7,7 @@
             <nuxt-link to="/" class="mr-8">Mission</nuxt-link>
             <nuxt-link to="/" class="">Community</nuxt-link>
         </div>
-        <div class="mr-36">
+        <div class="mr-32">
           <nuxt-link to="/">
             <svg xmlns="http://www.w3.org/2000/svg" width="130" height="50" viewBox="0 0 205.581 53">
               <g id="Group_22" data-name="Group 22" transform="translate(-856.998 -47)">
