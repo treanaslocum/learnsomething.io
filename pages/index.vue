@@ -106,10 +106,10 @@ export default {
   },
   head () {
     return {
-      title: "Learn Anything - LearnSomething.io",
+      title: "Learn anything - Skillseed",
       meta: [
         // hid is used as unique identifier. Do not use `vmid` for it as it will not work
-        { hid: 'description', name: 'description', content: 'LearnSomething.io empowers self-taught learners to push their knowledge to the next level by unlocking the power of the #2 most used search engine in the world.' }
+        { hid: 'description', name: 'description', content: 'Skillseed empowers self-taught learners to push their knowledge to the next level.' }
       ]
     }
   }
