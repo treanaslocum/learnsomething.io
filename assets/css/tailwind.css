@@ -80,5 +80,14 @@ input::placeholder {
   color: #FF5A55;
 }
 
+.dropdown {
+  display: flex;
+  align-items: center
+}
+
+.dropdown-content {
+  z-index: 0;
+  display: relative;
+}
  
 

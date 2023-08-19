@@ -2,11 +2,14 @@
   <div>
     <header class="m-6">
       <div class="flex justify-between items-center font-semibold text-sm">
-          <div class="ml-12 flex items-center">
-            <nuxt-link to="/" class="mr-3">Categories</nuxt-link> <svg class="mr-8" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M201.4 342.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 274.7 86.6 137.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"/></svg>
-            <nuxt-link to="/" class="mr-8">Mission</nuxt-link>
-            <nuxt-link to="/" class="">Community</nuxt-link>
+
+        <div class="ml-12 flex items-center">
+          <button class="mr-6 font-semibold dropdown">Categories<span class="ml-2"><svg class="dropdown" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M201.4 342.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 274.7 86.6 137.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"/></svg></span></button>
+          <nuxt-link to="/" class="mr-8">Mission</nuxt-link>
+          <nuxt-link to="/" class="">Community</nuxt-link>
+          
         </div>
+        
         <div class="mr-32">
           <nuxt-link to="/">
             <svg xmlns="http://www.w3.org/2000/svg" width="130" height="50" viewBox="0 0 205.581 53">
@@ -23,11 +26,12 @@
           </nuxt-link>
         </div>
         <div class="mr-12 flex items-center">
-          <nuxt-link to="/" class="ml-4 mr-8">Login</nuxt-link>
+          <nuxt-link to="/login" class="ml-4 mr-8">Login</nuxt-link>
           <p>&#x2022;</p>
           <nuxt-link to="/signup" class="ml-8 black-btn text-white rounded-md pt-2 pb-2 pl-4 pr-4">Signup</nuxt-link>
         </div>
       </div>
+    
       
     </header>
 
