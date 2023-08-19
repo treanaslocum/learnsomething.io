@@ -67,6 +67,18 @@ html, body {
   margin-top: 150px;
 }
 
+input::placeholder {
+  color: black;
+  font-size: 14px;
+}
+
+.black-btn {
+  background-color: #000;
+}
+
+.red-btn {
+  color: #FF5A55;
+}
 
  
 

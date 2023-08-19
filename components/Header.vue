@@ -25,7 +25,7 @@
         <div class="mr-12 flex items-center">
           <nuxt-link to="/" class="ml-4 mr-8">Login</nuxt-link>
           <p>&#x2022;</p>
-          <nuxt-link to="/" class="ml-8 bg-black-900 text-white rounded-md pt-2 pb-2 pl-4 pr-4">Signup</nuxt-link>
+          <nuxt-link to="/signup" class="ml-8 black-btn text-white rounded-md pt-2 pb-2 pl-4 pr-4">Signup</nuxt-link>
         </div>
       </div>
       
