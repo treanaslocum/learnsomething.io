@@ -7,6 +7,105 @@
       <p class="font-semibold text-lg w-1/2 text-center">Push your knowledge to the next level. <br> Ready to start learning?</p>
     </main>
 
+    <section>
+      <div class="ml-20 mt-40">
+        <div>
+          <nuxt-link link to="/trending-now" class="flex items-center text-lg font-semibold">Trending Now <span class="ml-2"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 320 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"/></svg></span></nuxt-link>
+        </div>
+        <div class="mt-16 flex items-center">
+          <div class="rounded-lg overflow-hidden mr-8">
+            <iframe width="400" height="210" src="https://www.youtube.com/embed/videoseries?list=PLxk9zj3EDi0XRc-Woka7s1Od-K3UbCTxX" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          <div class="rounded-lg overflow-hidden mr-8">
+            <iframe width="400" height="210" src="https://www.youtube.com/embed/videoseries?list=PLxk9zj3EDi0XRc-Woka7s1Od-K3UbCTxX" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          <div class="rounded-lg overflow-hidden mr-8">
+            <iframe width="400" height="210" src="https://www.youtube.com/embed/videoseries?list=PLxk9zj3EDi0XRc-Woka7s1Od-K3UbCTxX" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          <div class="rounded-lg overflow-hidden mr-8">
+            <iframe width="400" height="210" src="https://www.youtube.com/embed/videoseries?list=PLxk9zj3EDi0XRc-Woka7s1Od-K3UbCTxX" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+      <div class="ml-20 mt-40">
+        <div>
+          <nuxt-link link to="/new-releases" class="flex items-center text-lg font-semibold">New Releases <span class="ml-2"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 320 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"/></svg></span></nuxt-link>
+        </div>
+        <div class="mt-16 flex items-center">
+          <div class="rounded-lg overflow-hidden mr-8">
+            <iframe width="400" height="210" src="https://www.youtube.com/embed/videoseries?list=PLxk9zj3EDi0XRc-Woka7s1Od-K3UbCTxX" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          <div class="rounded-lg overflow-hidden mr-8">
+            <iframe width="400" height="210" src="https://www.youtube.com/embed/videoseries?list=PLxk9zj3EDi0XRc-Woka7s1Od-K3UbCTxX" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          <div class="rounded-lg overflow-hidden mr-8">
+            <iframe width="400" height="210" src="https://www.youtube.com/embed/videoseries?list=PLxk9zj3EDi0XRc-Woka7s1Od-K3UbCTxX" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          <div class="rounded-lg overflow-hidden mr-8">
+            <iframe width="400" height="210" src="https://www.youtube.com/embed/videoseries?list=PLxk9zj3EDi0XRc-Woka7s1Od-K3UbCTxX" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+      <div class="ml-20 mt-40">
+        <div>
+          <nuxt-link link to="/math" class="flex items-center text-lg font-semibold">Math <span class="ml-2"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 320 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"/></svg></span></nuxt-link>
+        </div>
+        <div class="mt-16 flex items-center">
+          <div class="rounded-lg overflow-hidden mr-8">
+            <iframe width="400" height="210" src="https://www.youtube.com/embed/videoseries?list=PLxk9zj3EDi0XRc-Woka7s1Od-K3UbCTxX" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          <div class="rounded-lg overflow-hidden mr-8">
+            <iframe width="400" height="210" src="https://www.youtube.com/embed/videoseries?list=PLxk9zj3EDi0XRc-Woka7s1Od-K3UbCTxX" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          <div class="rounded-lg overflow-hidden mr-8">
+            <iframe width="400" height="210" src="https://www.youtube.com/embed/videoseries?list=PLxk9zj3EDi0XRc-Woka7s1Od-K3UbCTxX" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          <div class="rounded-lg overflow-hidden mr-8">
+            <iframe width="400" height="210" src="https://www.youtube.com/embed/videoseries?list=PLxk9zj3EDi0XRc-Woka7s1Od-K3UbCTxX" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+      <div class="ml-20 mt-40">
+        <div>
+          <nuxt-link link to="/Blank" class="flex items-center text-lg font-semibold">Blank <span class="ml-2"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 320 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"/></svg></span></nuxt-link>
+        </div>
+        <div class="mt-16 flex items-center">
+          <div class="rounded-lg overflow-hidden mr-8">
+            <iframe width="400" height="210" src="https://www.youtube.com/embed/videoseries?list=PLxk9zj3EDi0XRc-Woka7s1Od-K3UbCTxX" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          <div class="rounded-lg overflow-hidden mr-8">
+            <iframe width="400" height="210" src="https://www.youtube.com/embed/videoseries?list=PLxk9zj3EDi0XRc-Woka7s1Od-K3UbCTxX" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          <div class="rounded-lg overflow-hidden mr-8">
+            <iframe width="400" height="210" src="https://www.youtube.com/embed/videoseries?list=PLxk9zj3EDi0XRc-Woka7s1Od-K3UbCTxX" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          <div class="rounded-lg overflow-hidden mr-8">
+            <iframe width="400" height="210" src="https://www.youtube.com/embed/videoseries?list=PLxk9zj3EDi0XRc-Woka7s1Od-K3UbCTxX" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+      <div class="ml-20 mt-40">
+        <div>
+          <nuxt-link link to="/Blank" class="flex items-center text-lg font-semibold">Blank <span class="ml-2"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 320 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"/></svg></span></nuxt-link>
+        </div>
+        <div class="mt-16 flex items-center">
+          <div class="rounded-lg overflow-hidden mr-8">
+            <iframe width="400" height="210" src="https://www.youtube.com/embed/videoseries?list=PLxk9zj3EDi0XRc-Woka7s1Od-K3UbCTxX" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          <div class="rounded-lg overflow-hidden mr-8">
+            <iframe width="400" height="210" src="https://www.youtube.com/embed/videoseries?list=PLxk9zj3EDi0XRc-Woka7s1Od-K3UbCTxX" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          <div class="rounded-lg overflow-hidden mr-8">
+            <iframe width="400" height="210" src="https://www.youtube.com/embed/videoseries?list=PLxk9zj3EDi0XRc-Woka7s1Od-K3UbCTxX" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          <div class="rounded-lg overflow-hidden mr-8">
+            <iframe width="400" height="210" src="https://www.youtube.com/embed/videoseries?list=PLxk9zj3EDi0XRc-Woka7s1Od-K3UbCTxX" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+      
+    </section>
+
     <!-- Index Page Top Content -->
 
     <!-- <div class="mt-32 pl-32 max-w-4xl text-blue-900">
