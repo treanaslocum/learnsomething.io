@@ -4,8 +4,8 @@
       <div class="flex justify-between items-center font-semibold text-sm">
 
         <div class="ml-12 flex items-center">
-          <button class="mr-6 font-semibold dropdown">Categories<span class="ml-2"><svg class="dropdown" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M201.4 342.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 274.7 86.6 137.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"/></svg></span></button>
-          <nuxt-link to="/" class="mr-8">Mission</nuxt-link>
+          <nuxt-link to="/topics"><button class="mr-6 font-semibold dropdown">Categories<span class="ml-2"><svg class="dropdown" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M201.4 342.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 274.7 86.6 137.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"/></svg></span></button></nuxt-link>
+          <nuxt-link to="/about" class="mr-8">Mission</nuxt-link>
           <nuxt-link to="/" class="">Community</nuxt-link>
           
         </div>
