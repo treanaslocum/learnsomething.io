@@ -64,7 +64,7 @@ export default {
   },
   head () {
     return {
-      title: "LearnSomething.io - The home of self-taught learners",
+      title: "Mission - Skillseed",
       meta: [
         // hid is used as unique identifier. Do not use `vmid` for it as it will not work
         { hid: 'description', name: 'description', content: 'My custom description' }

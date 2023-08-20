@@ -3,7 +3,7 @@
     <section class="mt-32 px-32">
       <p class="text-purple-500 uppercase font-semibold">Hack your education</p>
       <h2 class="text-blue-900 text-5xl">Browse all topics.</h2>
-      <p class="text-blue-900 text-lg leading-relaxed w-3/4">Here at LearnSomething.io we are always expanding our topic offerings. If you don't see a topic you want to learn available, don't panic. We'll add it as soon as we can. Demand dictates what's added first so please be patient with us. Fill out the <a href="https://forms.gle/wwyM48EmXmz7vdn88" target="_blank"><span class="text-purple-500 hover:text-purple-600">topic suggestions</span></a> form to request a topic you'd like to see added to the site.</p>
+      <p class="text-blue-900 text-lg leading-relaxed w-3/4">Here at Skillseed we are always expanding our topic offerings. If you don't see a topic you want to learn available, don't panic. We'll add it as soon as we can. Demand dictates what's added first so please be patient with us. Fill out the <a href="https://forms.gle/wwyM48EmXmz7vdn88" target="_blank"><span class="text-purple-500 hover:text-purple-600">topic suggestions</span></a> form to request a topic you'd like to see added to the site.</p>
       
       <!-- topic jump links -->
       <section class="mt-16">
