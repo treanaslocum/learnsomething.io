@@ -13,8 +13,8 @@ module.exports = {
       xl: '1280px',
     },
     fontFamily: {
-      display: ['Work Sans', 'sans-serif'],
-      body: ['Work Sans', 'sans-serif'],
+      display: ['Karla', 'sans-serif'],
+      body: ['Karla', 'sans-serif'],
     },
     opacity: {
       20: '.2',
