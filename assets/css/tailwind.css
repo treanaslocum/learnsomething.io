@@ -78,4 +78,6 @@ input::placeholder {
   display: relative;
 }
  
-
+.footer_line {
+  border: solid 1px #E3D6F6;
+}
