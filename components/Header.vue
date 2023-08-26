@@ -12,7 +12,7 @@
         
         <div class="mr-32">
           <nuxt-link to="/">
-            <svg xmlns="http://www.w3.org/2000/svg" width="130" height="50" viewBox="0 0 205.581 53">
+            <svg class="logo" xmlns="http://www.w3.org/2000/svg" width="130" height="50" viewBox="0 0 205.581 53">
               <g id="Group_22" data-name="Group 22" transform="translate(-856.998 -47)">
                 <g id="Group_10" data-name="Group 10" transform="translate(768.022 -89)">
                   <g id="Group_9" data-name="Group 9">
