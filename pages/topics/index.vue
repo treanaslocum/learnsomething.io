@@ -3,11 +3,16 @@
     <!-- multi-language banner -->
     <!-- <MultiLanguageSupport/> -->
     <Header/>
+
+    <div class="mt-40 mx-20">
+      <p class="uppercase font-semibold">Hack your education</p>
+      <h2 class="text-5xl font-semibold">Browse all topics.</h2>
+      <!-- <p class="text-lg leading-relaxed w-3/4">Here at Skillseed we are always expanding our topic offerings. If you don't see a topic you want to learn available, don't panic. We'll add it as soon as we can. Demand dictates what's added first so please be patient with us. Fill out the <a href="https://forms.gle/wwyM48EmXmz7vdn88" target="_blank"><span class="font-semibold">topic suggestions</span></a> form to request a topic you'd like to see added to the site.</p> -->
+    </div>
     
     <div class="flex m-20">
-
       <!-- stem section -->
-      <div>
+      <div class="w-1/3">
         <div class="w-3/4 mb-8">
           <h3 class="text-lg font-semibold">S.T.E.M</h3>
           <p>Learn Science, Technology, Engineering and Mathematics</p>
@@ -65,7 +70,7 @@
       </div>
       
       <!-- art and design section -->
-      <div>
+      <div class="w-1/3">
         <div class="mb-8">
           <h3 class="text-lg font-semibold">Art & Design</h3>
           <p class="w-3/4">Create new and wonderful things by learning art and design.</p>
@@ -98,7 +103,7 @@
       
       
       <!-- Languages section -->
-      <div>
+      <div class="w-1/3">
         <div class="mb-8">
           <h3 class="text-lg font-semibold">Languages</h3>
           <p>Become a polyglot and learn multiple languages.</p>
@@ -163,9 +168,10 @@
           
         </div>
       </div>
-      
-      <!-- Essential Life Skill section -->
-      <div>
+    </div> 
+    <div class="flex m-20">
+         <!-- Essential Life Skill section -->
+      <div class="w-1/3">
         <div class="mb-8">
           <h3 class="text-lg font-semibold">Essential Life Skills</h3>
           <p>Learn the skills everyone should know.</p>
@@ -262,7 +268,7 @@
 
 
       <!-- self care section -->
-      <div>
+      <div class="w-1/3">
         <div class="mb-8">
           <h3 class="text-lg font-semibold">Self Care</h3>
           <p>Treat yourself how you should be treated</p>
@@ -344,7 +350,7 @@
       </div>
 
       <!-- business and finance section -->
-      <div>
+      <div class="w-1/3">
         <div class="mb-8">
           <h3 class="text-lg font-semibold">Business & Finance</h3>
           <p>Learn business and finance</p>
@@ -388,8 +394,10 @@
           
         </div>
       </div>
+      </div>
+     
       
-    </div>
+    
 
 
 
